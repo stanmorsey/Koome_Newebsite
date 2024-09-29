@@ -1,62 +1,40 @@
-# Ecommerce Website With HTML CSS JavaScript
+# Skyjet Supplies Ltd.
 
-<div align = "center">
-    <img src="./img/icon1.png" alt="Logo" width="50px">
-</div>
+Welcome to Skyjet Supplies Ltd., your trusted partner in aviation spare parts.
 
-<h3 align="center"><b>E-commerce Website</b></h3>
+## About Us
 
-<p align="center">
-    <a href="https://sahadcmd.github.io/Ecommerce-Website/" target="_blank">Visit Website</a>
-    ·
-    <a href="https://github.com/sahadcmd/Ecommerce-Website/issues" target="_blank">Report Bug</a>
-    ·
-    <a href="https://github.com/sahadcmd/Ecommerce-Website/issues" target="_blank">Request Feature</a>
-</p>
+Founded in 2022, Skyjet Supplies Ltd. specializes in providing high-quality spare parts for aircraft maintenance and repairs. Our founders, Clarence Onzere Mulusa and Bethel Koome Murega, bring extensive experience in the aviation industry, ensuring that we meet the highest standards of quality and service.
 
-## About this project 🚀
+## Our Mission
 
-This is a responsive E-commerce website using HTML, CSS, and JavaScript. The website seamlessly adapts to different screen sizes, providing an optimal user experience. This project allowed me to showcase my skills in front-end web development and create a visually appealing and user-friendly online shopping platform.
+To deliver innovative and reliable aviation solutions that enhance safety and efficiency in aircraft operations.
 
-## Technologies 🛠️
+## Our Vision
 
-* `HTML`
-* `CSS`
-* `JavaScript`
-* `Bootstrap`
-* `jQuery`
+To become the global leader in aviation spare parts, setting industry standards through exceptional quality and customer service.
 
-## How it looks 📷
+## Core Values
 
-<div align="center">
-    <img src="./img/Screenshot/Screenshot01.png">
-</div>
+- **Safety**
+- **Quality**
+- **Customer Focus**
+- **Integrity**
+- **Innovation**
 
-<br>
-<br>
+## Contact Information
 
-<div align="center">
-    <img src="./img/Screenshot/Screenshot2.png">
-</div>
-<br>
-<br>
+- **Head Office**: Wilson Airport, Nairobi, Kenya
+- **Phone**: +254 700 862 369 / +254 720 783 328
+- **Email**: info@skyjetaircraftspares.com
 
-<div align="center">
-    <img src="./img/Screenshot/Screenshot3.png">
-</div>
-<br>
+## Features
 
-<br>
-<br>
+- Comprehensive inventory of aircraft parts.
+- Exceptional customer service.
+- Partnerships with major airlines.
 
-<div align="center">
-  <img src="./img/about/a2.jpg">
-</div>
+## Getting Started
 
-<br>
-<hr>
-<h5 align="center">Connect with me!</h5>
+For inquiries or to place an order, please contact us via the information provided above.
 
-  <p align="center">
-    <a href="https://www.linkedin.com/in/sahadmahaboobp" target="_blank">LinkedIn</a>
-  </p>
