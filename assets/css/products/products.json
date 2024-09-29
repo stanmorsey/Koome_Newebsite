@@ -1,0 +1,730 @@
+[
+  {
+    "name": "Jet Turbine Blade",
+    "price": "Ksh.15000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "Skyjet",
+    "category": "Engine Parts",
+    "description": "High-quality turbine blade designed for long-term use in jet engines. Made from heat-resistant materials for optimal performance.",
+    "sku": "JT-12345",
+    "weight": "2.5 kg",
+    "dimensions": "15 x 10 x 5 cm",
+    "material": "Aluminum Alloy",
+    "manufacturer": "Skyjet Industries",
+    "origin": "USA",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.8,
+    "tags": [
+      "Engine",
+      "Turbine",
+      "High Performance"
+    ],
+    "technical_specs": {
+      "voltage": "12V",
+      "max_temp": "200°C"
+    }
+  },
+  {
+    "name": "Engine Oil Filter",
+    "price": "Ksh.5000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "FilterTech",
+    "category": "Engine Parts",
+    "description": "Durable oil filter designed to improve engine performance by trapping contaminants and ensuring smooth oil flow.",
+    "sku": "EO-56789",
+    "weight": "1.2 kg",
+    "dimensions": "10 x 8 x 5 cm",
+    "material": "Steel",
+    "manufacturer": "FilterTech Corp",
+    "origin": "Germany",
+    "warranty": "1 year limited warranty",
+    "availability": "In Stock",
+    "rating": 4.5,
+    "tags": [
+      "Oil Filter",
+      "Engine",
+      "Durable"
+    ],
+    "technical_specs": {
+      "pressure_limit": "15 bar",
+      "filtration_level": "5 microns"
+    }
+  },
+  {
+    "name": "Fuel Injector Nozzle",
+    "price": "Ksh.12000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "FuelMax",
+    "category": "Engine Parts",
+    "description": "Advanced fuel injector nozzle for efficient fuel atomization and combustion in aircraft engines.",
+    "sku": "FI-23456",
+    "weight": "0.8 kg",
+    "dimensions": "8 x 3 x 3 cm",
+    "material": "Stainless Steel",
+    "manufacturer": "FuelMax Co.",
+    "origin": "USA",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Fuel",
+      "Injector",
+      "High Performance"
+    ],
+    "technical_specs": {
+      "pressure_limit": "20 bar",
+      "flow_rate": "1.2 L/min"
+    }
+  },
+  {
+    "name": "Hydraulic Fluid HF-455",
+    "price": "Ksh.8000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "FluidPro",
+    "category": "Hydraulic Fluids",
+    "description": "High-performance hydraulic fluid designed for optimal operation in aircraft hydraulic systems.",
+    "sku": "HF-455",
+    "weight": "5 kg",
+    "dimensions": "30 x 20 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "FluidPro",
+    "origin": "France",
+    "warranty": "1 year limited warranty",
+    "availability": "In Stock",
+    "rating": 4.6,
+    "tags": [
+      "Hydraulic",
+      "Fluid",
+      "Aircraft"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 120°C",
+      "viscosity": "ISO VG 32"
+    }
+  },
+  {
+    "name": "Hydraulic Pump Oil",
+    "price": "Ksh.7000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "HydroJet",
+    "category": "Hydraulic Fluids",
+    "description": "Synthetic hydraulic pump oil suitable for use in extreme temperatures and high-pressure environments.",
+    "sku": "HP-78654",
+    "weight": "5.5 kg",
+    "dimensions": "35 x 20 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "HydroJet",
+    "origin": "Japan",
+    "warranty": "1 year limited warranty",
+    "availability": "In Stock",
+    "rating": 4.5,
+    "tags": [
+      "Hydraulic",
+      "Pump",
+      "Extreme Performance"
+    ],
+    "technical_specs": {
+      "operating_temp": "-50°C to 130°C",
+      "viscosity": "ISO VG 46"
+    }
+  },
+  {
+    "name": "Brake Hydraulic Oil",
+    "price": "Ksh.6000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "BrakeSafe",
+    "category": "Hydraulic Fluids",
+    "description": "High-quality hydraulic brake fluid that provides excellent anti-wear and anti-corrosion properties.",
+    "sku": "BHF-98765",
+    "weight": "4 kg",
+    "dimensions": "25 x 18 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "BrakeSafe Inc.",
+    "origin": "Canada",
+    "warranty": "1 year limited warranty",
+    "availability": "In Stock",
+    "rating": 4.9,
+    "tags": [
+      "Brake Fluid",
+      "Hydraulic",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "boiling_point": "250°C",
+      "viscosity": "ISO VG 46"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  },
+  {
+    "name": "Aero Jet Oil 254",
+    "price": "Ksh.10000",
+    "image": "assets/img/products/enginge.jpg",
+    "brand": "JetOils",
+    "category": "Oils & Lubricants",
+    "description": "Advanced jet oil designed to enhance engine performance and reduce wear in extreme conditions.",
+    "sku": "JO-254",
+    "weight": "3 kg",
+    "dimensions": "20 x 15 x 10 cm",
+    "material": "Synthetic Oil",
+    "manufacturer": "JetOils",
+    "origin": "UK",
+    "warranty": "2 years limited warranty",
+    "availability": "In Stock",
+    "rating": 4.7,
+    "tags": [
+      "Jet Oil",
+      "High Performance",
+      "Anti-Wear"
+    ],
+    "technical_specs": {
+      "operating_temp": "-40°C to 150°C",
+      "viscosity": "ISO VG 22"
+    }
+  }
+]
