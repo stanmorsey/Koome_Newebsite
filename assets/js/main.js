@@ -177,24 +177,28 @@
 
   function sendMail() {
     let params = {
-      name: document.getElementById("name").value,
-      email: document.getElementById("email").value,
-      subject: document.getElementById("subject").value,
-      message: document.getElementById("message").value
+      name: document.querySelector("input[name='name']").value,
+      email: document.querySelector("input[name='email']").value,
+      subject: document.querySelector("input[name='subject']").value,
+      message: document.querySelector("textarea[name='message']").value
     };
   
     const serviceID = "service_k3jrnod";  
     const templateID = "template_ip5raje"; 
+  
+    document.querySelector(".loading").style.display = "block"; // Show loading spinner
   
     emailjs.send(serviceID, templateID, params)
       .then(function(response) {
         console.log("SUCCESS!", response.status, response.text);
         document.querySelector(".sent-message").style.display = "block";
         document.querySelector(".error-message").style.display = "none";
+        document.querySelector(".loading").style.display = "none"; // Hide loading spinner
       }, function(error) {
         console.log("FAILED...", error);
         document.querySelector(".sent-message").style.display = "none";
         document.querySelector(".error-message").style.display = "block";
+        document.querySelector(".loading").style.display = "none"; // Hide loading spinner
       });
   }
   
