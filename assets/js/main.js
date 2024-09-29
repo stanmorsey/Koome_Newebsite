@@ -186,19 +186,19 @@
     const serviceID = "service_k3jrnod";  
     const templateID = "template_ip5raje"; 
   
-    document.querySelector(".loading").style.display = "block"; // Show loading spinner
+    document.querySelector(".loading").style.display = "block"; 
   
     emailjs.send(serviceID, templateID, params)
       .then(function(response) {
         console.log("SUCCESS!", response.status, response.text);
         document.querySelector(".sent-message").style.display = "block";
         document.querySelector(".error-message").style.display = "none";
-        document.querySelector(".loading").style.display = "none"; // Hide loading spinner
+        document.querySelector(".loading").style.display = "none"; 
       }, function(error) {
         console.log("FAILED...", error);
         document.querySelector(".sent-message").style.display = "none";
         document.querySelector(".error-message").style.display = "block";
-        document.querySelector(".loading").style.display = "none"; // Hide loading spinner
+        document.querySelector(".loading").style.display = "none"; 
       });
   }
   
