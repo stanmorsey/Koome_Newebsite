@@ -175,11 +175,26 @@
    * EmailJs intergration
    */
 
-  function sendMail(){
-    let parms = {
-      name : document.getElementById("name").value
-      email : document.getElementById("email").value
-      subject : document.getElementById("subject").value
-      message : document.getElementById("message").value
-    }
+  function sendMail() {
+    let params = {
+      name: document.getElementById("name").value,
+      email: document.getElementById("email").value,
+      subject: document.getElementById("subject").value,
+      message: document.getElementById("message").value
+    };
+  
+    const serviceID = "service_k3jrnod";  
+    const templateID = "YOUR_TEMPLATE_ID"; 
+  
+    emailjs.send(serviceID, templateID, params)
+      .then(function(response) {
+        console.log("SUCCESS!", response.status, response.text);
+        document.querySelector(".sent-message").style.display = "block";
+        document.querySelector(".error-message").style.display = "none";
+      }, function(error) {
+        console.log("FAILED...", error);
+        document.querySelector(".sent-message").style.display = "none";
+        document.querySelector(".error-message").style.display = "block";
+      });
   }
+  
