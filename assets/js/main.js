@@ -202,6 +202,8 @@
         document.querySelector(".loading").style.display = "none"; 
       });
   }
+  //initialized the team swiper 
+  
   const swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
     spaceBetween: 30,
@@ -220,3 +222,21 @@
     },
   });
   
+// Initialized the Hero Swiper with unique class
+const heroSwiper = new Swiper('.futuristic-hero-carousel', {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
