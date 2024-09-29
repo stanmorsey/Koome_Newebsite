@@ -1,4 +1,4 @@
-# Skyjet Supplies Ltd.
+# Skyjet Supplies Ltd
 
 Welcome to Skyjet Supplies Ltd., your trusted partner in aviation spare parts.
 
@@ -26,7 +26,7 @@ To become the global leader in aviation spare parts, setting industry standards 
 
 - **Head Office**: Wilson Airport, Nairobi, Kenya
 - **Phone**: +254 700 862 369 / +254 720 783 328
-- **Email**: info@skyjetaircraftspares.com
+- **Email**: <info@skyjetaircraftspares.com>
 
 ## Features
 
@@ -37,4 +37,3 @@ To become the global leader in aviation spare parts, setting industry standards 
 ## Getting Started
 
 For inquiries or to place an order, please contact us via the information provided above.
-
