@@ -2645,6 +2645,7 @@ html {
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 0.8s ease-out; /* Add animation */
 }
 
 .future-about-description {
@@ -2703,6 +2704,16 @@ html {
   color: #7f8c8d;
 }
 
+.social-link {
+  font-size: 0.9rem;
+  color: #3498db;
+  margin-top: 10px;
+}
+
+.social-link:hover {
+  color: #2980b9;
+}
+
 /* Swiper Navigation */
 .swiper-button-next,
 .swiper-button-prev {
@@ -2740,6 +2751,44 @@ html {
   color: #34495e;
   margin-bottom: 15px;
 }
+
+/* CTA Button */
+.cta-button {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #3498db;
+}
+
+/* Animation for Image */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .future-about-content {
+    flex-direction: column;
+  }
+
+  .swiper-container {
+    height: auto;
+  }
+}
+
 
 /* Responsive Design for Mobile */
 @media (max-width: 768px) {
