@@ -184,7 +184,7 @@
     };
   
     const serviceID = "service_k3jrnod";  
-    const templateID = "YOUR_TEMPLATE_ID"; 
+    const templateID = "template_ip5raje"; 
   
     emailjs.send(serviceID, templateID, params)
       .then(function(response) {
