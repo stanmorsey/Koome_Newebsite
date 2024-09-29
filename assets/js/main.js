@@ -179,6 +179,7 @@
     let params = {
       name: document.querySelector("input[name='name']").value,
       email: document.querySelector("input[name='email']").value,
+      phone: document.querySelector("input[name='phone']").value,  
       subject: document.querySelector("input[name='subject']").value,
       message: document.querySelector("textarea[name='message']").value
     };
