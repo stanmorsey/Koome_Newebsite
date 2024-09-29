@@ -28,6 +28,16 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "wR2gAy3odO9sz_txu",
+      });
+   })();
+</script>
 
 </head>
 
@@ -68,7 +78,7 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html#hero">Home</a></li>
-          <li><a href="allProducts.html" class="active">Shop</a></li>
+          <li><a href="allProducts.html">Shop</a></li>
           <li class="dropdown"><a href="about.html">About</a></li>
           <li class="dropdown"><a href="#"><span>Categories</span> <i
                 class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -97,7 +107,7 @@
               <li><a href="#">Wheels and brakes</a></li>
             </ul>
           </li>
-          <li><a href="contact-us.html">Contact Us</a></li>
+          <li><a href="contact-us.html" class="active">Contact Us</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -111,7 +121,65 @@
 
   <main class="main">
 
-    
+    <section id="about-future" class="futuristic-about-section">
+      <div class="futuristic-container">
+          <div class="futuristic-about-header">
+              <h1 class="futuristic-title">About SkyJet Suppliers</h1>
+              <p class="futuristic-subtitle">Innovating the Future of Aircraft Parts Supply</p>
+          </div>
+  
+          <!-- About Content Section -->
+          <div class="futuristic-about-content">
+              <div class="futuristic-about-image">
+                  <img src="assets/img/jet-future.jpg" alt="Futuristic Jet Parts">
+              </div>
+              <div class="futuristic-about-description">
+                  <p>At SkyJet Suppliers, we're shaping the future of aviation by delivering state-of-the-art aircraft parts and unmatched customer service. As a leading global supplier, we prioritize innovation, safety, and precision. From cutting-edge airframes to specialized engine components, we keep jets flying and the skies safe.</p>
+                  <p>Our dedication to advanced technology and sustainable solutions sets us apart. We collaborate with top manufacturers globally, offering only certified, high-standard parts to our customers, empowering them to excel in a fast-evolving aviation landscape.</p>
+              </div>
+          </div>
+  
+          <!-- Team Carousel -->
+          <div class="futuristic-team-carousel">
+              <h2 class="futuristic-carousel-title">Meet Our Experts</h2>
+              <div class="futuristic-carousel swiper-container">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <img src="assets/img/team-futuristic1.jpg" alt="John Doe">
+                          <h3>John Doe</h3>
+                          <p>CEO & Visionary Leader</p>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="assets/img/team-futuristic2.jpg" alt="Jane Smith">
+                          <h3>Jane Smith</h3>
+                          <p>Chief Operations Officer</p>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="assets/img/team-futuristic3.jpg" alt="David Brown">
+                          <h3>David Brown</h3>
+                          <p>Lead Aerospace Engineer</p>
+                      </div>
+                  </div>
+                  <!-- Add Arrows for Carousel Navigation -->
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+              </div>
+          </div>
+  
+          <!-- Why Choose Us Section -->
+          <div class="futuristic-why-choose-us">
+              <h2 class="futuristic-why-title">Why SkyJet Suppliers?</h2>
+              <ul class="futuristic-why-list">
+                  <li><strong>Future-Proof Solutions:</strong> We provide advanced, certified parts to meet the evolving needs of modern aircraft.</li>
+                  <li><strong>Global Network:</strong> Our connections ensure you get the parts you need, wherever you are.</li>
+                  <li><strong>24/7 Support:</strong> Our dedicated support team ensures your inquiries are handled promptly.</li>
+              </ul>
+          </div>
+      </div>
+  </section>
+  
+
   </main>
 
 
@@ -199,6 +267,8 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/productsFetching.js"></script>
+
 </body>
 
 </html>
