@@ -2740,3 +2740,82 @@ html {
   color: #34495e;
   margin-bottom: 15px;
 }
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .future-about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .future-about-description {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+
+  .future-about-image img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .future-title {
+    font-size: 2rem;
+  }
+
+  .future-subtitle {
+    font-size: 1rem;
+  }
+
+  .future-why-title,
+  .future-team-title {
+    font-size: 1.5rem;
+  }
+
+  .future-why-list li {
+    font-size: 1rem;
+  }
+
+  /* Team Carousel for Mobile */
+  .swiper-container {
+    height: 250px;
+  }
+
+  .swiper-slide img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .swiper-slide h3 {
+    font-size: 1.2rem;
+  }
+
+  .swiper-slide p {
+    font-size: 0.9rem;
+  }
+
+  /* Improve Why Choose Us section for mobile */
+  .future-why-choose-us {
+    padding: 20px 10px;
+  }
+}
+
+/* Ensure Padding for smaller screens */
+.future-container {
+  padding: 10px;
+}
+
+/* Optimizing Swiper Carousel Display */
+.swiper-slide {
+  text-align: center;
+}
+
+.future-why-list li {
+  line-height: 1.5;
+}
+
+/* General adjustments for buttons and fonts */
+.swiper-button-next,
+.swiper-button-prev {
+  font-size: 1.5rem;
+}
