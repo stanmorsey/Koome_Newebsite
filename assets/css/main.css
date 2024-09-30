@@ -991,43 +991,78 @@ section,
 }
 
 .hero .btn-get-started {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  font-family: var(--heading-font);
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 14px 40px;
-  border-radius: 50px;
-  transition: 0.3s;
-  border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
+    color: var(--contrast-color);
+    background: linear-gradient(135deg, var(--accent-color), rgba(255, 255, 255, 0.2));
+    font-family: 'Roboto', sans-serif; /* Futuristic font */
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(5px);
 }
 
 .hero .btn-get-started:hover {
-  border-color: color-mix(in srgb, var(--default-color), transparent 60%);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), var(--accent-color));
+    transform: translateY(-3px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 
 .hero .btn-watch-video {
-  font-size: 16px;
-  transition: 0.5s;
-  margin-left: 25px;
-  font-weight: 600;
-  color: var(--default-color);
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 25px;
+    color: var(--default-color);
+    font-weight: 600;
+    position: relative;
+    padding: 12px 28px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.hero .btn-watch-video:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, var(--accent-color), rgba(255, 255, 255, 0.2));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 50px;
+    z-index: 0;
+}
+
+.hero .btn-watch-video:hover:before {
+    opacity: 1;
+}
+
+.hero .btn-watch-video span {
+    position: relative;
+    z-index: 1;
 }
 
 .hero .btn-watch-video i {
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 32px;
-  transition: 0.3s;
-  line-height: 0;
-  margin-right: 8px;
+    color: var(--accent-color);
+    font-size: 32px;
+    transition: color 0.3s;
+    line-height: 0;
+    margin-right: 8px;
+}
+
+.hero .btn-watch-video:hover {
+    color: var(--accent-color);
 }
 
 .hero .btn-watch-video:hover i {
-  color: var(--default-color);
+    color: color-mix(in srgb, var(--accent-color), transparent 15%);
+    transform: scale(1.1); /* Slight scaling effect */
 }
+
 
 @media (max-width: 640px) {
   .hero h2 {
