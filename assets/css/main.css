@@ -1099,7 +1099,7 @@ section,
     padding: 60px 30px;
     position: relative;
     overflow: hidden;
-    background: rgba(255, 255, 255, 0.1); /* Slight transparency for depth */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-in-out;
     border-radius: 12px;
@@ -1115,6 +1115,7 @@ section,
     margin-bottom: 15px;
     font-size: 24px;
     color: var(--contrast-color);
+    transition: color 0.3s ease;
 }
 
 .hero .icon-box .title a {
@@ -1140,8 +1141,16 @@ section,
 
 .hero .icon-box:hover .title a,
 .hero .icon-box:hover .icon {
-    color: var(--contrast-color);
+    color: var(--accent-color); /* Use a vibrant accent color */
     transform: scale(1.1); /* Scale effect on hover */
+}
+
+.hero .icon-box:hover .title a {
+    opacity: 1; /* Ensure title remains visible */
+}
+
+.hero .icon-box:hover .icon {
+    color: var(--contrast-color); /* Change icon color on hover */
 }
 
 
