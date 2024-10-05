@@ -2841,8 +2841,56 @@ html {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  background-color: rgba(0, 0, 0, 0.5);
+/* General Styling for Next/Prev buttons */
+.futuristic-control-prev,
+.futuristic-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid #00d1ff; /* Electric blue glow border */
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 209, 255, 0.5);
+}
+
+.futuristic-control-prev-icon,
+.futuristic-control-next-icon {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* Icons for Next and Prev */
+.futuristic-control-prev-icon {
+  background-image: url('path/to/prev-icon.svg'); /* Replace with custom futuristic icon */
+}
+
+.futuristic-control-next-icon {
+  background-image: url('path/to/next-icon.svg'); /* Replace with custom futuristic icon */
+}
+
+/* Hover effect with neon glow */
+.futuristic-control-prev:hover,
+.futuristic-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-color: #00ffff; /* Stronger neon blue */
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 0.4);
+  transform: translateY(-50%) scale(1.1);
+}
+
+/* Positioning */
+.futuristic-control-prev {
+  left: 15px;
+}
+
+.futuristic-control-next {
+  right: 15px;
 }
