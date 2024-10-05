@@ -991,43 +991,78 @@ section,
 }
 
 .hero .btn-get-started {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  font-family: var(--heading-font);
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 14px 40px;
-  border-radius: 50px;
-  transition: 0.3s;
-  border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
+    color: var(--contrast-color);
+    background: linear-gradient(135deg, var(--accent-color), rgba(255, 255, 255, 0.2));
+    font-family: 'Roboto', sans-serif; /* Futuristic font */
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(5px);
 }
 
 .hero .btn-get-started:hover {
-  border-color: color-mix(in srgb, var(--default-color), transparent 60%);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), var(--accent-color));
+    transform: translateY(-3px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 
 .hero .btn-watch-video {
-  font-size: 16px;
-  transition: 0.5s;
-  margin-left: 25px;
-  font-weight: 600;
-  color: var(--default-color);
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 25px;
+    color: var(--default-color);
+    font-weight: 600;
+    position: relative;
+    padding: 12px 28px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.hero .btn-watch-video:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, var(--accent-color), rgba(255, 255, 255, 0.2));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 50px;
+    z-index: 0;
+}
+
+.hero .btn-watch-video:hover:before {
+    opacity: 1;
+}
+
+.hero .btn-watch-video span {
+    position: relative;
+    z-index: 1;
 }
 
 .hero .btn-watch-video i {
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 32px;
-  transition: 0.3s;
-  line-height: 0;
-  margin-right: 8px;
+    color: var(--accent-color);
+    font-size: 32px;
+    transition: color 0.3s;
+    line-height: 0;
+    margin-right: 8px;
+}
+
+.hero .btn-watch-video:hover {
+    color: var(--accent-color);
 }
 
 .hero .btn-watch-video:hover i {
-  color: var(--default-color);
+    color: color-mix(in srgb, var(--accent-color), transparent 15%);
+    transform: scale(1.1); /* Slight scaling effect */
 }
+
 
 @media (max-width: 640px) {
   .hero h2 {
@@ -1040,68 +1075,90 @@ section,
   }
 }
 
-.hero .icon-boxes {
-  padding-bottom: 60px;
-  z-index: 4;
+@media (min-width: 1200px) {
+    .hero .icon-boxes:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: calc(50% + 20px);
+        background-color: rgba(255, 255, 255, 0.1);
+        border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+        z-index: 0;
+        filter: blur(15px); /* Soft focus effect */
+    }
 }
 
-@media (min-width: 1200px) {
-  .hero .icon-boxes:before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: calc(50% + 20px);
-    background-color: var(--default-color);
-    border-top: 1px solid
-      color-mix(in srgb, var(--default-color), transparent 90%);
-  }
+.hero .icon-boxes {
+    padding-bottom: 60px;
+    z-index: 4;
 }
 
 .hero .icon-box {
-  padding: 60px 30px;
-  position: relative;
-  overflow: hidden;
-  background: var(--background-color);
-  box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
-  border-radius: 8px;
-  z-index: 1;
-  height: 100%;
-  width: 100%;
-  text-align: center;
+    padding: 60px 30px;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    border-radius: 12px;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Background blur effect */
 }
 
 .hero .icon-box .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: var(--contrast-color);
+    transition: color 0.3s ease;
 }
 
 .hero .icon-box .title a {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  transition: 0.3s;
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    transition: color 0.3s ease;
 }
 
 .hero .icon-box .icon {
-  margin-bottom: 20px;
-  padding-top: 10px;
-  display: inline-block;
-  transition: all 0.3s ease-in-out;
-  font-size: 48px;
-  line-height: 1;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+    margin-bottom: 20px;
+    padding-top: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out, color 0.3s ease;
+    font-size: 48px;
+    line-height: 1;
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
 .hero .icon-box:hover {
-  background-color: color-mix(in srgb, var(--background-color), white 10%);
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 12px 50px rgba(0, 0, 0, 0.3);
 }
 
 .hero .icon-box:hover .title a,
 .hero .icon-box:hover .icon {
-  color: var(--contrast-color);
+    color: var(--accent-color); /* Use a vibrant accent color */
+    transform: scale(1.1); /* Scale effect on hover */
 }
+
+.hero .icon-box:hover .title a {
+    opacity: 1; /* Ensure title remains visible */
+}
+
+.hero .icon-box:hover .icon {
+    color: var(--contrast-color); /* Change icon color on hover */
+}
+
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Featured Services Section
