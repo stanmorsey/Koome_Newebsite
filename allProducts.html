@@ -394,48 +394,321 @@
 </style>
 
 <script>
-  const products = {
-    electrical: [
-      {
-        name: "Electrical Part 1",
-        image: "path/to/image1.jpg",
-        description: "High-quality electrical component designed for durability and performance."
-      },
-      {
-        name: "Electrical Part 2",
-        image: "path/to/image2.jpg",
-        description: "Reliable electrical systems for optimal functionality."
-      },
-      // Add more products...
-    ],
-    maintenance: [
-      {
-        name: "Maintenance Part 1",
-        image: "path/to/image3.jpg",
-        description: "Essential maintenance equipment for aircraft upkeep."
-      },
-      {
-        name: "Maintenance Part 2",
-        image: "path/to/image4.jpg",
-        description: "Tools for efficient and effective aircraft maintenance."
-      },
-      // Add more products...
-    ],
-    hydraulic: [
-      {
-        name: "Hydraulic Part 1",
-        image: "path/to/image5.jpg",
-        description: "Top-notch hydraulic components ensuring smooth operations."
-      },
-      {
-        name: "Hydraulic Part 2",
-        image: "path/to/image6.jpg",
-        description: "Advanced hydraulic solutions for various applications."
-      },
-      // Add more products...
-    ],
-    // Add other categories with 10 products each...
-  };
+const products = {
+  electrical: [
+    {
+      name: "Electrical Part 1",
+      image: "assets/img/electrical1.jpg",
+      description: "High-quality electrical component designed for durability and performance."
+    },
+    {
+      name: "Electrical Part 2",
+      image: "assets/img/electrical2.jpg",
+      description: "Reliable electrical systems for optimal functionality."
+    },
+    {
+      name: "Electrical Part 3",
+      image: "assets/img/electrical3.jpg",
+      description: "Advanced wiring systems for modern aircraft."
+    },
+    {
+      name: "Electrical Part 4",
+      image: "assets/img/electrical4.jpg",
+      description: "High-efficiency circuit breakers for enhanced safety."
+    },
+    {
+      name: "Electrical Part 5",
+      image: "assets/img/electrical5.jpg",
+      description: "Power distribution units designed for reliability."
+    },
+    {
+      name: "Electrical Part 6",
+      image: "assets/img/electrical6.jpg",
+      description: "State-of-the-art sensors for accurate readings."
+    },
+    {
+      name: "Electrical Part 7",
+      image: "assets/img/electrical7.jpg",
+      description: "Innovative battery management systems."
+    },
+    {
+      name: "Electrical Part 8",
+      image: "assets/img/electrical8.jpg",
+      description: "Robust lighting solutions for cockpit and cabin."
+    },
+    {
+      name: "Electrical Part 9",
+      image: "assets/img/electrical9.jpg",
+      description: "Durable electrical connectors for secure connections."
+    },
+    {
+      name: "Electrical Part 10",
+      image: "assets/img/electrical10.jpg",
+      description: "Compact inverters for efficient power conversion."
+    }
+  ],
+  maintenance: [
+    {
+      name: "Maintenance Part 1",
+      image: "assets/img/maintenance1.jpg",
+      description: "Essential maintenance equipment for aircraft upkeep."
+    },
+    {
+      name: "Maintenance Part 2",
+      image: "assets/img/maintenance2.jpg",
+      description: "Tools for efficient and effective aircraft maintenance."
+    },
+    {
+      name: "Maintenance Part 3",
+      image: "assets/img/maintenance3.jpg",
+      description: "Precision torque wrenches for accurate fittings."
+    },
+    {
+      name: "Maintenance Part 4",
+      image: "assets/img/maintenance4.jpg",
+      description: "Portable diagnostic tools for quick troubleshooting."
+    },
+    {
+      name: "Maintenance Part 5",
+      image: "assets/img/maintenance5.jpg",
+      description: "Safety equipment for maintenance personnel."
+    },
+    {
+      name: "Maintenance Part 6",
+      image: "assets/img/maintenance6.jpg",
+      description: "Quality lubricants for smooth operation."
+    },
+    {
+      name: "Maintenance Part 7",
+      image: "assets/img/maintenance7.jpg",
+      description: "Durable inspection mirrors for hard-to-reach areas."
+    },
+    {
+      name: "Maintenance Part 8",
+      image: "assets/img/maintenance8.jpg",
+      description: "Heavy-duty cleaning supplies for aircraft exteriors."
+    },
+    {
+      name: "Maintenance Part 9",
+      image: "assets/img/maintenance9.jpg",
+      description: "Effective corrosion inhibitors for long-lasting protection."
+    },
+    {
+      name: "Maintenance Part 10",
+      image: "assets/img/maintenance10.jpg",
+      description: "Comprehensive toolkits for complete aircraft maintenance."
+    }
+  ],
+  hydraulic: [
+    {
+      name: "Hydraulic Part 1",
+      image: "assets/img/hydraulic1.jpg",
+      description: "Top-notch hydraulic components ensuring smooth operations."
+    },
+    {
+      name: "Hydraulic Part 2",
+      image: "assets/img/hydraulic2.jpg",
+      description: "Advanced hydraulic solutions for various applications."
+    },
+    {
+      name: "Hydraulic Part 3",
+      image: "assets/img/hydraulic3.jpg",
+      description: "High-pressure pumps designed for maximum efficiency."
+    },
+    {
+      name: "Hydraulic Part 4",
+      image: "assets/img/hydraulic4.jpg",
+      description: "Robust hydraulic hoses for durability."
+    },
+    {
+      name: "Hydraulic Part 5",
+      image: "assets/img/hydraulic5.jpg",
+      description: "Precision hydraulic valves for optimized performance."
+    },
+    {
+      name: "Hydraulic Part 6",
+      image: "assets/img/hydraulic6.jpg",
+      description: "High-quality hydraulic fluid for effective operation."
+    },
+    {
+      name: "Hydraulic Part 7",
+      image: "assets/img/hydraulic7.jpg",
+      description: "Durable actuators for reliable performance."
+    },
+    {
+      name: "Hydraulic Part 8",
+      image: "assets/img/hydraulic8.jpg",
+      description: "Efficient hydraulic filters for contamination control."
+    },
+    {
+      name: "Hydraulic Part 9",
+      image: "assets/img/hydraulic9.jpg",
+      description: "Versatile hydraulic cylinders for various tasks."
+    },
+    {
+      name: "Hydraulic Part 10",
+      image: "assets/img/hydraulic10.jpg",
+      description: "Innovative hydraulic control systems for enhanced safety."
+    }
+  ],
+  adhesives: [
+    {
+      name: "Adhesive Part 1",
+      image: "assets/img/adhesive1.jpg",
+      description: "Strong adhesive solutions for aircraft assembly."
+    },
+    {
+      name: "Adhesive Part 2",
+      image: "assets/img/adhesive2.jpg",
+      description: "Durable sealants for leak prevention."
+    },
+    {
+      name: "Adhesive Part 3",
+      image: "assets/img/adhesive3.jpg",
+      description: "High-temperature resistant adhesives for critical applications."
+    },
+    {
+      name: "Adhesive Part 4",
+      image: "assets/img/adhesive4.jpg",
+      description: "Flexible adhesives for varied substrates."
+    },
+    {
+      name: "Adhesive Part 5",
+      image: "assets/img/adhesive5.jpg",
+      description: "Fast-curing adhesives for quick repairs."
+    },
+    {
+      name: "Adhesive Part 6",
+      image: "assets/img/adhesive6.jpg",
+      description: "Multi-purpose adhesives for various needs."
+    },
+    {
+      name: "Adhesive Part 7",
+      image: "assets/img/adhesive7.jpg",
+      description: "Adhesives designed for high-stress environments."
+    },
+    {
+      name: "Adhesive Part 8",
+      image: "assets/img/adhesive8.jpg",
+      description: "Weatherproof adhesives for outdoor applications."
+    },
+    {
+      name: "Adhesive Part 9",
+      image: "assets/img/adhesive9.jpg",
+      description: "Transparent adhesives for invisible repairs."
+    },
+    {
+      name: "Adhesive Part 10",
+      image: "assets/img/adhesive10.jpg",
+      description: "Specialty adhesives for specific aircraft components."
+    }
+  ],
+  hardware: [
+    {
+      name: "Hardware Part 1",
+      image: "assets/img/hardware1.jpg",
+      description: "High-strength bolts and fasteners for aircraft assembly."
+    },
+    {
+      name: "Hardware Part 2",
+      image: "assets/img/hardware2.jpg",
+      description: "Durable rivets for structural integrity."
+    },
+    {
+      name: "Hardware Part 3",
+      image: "assets/img/hardware3.jpg",
+      description: "Aircraft-grade screws designed for safety."
+    },
+    {
+      name: "Hardware Part 4",
+      image: "assets/img/hardware4.jpg",
+      description: "Versatile clamps for secure fittings."
+    },
+    {
+      name: "Hardware Part 5",
+      image: "assets/img/hardware5.jpg",
+      description: "Robust hinges for smooth operations."
+    },
+    {
+      name: "Hardware Part 6",
+      image: "assets/img/hardware6.jpg",
+      description: "Quality washers for even load distribution."
+    },
+    {
+      name: "Hardware Part 7",
+      image: "assets/img/hardware7.jpg",
+      description: "Heavy-duty brackets for structural support."
+    },
+    {
+      name: "Hardware Part 8",
+      image: "assets/img/hardware8.jpg",
+      description: "Secure locking mechanisms for safety."
+    },
+    {
+      name: "Hardware Part 9",
+      image: "assets/img/hardware9.jpg",
+      description: "Corrosion-resistant fittings for longevity."
+    },
+    {
+      name: "Hardware Part 10",
+      image: "assets/img/hardware10.jpg",
+      description: "Specialty tools for aircraft assembly."
+    }
+  ],
+  paints: [
+    {
+      name: "Paint Part 1",
+      image: "assets/img/paint1.jpg",
+      description: "High-quality aircraft paints for optimal durability."
+    },
+    {
+      name: "Paint Part 2",
+      image: "assets/img/paint2.jpg",
+      description: "Weather-resistant paints for exterior protection."
+    },
+    {
+      name: "Paint Part 3",
+      image: "assets/img/paint3.jpg",
+      description: "Fast-drying paints for quick turnaround."
+    },
+    {
+      name: "Paint Part 4",
+      image: "assets/img/paint4.jpg",
+      description: "Eco-friendly paints for sustainable operations."
+    },
+    {
+      name: "Paint Part 5",
+      image: "assets/img/paint5.jpg",
+      description: "Specialty coatings for enhanced performance."
+    },
+    {
+      name: "Paint Part 6",
+      image: "assets/img/paint6.jpg",
+      description: "Non-toxic paints for safe application."
+    },
+    {
+      name: "Paint Part 7",
+      image: "assets/img/paint7.jpg",
+      description: "Vibrant colors for attractive finishes."
+    },
+    {
+      name: "Paint Part 8",
+      image: "assets/img/paint8.jpg",
+      description: "Heat-resistant paints for high-temperature applications."
+    },
+    {
+      name: "Paint Part 9",
+      image: "assets/img/paint9.jpg",
+      description: "Durable finishes for long-lasting protection."
+    },
+    {
+      name: "Paint Part 10",
+      image: "assets/img/paint10.jpg",
+      description: "Custom colors available for unique needs."
+    }
+  ]
+};
+
 
   document.getElementById('sidebarToggle').onclick = function () {
     const sidebar = document.getElementById('categorySidebar');
@@ -447,7 +720,7 @@
       e.preventDefault();
       const category = this.dataset.category;
       loadProducts(category);
-      document.getElementById('categorySidebar').classList.remove('active'); // Close sidebar after selection
+      document.getElementById('categorySidebar').classList.remove('active'); 
     });
   });
 
