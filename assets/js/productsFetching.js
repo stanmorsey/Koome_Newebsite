@@ -6,10 +6,19 @@ async function fetchProducts() {
     const response = await fetch('./assets/products/products.json');
     const products = await response.json();
     allProducts = products; // Store all products
+    shuffleArray(allProducts); // Shuffle the products
     displayProducts(allProducts);
     populateCategoryFilters(allProducts); // Populate the category filter dynamically
   } catch (error) {
     console.error("Error fetching products:", error);
+  }
+}
+
+// Shuffle array function
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
   }
 }
 
