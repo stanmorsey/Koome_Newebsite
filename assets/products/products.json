@@ -2,7 +2,7 @@
   {
     "name": "FILTER",
     "price": "350 $",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt1.jpg",
     "brand": "",
     "category": "ENGINE PARTS",
     "description": "HP FILTER",
@@ -30,7 +30,7 @@
   {
     "name": "FILTER",
     "price": "300 $",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt2.jpg",
     "brand": "",
     "category": "ENGINE PARTS",
     "description": "",
@@ -58,7 +58,7 @@
   {
     "name": "FILTER",
     "price": "300 $",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt3.jpg",
     "brand": "",
     "category": "ENGINE PARTS",
     "description": "APU FILTER FOKKER 50",
@@ -86,7 +86,7 @@
   {
     "name": "FILTER ELEMENT ASSEMBLY",
     "price": "350 $",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt4.jpg",
     "brand": "",
     "category": "ENGINE PARTS",
     "description": "HP FILTER",
@@ -1514,7 +1514,7 @@
   {
     "name": "ANTISLIP",
     "price": "25,000 KES",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt44.jpg",
     "brand": "3M",
     "category": "TAPES AND ADHESIVES",
     "description": "ALUMINIUM TAPE",
@@ -1542,7 +1542,7 @@
   {
     "name": "RIVETS",
     "price": "200 KES",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt45.jpg",
     "brand": "",
     "category": "AIRCRAFT HARDWARE",
     "description": "RIVETS",
@@ -1570,7 +1570,7 @@
   {
     "name": "RIVETS",
     "price": "200 KES",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt46.jpg",
     "brand": "",
     "category": "AIRCRAFT HARDWARE",
     "description": "RIVETS",
@@ -1598,7 +1598,7 @@
   {
     "name": "RIVETS",
     "price": "200 KES",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt47.jpg",
     "brand": "",
     "category": "AIRCRAFT HARDWARE",
     "description": "RIVETS",
@@ -1626,7 +1626,7 @@
   {
     "name": "RIVETS",
     "price": "200 KES",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt48.jpg",
     "brand": "",
     "category": "AIRCRAFT HARDWARE",
     "description": "RIVETS",
@@ -1654,7 +1654,7 @@
   {
     "name": "RIVETS",
     "price": "200 KES",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt49.jpg",
     "brand": "",
     "category": "AIRCRAFT HARDWARE",
     "description": "RIVETS",
@@ -1682,7 +1682,7 @@
   {
     "name": "RIVETS",
     "price": "200 KES",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt50.jpg",
     "brand": "",
     "category": "AIRCRAFT HARDWARE",
     "description": "RIVETS",
@@ -1710,7 +1710,7 @@
   {
     "name": "RIVETS",
     "price": "200 KES",
-    "image": "img/products/f2.jpg",
+    "image": "iassets/img/products/sjt51.jpg",
     "brand": "",
     "category": "AIRCRAFT HARDWARE",
     "description": "RIVETS",
@@ -1738,7 +1738,7 @@
   {
     "name": "RING",
     "price": "15 $",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt52.jpg",
     "brand": "",
     "category": "SEALS AND BEARINGS",
     "description": "ORING",
@@ -1766,7 +1766,7 @@
   {
     "name": "MINIATURE",
     "price": "700 KES",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt53.jpg",
     "brand": "",
     "category": "AIRCRAFT ELECTRICALS",
     "description": "LAMP",
@@ -1794,7 +1794,7 @@
   {
     "name": "RETAINING RINGS",
     "price": "",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt54.jpg",
     "brand": "",
     "category": "",
     "description": "",
@@ -1822,7 +1822,7 @@
   {
     "name": "SPRINGS",
     "price": "",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt55.jpg",
     "brand": "",
     "category": "",
     "description": "",
@@ -1850,7 +1850,7 @@
   {
     "name": "GASKET",
     "price": "",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt56.jpg",
     "brand": "",
     "category": "AIRCRAFT HARDWARE",
     "description": "GASKET",
@@ -1878,7 +1878,7 @@
   {
     "name": "GASKET",
     "price": "",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt57.jpg",
     "brand": "",
     "category": "AIRCRAFT HARDWARE",
     "description": "GASKET",
@@ -1906,7 +1906,7 @@
   {
     "name": "O-RING",
     "price": "15 $",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt58.jpg",
     "brand": "",
     "category": "SEALS AND BEARING",
     "description": "ORING",
@@ -1934,7 +1934,7 @@
   {
     "name": "SCREW STAR",
     "price": "150 KES",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt59.jpg",
     "brand": "",
     "category": "AIRCRAFT HARDWARE",
     "description": "SCREW",
@@ -1962,11 +1962,11 @@
   {
     "name": "SCREW STAR",
     "price": "150 KES",
-    "image": "img/products/f2.jpg",
+    "image": "assets/img/products/sjt60.jpg",
     "brand": "",
     "category": "AIRCRAFT HARDWARE",
     "description": "SCREW",
-    "sku": "SJT60",
+    "sku": "SJK60",
     "part_number": "NAS1153-4",
     "alternate": "",
     "weight": "",
