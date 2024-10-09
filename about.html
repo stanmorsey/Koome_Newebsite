@@ -28,16 +28,15 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-  <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
       emailjs.init({
         publicKey: "wR2gAy3odO9sz_txu",
       });
-   })();
-</script>
+    })();
+  </script>
 
 </head>
 
@@ -117,6 +116,14 @@
     </div>
     <!-- End Logo and Navigation-->
 
+    <!--====================Search Box=====================================-->
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search by ID, name, or category...">
+      <button onclick="searchProducts()">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+
   </header>
 
   <main class="main">
@@ -128,18 +135,22 @@
           <h1 class="future-title">About SkyJet Suppliers</h1>
           <p class="future-subtitle">Innovating the Future of Aircraft Parts Supply</p>
         </div>
-    
+
         <!-- About Us Content -->
         <div class="future-about-content">
           <div class="future-about-image">
-            <img src="assets/img/hero/skyjet-fokker50.png" alt="A futuristic jet showcasing advanced aircraft parts." loading="lazy">
+            <img src="assets/img/hero/skyjet-fokker50.png" alt="A futuristic jet showcasing advanced aircraft parts."
+              loading="lazy">
           </div>
           <div class="future-about-description">
-            <p>At SkyJet Suppliers, we are redefining the aircraft parts supply chain. From specialized airframe parts to modern engine components, we deliver cutting-edge solutions that fuel aviation's future.</p>
-            <p>With a focus on quality, innovation, and precision, we collaborate with industry-leading manufacturers, offering certified components that ensure safety and performance. Join us in shaping the future of aviation technology.</p>
+            <p>At SkyJet Suppliers, we are redefining the aircraft parts supply chain. From specialized airframe parts
+              to modern engine components, we deliver cutting-edge solutions that fuel aviation's future.</p>
+            <p>With a focus on quality, innovation, and precision, we collaborate with industry-leading manufacturers,
+              offering certified components that ensure safety and performance. Join us in shaping the future of
+              aviation technology.</p>
           </div>
         </div>
-    
+
         <!-- Team Carousel Section -->
         <div class="future-team-section">
           <h2 class="future-team-title">Meet Our Experts</h2>
@@ -170,24 +181,26 @@
             <div class="swiper-pagination"></div>
           </div>
         </div>
-    
+
         <!-- Why Choose Us Section -->
         <div class="future-why-choose-us">
           <h2 class="future-why-title">Why SkyJet Suppliers?</h2>
           <ul class="future-why-list">
-            <li><strong>Cutting-Edge Solutions:</strong> Offering future-proof, certified parts for modern aviation needs.</li>
-            <li><strong>Global Network:</strong> Ensuring worldwide access to essential components with seamless logistics.</li>
+            <li><strong>Cutting-Edge Solutions:</strong> Offering future-proof, certified parts for modern aviation
+              needs.</li>
+            <li><strong>Global Network:</strong> Ensuring worldwide access to essential components with seamless
+              logistics.</li>
             <li><strong>24/7 Support:</strong> A dedicated team ready to assist you at any time, from anywhere.</li>
           </ul>
           <a href="allProducts.html">
             <button class="cta-button">Explore Our Products</button>
           </a>
-          
+
         </div>
       </div>
     </section>
-  
-    
+
+
 
   </main>
 
