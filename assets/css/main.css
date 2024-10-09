@@ -2919,3 +2919,56 @@ button {
   margin-top: 20px;
   text-align: center;
 }
+
+/*======================================= Search Box ==========================================*/
+/* Search Box Styling */
+.search-box {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #3366ff, #ff66cc);
+  border-radius: 25px;
+  padding: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 100%;
+}
+
+/* Input field styling */
+.search-box input {
+  border: none;
+  background: transparent;
+  flex-grow: 1;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  outline: none;
+  border-radius: 25px;
+  caret-color: white;
+}
+
+/* Placeholder text styling */
+.search-box input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Button styling */
+.search-box button {
+  background: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+}
+
+.search-box button i {
+  font-size: 18px;
+}
+
+/* Optional: Add font-awesome for search icon */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+/* Results container */
+#searchResults {
+  margin-top: 20px;
+}
