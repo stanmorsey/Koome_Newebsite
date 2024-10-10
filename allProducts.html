@@ -65,6 +65,14 @@
         <h1 class="sitename">Skyjet</h1>
       </a>
 
+      <!--====================Search Box=====================================-->
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search Part Number, Item, or category...">
+        <button onclick="searchProducts(document.getElementById('searchInput').value)">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html#hero">Home</a></li>
@@ -106,14 +114,6 @@
 
     </div>
     <!-- End Logo and Navigation-->
-
-    <!--====================Search Box=====================================-->
-    <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Search Part Number, Item, or category...">
-      <button onclick="searchProducts(document.getElementById('searchInput').value)">
-        <i class="fa fa-search"></i>
-      </button>
-    </div>
 
 
   </header>
@@ -298,12 +298,14 @@
       </div>
     </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Skyjet</strong><span>All Rights Reserved</span></p>
-      <div class="credits">
-        Designed by <a href="https://surgeafrica.co.ke/">surge innovations</a>
+    <!--======================= Products Section =============================-->
+    <section id="all-products" class="section-p1 products-container">
+      <h2>All Products</h2>
+      <p>Browse our extensive collection of aircraft parts and accessories.</p>
+      <div id="product-container" class="pro-container">
+        <!-- Products will be dynamically injected here -->
       </div>
-    </div>
+    </section>
 
   </footer>
 
