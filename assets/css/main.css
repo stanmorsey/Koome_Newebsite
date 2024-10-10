@@ -2871,11 +2871,11 @@ html {
 
 /* Icons for Next and Prev */
 .futuristic-control-prev-icon {
-  background-image: url('path/to/prev-icon.svg'); /* Replace with custom futuristic icon */
+  background-image: url('/assets/img/hero/previous-icon.jpg'); /* Replace with custom futuristic icon */
 }
 
 .futuristic-control-next-icon {
-  background-image: url('path/to/next-icon.svg'); /* Replace with custom futuristic icon */
+  background-image: url('/assets/img/hero/next-icon.jpg'); /* Replace with custom futuristic icon */
 }
 
 /* Hover effect with neon glow */
