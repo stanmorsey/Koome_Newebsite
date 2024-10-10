@@ -84,7 +84,7 @@ function applyPriceFilter() {
 // Search products and redirect to search results page
 function searchProducts() {
   const query = document.getElementById('searchInput').value;
-  window.location.href = `search-results.html?query=${encodeURIComponent(query)}`;
+  window.location.href = `../search-results/search-results.html?query=${encodeURIComponent(query)}`;
 }
 
 // Fetch products on page load

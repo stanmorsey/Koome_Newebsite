@@ -322,7 +322,7 @@
       const urlParams = new URLSearchParams(window.location.search);
       const query = urlParams.get('query');
       if (query) {
-        fetch('path/to/your/products.json')
+        fetch('../assets/products/products.json')
           .then(response => response.json())
           .then(data => {
             const results = data.filter(product => 
