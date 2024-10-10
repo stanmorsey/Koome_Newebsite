@@ -109,11 +109,12 @@
 
     <!--====================Search Box=====================================-->
     <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Search by ID, name, or category...">
-      <button onclick="searchProducts()">
+      <input type="text" id="searchInput" placeholder="Search Part Number, Item, or category...">
+      <button onclick="searchProducts(document.getElementById('searchInput').value)">
         <i class="fa fa-search"></i>
       </button>
     </div>
+
 
     <!-- Placeholder for displaying search results -->
     <div id="searchResults"></div>
