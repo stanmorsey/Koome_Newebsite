@@ -1,0 +1,126 @@
+/*===================================Product details page styling===================================*/
+/* Style for the main container holding product details */
+#product-details-container {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the product name/title */
+#product-details-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Style for product images */
+#product-details-container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for product description and information */
+#product-details-container p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Highlighted information (like price, brand, category, etc.) */
+#product-details-container strong {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Button styles for ordering options (WhatsApp, Call, Email) */
+#product-details-container button {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#product-details-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the container holding similar products */
+#similar-products-container {
+    margin-top: 40px;
+}
+
+/* Style for each similar product block */
+#similar-products-container .product {
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#similar-products-container .product img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the product name in similar products */
+#similar-products-container .product h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style for the product description in similar products */
+#similar-products-container .product p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Style for 'View More' link in similar products */
+#similar-products-container .product .view-more {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 14px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#similar-products-container .product .view-more:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    #similar-products-container .product {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    #similar-products-container .product {
+        width: calc(100% - 20px);
+    }
+}
