@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Skyjet Aircraft Spares</title>
+  <title>Skyjet Search Results</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -65,6 +65,15 @@
         <h1 class="sitename">Skyjet</h1>
       </a>
 
+      <!--====================Search Box=====================================-->
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search Part Number, Item, or category...">
+        <button onclick="searchProducts(document.getElementById('searchInput').value)">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+
+
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html#hero">Home</a></li>
@@ -106,15 +115,6 @@
 
     </div>
     <!-- End Logo and Navigation-->
-
-    <!--====================Search Box=====================================-->
-    <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Search Part Number, Item, or category...">
-      <button onclick="searchProducts(document.getElementById('searchInput').value)">
-        <i class="fa fa-search"></i>
-      </button>
-    </div>
-
 
   </header>
 
@@ -318,16 +318,16 @@
   <script src="../assets/js/main.js"></script>
   <script src="../assets/js/productsFetching.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       const urlParams = new URLSearchParams(window.location.search);
       const query = urlParams.get('query');
       if (query) {
         fetch('../assets/products/products.json')
           .then(response => response.json())
           .then(data => {
-            const results = data.filter(product => 
-              product.partNumber.includes(query) || 
-              product.item.includes(query) || 
+            const results = data.filter(product =>
+              product.partNumber.includes(query) ||
+              product.item.includes(query) ||
               product.category.includes(query)
             );
             displayResults(results);
