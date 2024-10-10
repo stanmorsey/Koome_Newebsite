@@ -49,7 +49,26 @@ document.addEventListener('DOMContentLoaded', () => {
             <h3>Technical Specifications</h3>
             <p><strong>Voltage:</strong> ${voltage}</p>
             <p><strong>Max Temperature:</strong> ${maxTemp}</p>
+            <button id="whatsapp-order">Order via WhatsApp</button>
+            <button id="call-order">Order via Call</button>
+            <button id="email-order">Order via Email</button>
           `;
+  
+          // Add event listeners for order buttons
+          document.getElementById('whatsapp-order').addEventListener('click', () => {
+            const whatsappMessage = `Hello, I would like to order the following product:\n\nName: ${product.name}\nPrice: ${product.price}\nDescription: ${description}\nBrand: ${brand}\nCategory: ${product.category}\nPart Number: ${product.part_number}\nRating: ${product.rating} ⭐\nAvailability: ${availability}\nWeight: ${weight}\nDimensions: ${dimensions}\nMaterial: ${material}\nOrigin: ${origin}\nWarranty: ${warranty}\nVoltage: ${voltage}\nMax Temperature: ${maxTemp}`;
+            window.open(`https://wa.me/yourphonenumber?text=${encodeURIComponent(whatsappMessage)}`, '_blank');
+          });
+  
+          document.getElementById('call-order').addEventListener('click', () => {
+            window.location.href = 'tel:yourphonenumber';
+          });
+  
+          document.getElementById('email-order').addEventListener('click', () => {
+            const emailSubject = `Order for ${product.name}`;
+            const emailBody = `Hello,\n\nI would like to order the following product:\n\nName: ${product.name}\nPrice: ${product.price}\nDescription: ${description}\nBrand: ${brand}\nCategory: ${product.category}\nPart Number: ${product.part_number}\nRating: ${product.rating} ⭐\nAvailability: ${availability}\nWeight: ${weight}\nDimensions: ${dimensions}\nMaterial: ${material}\nOrigin: ${origin}\nWarranty: ${warranty}\nVoltage: ${voltage}\nMax Temperature: ${maxTemp}`;
+            window.location.href = `mailto:youremail@example.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+          });
         } else {
           productDetailsContainer.innerHTML = '<p>Product not found.</p>';
         }
