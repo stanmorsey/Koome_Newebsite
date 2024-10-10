@@ -32,6 +32,7 @@ function displayProducts(products, container) {
             <p><strong>Category:</strong> ${product.category}</p>
             <p><strong>Part Number:</strong> ${product.part_number}</p> <!-- Show part number -->
             <p><strong>Rating:</strong> ${product.rating} ⭐</p>
+            <button class="view-more" data-id="${product.id}">View More</button>
           </div>
         </div>
       `;
@@ -39,6 +40,14 @@ function displayProducts(products, container) {
   }
 
   container.innerHTML = productHTML;
+
+  // Add event listeners to "View More" buttons
+  document.querySelectorAll('.view-more').forEach(button => {
+    button.addEventListener('click', event => {
+      const productId = event.target.getAttribute('data-id');
+      window.location.href = `/product-details/product-details.html?id=${productId}`;
+    });
+  });
 }
 
 // Populate the category filter based on product categories
@@ -117,6 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
 
 
 
