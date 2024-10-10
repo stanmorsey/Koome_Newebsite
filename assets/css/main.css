@@ -191,8 +191,8 @@ h6 {
 
   .header .btn-getstarted {
     order: 2;
-    margin: 0 15px 0 0;
-    padding: 6px 15px;
+    margin: 0 19px 2px 2px;
+    padding: 3px 14px;
   }
 
   .header .navmenu {
@@ -2897,80 +2897,57 @@ html {
 
 
 
+/* Optional: Add font-awesome for search icon */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+
+
+/* SEARCH BAR STYLING  NEW */
+/* Search Bar Container */
 .search-container {
   display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+  justify-content: center;  /* Centering search bar */
+  padding: 10px 0;
+  width: 100%;
+  background-color: #fff;  /* Match with the rest of the header */
 }
 
-#searchInput {
-  width: 300px;
-  padding: 10px;
-  font-size: 16px;
-}
-
-button {
-  padding: 10px 15px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-#results {
-  margin-top: 20px;
-  text-align: center;
-}
-
-/*======================================= Search Box ==========================================*/
 /* Search Box Styling */
 .search-box {
   display: flex;
   align-items: center;
-  background: linear-gradient(90deg, #3366ff, #ff66cc);
-  border-radius: 30px;
-  padding: 2px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 400px;
-  max-width: 100%;
-}
-
-/* Input field styling */
-.search-box input {
-  border: none;
-  background: transparent;
-  flex-grow: 1;
-  padding: 10px 15px;
-  font-size: 16px;
-  color: white;
-  outline: none;
+  justify-content: center;
+  padding: 5px;
   border-radius: 25px;
-  caret-color: white;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Placeholder text styling */
-.search-box input::placeholder {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-/* Button styling */
-.search-box button {
-  background: transparent;
-  border: none;
+.search-box input {
   padding: 10px;
-  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  width: 300px;  /* Adjust width as necessary */
+  margin-right: 10px;
+}
+
+.search-box button {
+  background-color: #3B2A8F;
   color: white;
-  outline: none;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
-.search-box button i {
-  font-size: 18px;
+.search-box i {
+  margin: 0;
 }
 
-
-
-/* Optional: Add font-awesome for search icon */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
-
-/* Results container */
-#searchResults {
-  margin-top: 20px;
+/* Mobile View Adjustments */
+@media (max-width: 768px) {
+  .search-box input {
+    width: 70%;  /* Narrower input field on mobile */
+  }
 }
