@@ -23,7 +23,7 @@ function displayProducts(products, container) {
     products.forEach((product) => {
       productHTML += `
         <div class="pro">
-          <img src="${product.image}" alt="${product.name}">
+          <img src="${product.image}" alt="${product.name}" onerror="this.src='/assets/img/skyjet-placeholder.png'">
           <div class="des">
             <h5>${product.name}</h5>
             <h4>${product.price}</h4>
@@ -32,7 +32,7 @@ function displayProducts(products, container) {
             <p><strong>Category:</strong> ${product.category}</p>
             <p><strong>Part Number:</strong> ${product.part_number}</p> <!-- Show part number -->
             <p><strong>Rating:</strong> ${product.rating} ⭐</p>
-            <button class="view-more" data-sku="${product.sku}">View More</button>
+            <button class="view-more" data-sku="${product.sku}">More Details</button>
           </div>
         </div>
       `;
