@@ -21,9 +21,12 @@ function displayProducts(products, container) {
     productHTML = "<p>No products available for this filter.</p>";
   } else {
     products.forEach((product) => {
+      // Construct the full image URL
+      const imageUrl = `https://koome-newebsite.vercel.app${product.image}`;
+
       // WhatsApp message text, including product name, SKU, part number, and image link
       const whatsappMessage = encodeURIComponent(
-        `Hi, I'm interested in ordering the product "${product.name}" (SKU: ${product.sku}). Could you please provide more details?\n\nProduct Part Number: ${product.part_number}\n\nProduct Image: ${product.image}`
+        `Hi, I'm interested in ordering the product "${product.name}" (SKU: ${product.sku}). Could you please provide more details?\n\nProduct Part Number: ${product.part_number}\n\nProduct Image: ${imageUrl}`
       );
 
       // WhatsApp URL with the message
@@ -31,7 +34,7 @@ function displayProducts(products, container) {
 
       productHTML += `
         <div class="pro">
-          <img src="${product.image}" alt="${product.name}" onerror="this.src='/assets/img/skyjet-placeholder.png'">
+          <img src="${imageUrl}" alt="${product.name}" onerror="this.src='/assets/img/skyjet-placeholder.png'">
           <div class="des">
             <h5>${product.name}</h5>
             <h4>${product.price}</h4>
@@ -52,6 +55,8 @@ function displayProducts(products, container) {
   }
 
   container.innerHTML = productHTML;
+}
+
 
   // Event listeners to "View More" buttons
   document.querySelectorAll(".view-more").forEach((button) => {
