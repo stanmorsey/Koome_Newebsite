@@ -21,13 +21,13 @@ function displayProducts(products, container) {
     productHTML = "<p>No products available for this filter.</p>";
   } else {
     products.forEach((product) => {
-      // WhatsApp message text
+      // WhatsApp message text, including product name, SKU, part number, and image link
       const whatsappMessage = encodeURIComponent(
         `Hi, I'm interested in ordering the product "${product.name}" (SKU: ${product.sku}). Could you please provide more details?\n\nProduct Part Number: ${product.part_number}\n\nProduct Image: ${product.image}`
       );
 
       // WhatsApp URL with the message
-      const whatsappUrl = `https://wa.me/254113015069?text=${whatsappMessage}`; 
+      const whatsappUrl = `https://wa.me/1234567890?text=${whatsappMessage}`; // Replace 1234567890 with the store's actual WhatsApp number
 
       productHTML += `
         <div class="pro">
@@ -43,12 +43,11 @@ function displayProducts(products, container) {
 
             <!-- WhatsApp Order Button -->
             <a href="${whatsappUrl}" target="_blank" class="order-whatsapp">
-              <img src="/assets/img/logoFaviconIcon/whatsapp.png" alt="WhatsApp Icon"> Order on WhatsApp
+              <img src="/assets/icons/whatsapp-icon.png" alt="WhatsApp Icon"> Order on WhatsApp
             </a>
           </div>
         </div>
       `;
-
     });
   }
 
