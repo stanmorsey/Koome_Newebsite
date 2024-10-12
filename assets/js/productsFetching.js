@@ -55,8 +55,6 @@ function displayProducts(products, container) {
   }
 
   container.innerHTML = productHTML;
-}
-
 
   // Event listeners to "View More" buttons
   document.querySelectorAll(".view-more").forEach((button) => {
