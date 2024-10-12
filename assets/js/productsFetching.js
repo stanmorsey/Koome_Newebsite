@@ -3,7 +3,7 @@ let allProducts = [];
 // Fetch products from JSON and store them in `allProducts`
 async function fetchProducts() {
   try {
-    const response = await fetch("assets/products/products.json"); // Correct path
+    const response = await fetch("assets/products/products.json");
     const products = await response.json();
     allProducts = products; // Store all products
     displayProducts(allProducts, document.getElementById("product-container"));
@@ -21,6 +21,14 @@ function displayProducts(products, container) {
     productHTML = "<p>No products available for this filter.</p>";
   } else {
     products.forEach((product) => {
+      // WhatsApp message text
+      const whatsappMessage = encodeURIComponent(
+        `Hi, I'm interested in ordering the product "${product.name}" (SKU: ${product.sku}). Could you please provide more details?\n\nProduct Part Number: ${product.part_number}\n\nProduct Image: ${product.image}`
+      );
+
+      // WhatsApp URL with the message
+      const whatsappUrl = `https://wa.me/254113015069?text=${whatsappMessage}`; 
+
       productHTML += `
         <div class="pro">
           <img src="${product.image}" alt="${product.name}" onerror="this.src='/assets/img/skyjet-placeholder.png'">
@@ -30,26 +38,27 @@ function displayProducts(products, container) {
             <p>${product.description ? product.description : 'No description available'}</p> <!-- Show description -->
             <p><strong>Part Number:</strong> ${product.part_number}</p> <!-- Show part number -->
 
-            <!--
-            <p><strong>Brand:</strong> ${product.brand ? product.brand : 'Unknown'}</p>
-            <p><strong>Category:</strong> ${product.category}</p>
-            <p><strong>Rating:</strong> ${product.rating} ⭐</p>
-            -->
-            
+            <!-- More Details Button -->
             <button class="view-more" data-sku="${product.sku}">More Details</button>
+
+            <!-- WhatsApp Order Button -->
+            <a href="${whatsappUrl}" target="_blank" class="order-whatsapp">
+              <img src="/assets/img/logoFaviconIcon/whatsapp.png" alt="WhatsApp Icon"> Order on WhatsApp
+            </a>
           </div>
         </div>
       `;
+
     });
   }
 
   container.innerHTML = productHTML;
 
-  // Add event listeners to "View More" buttons
+  // Event listeners to "View More" buttons
   document.querySelectorAll(".view-more").forEach((button) => {
     button.addEventListener("click", (event) => {
       const productSku = event.target.getAttribute("data-sku");
-      window.location.href = `/product-details/product-details.html?sku=${productSku}`; // Use sku in the URL
+      window.location.href = `/product-details/product-details.html?sku=${productSku}`;
     });
   });
 }
@@ -57,7 +66,7 @@ function displayProducts(products, container) {
 // Populate the category filter based on product categories
 function populateCategoryFilters(products) {
   const categoryFilter = document.getElementById("category-filter");
-  const categories = [...new Set(products.map((product) => product.category))]; // Unique categories
+  const categories = [...new Set(products.map((product) => product.category))];
 
   let categoryHTML = `<option value="All">All Categories</option>`;
   categories.forEach((category) => {
@@ -144,7 +153,7 @@ document.addEventListener("DOMContentLoaded", () => {
           product.description.toLowerCase().includes(query.toLowerCase()) ||
           product.brand.toLowerCase().includes(query.toLowerCase()) ||
           product.category.toLowerCase().includes(query.toLowerCase()) ||
-          product.part_number.toLowerCase().includes(query.toLowerCase()) // Include part number in search
+          product.part_number.toLowerCase().includes(query.toLowerCase())
       );
 
       displayProducts(
