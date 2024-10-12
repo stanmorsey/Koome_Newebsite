@@ -27,7 +27,7 @@ function displayProducts(products, container) {
       );
 
       // WhatsApp URL with the message
-      const whatsappUrl = `https://wa.me/254797450537?text=${whatsappMessage}`;
+      const whatsappUrl = `https://wa.me/254113015069?text=${whatsappMessage}`;
 
       productHTML += `
         <div class="pro">
