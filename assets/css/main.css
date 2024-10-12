@@ -2557,7 +2557,7 @@ html {
 /* WhatsApp Button Style */
 .order-whatsapp {
   display: inline-block;
-  background-color: #25D366; /* WhatsApp green */
+  background-color: #b8fad0; /* WhatsApp green */
   color: white;
   padding: 10px 20px;
   border-radius: 50px;
@@ -2577,7 +2577,7 @@ html {
 
 .order-whatsapp img {
   width: 20px;
-  height: 20px;
+  height: 20;
   margin-right: 8px;
 }
 

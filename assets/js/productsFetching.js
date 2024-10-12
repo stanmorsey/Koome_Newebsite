@@ -43,7 +43,7 @@ function displayProducts(products, container) {
 
             <!-- WhatsApp Order Button -->
             <a href="${whatsappUrl}" target="_blank" class="order-whatsapp">
-              <img src="/assets/icons/whatsapp-icon.png" alt="WhatsApp Icon"> Order on WhatsApp
+              <img src="/assets/img/logoFaviconIcon/whatsapp.png" alt="WhatsApp Icon"> Order on WhatsApp
             </a>
           </div>
         </div>
