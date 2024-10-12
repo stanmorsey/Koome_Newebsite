@@ -28,10 +28,14 @@ function displayProducts(products, container) {
             <h5>${product.name}</h5>
             <h4>${product.price}</h4>
             <p>${product.description ? product.description : 'No description available'}</p> <!-- Show description -->
+            <p><strong>Part Number:</strong> ${product.part_number}</p> <!-- Show part number -->
+
+            <!--
             <p><strong>Brand:</strong> ${product.brand ? product.brand : 'Unknown'}</p>
             <p><strong>Category:</strong> ${product.category}</p>
-            <p><strong>Part Number:</strong> ${product.part_number}</p> <!-- Show part number -->
             <p><strong>Rating:</strong> ${product.rating} ⭐</p>
+            -->
+            
             <button class="view-more" data-sku="${product.sku}">More Details</button>
           </div>
         </div>
