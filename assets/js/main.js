@@ -295,3 +295,4 @@ function searchProducts() {
     resultsContainer.innerHTML = '<p>No products found</p>';
   }
 }
+

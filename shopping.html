@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jet Parts - Futuristic Shop</title>
+    <link rel="stylesheet" href="assets/css/shopping.css">
+</head>
+<body>
+
+    
+    <!-- Header Section with Search Bar -->
+
+    <header class="header">
+        <div class="container">
+            <h1>Jet Parts - Futuristic Shop</h1>
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Search for jet parts...">
+                <button onclick="searchProduct()">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Categories Sidebar -->
+    <aside class="categories">
+        <h2>Categories</h2>
+        <ul>
+            <li onclick="filterCategory('Engine Parts')">Engine Parts</li>
+            <li onclick="filterCategory('Hydraulic Fluids')">Hydraulic Fluids</li>
+            <li onclick="filterCategory('Lubricants')">Lubricants</li>
+            <li onclick="filterCategory('Electrical Systems')">Electrical Systems</li>
+        </ul>
+    </aside>
+
+    <!-- Products Section -->
+    <section id="all-products" class="products-container">
+        <h2>All Products</h2>
+        <div id="product-list" class="pro-container">
+            <!-- Products will be dynamically injected here -->
+        </div>
+    </section>
+
+    <script src="assets/js/shopping.js"></script>
+</body>
+</html>

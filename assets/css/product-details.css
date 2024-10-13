@@ -1,147 +1,96 @@
-/* Container for the entire product detail section */
-.product-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 20px 0;
-  }
-  
-  /* Styles for the images */
-  .product-images {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 10px; 
-  }
-  
-  /* Main product image */
-  .main-image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    margin-bottom: 10px;
-    padding-left: 50px;
-  }
-  
-  /* Thumbnail images */
-  .thumbnail-images {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-  }
-  
-  /* Thumbnail images styles */
-  .thumbnail-images img {
-    width: 80px;
-    height: auto;
-    object-fit: cover;
-    cursor: pointer;
-  }
-  
-  /* Container for product information */
-  .product-info {
-    flex: 2;
-    padding-left: 50px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  /* Product price with original price crossed out */
-  .product-price {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .product-price del {
-    color: #999;
-    margin-right: 10px;
-  }
-  
-  .product-price span {
-    color: #f00; /* Current price color */
-    font-weight: bold;
-  }
-  
-  /* Product rating */
-  .product-rating {
-    font-size: 1.2rem;
-    color: #ffa500;
-    margin-bottom: 10px;
-  }
-  
-  /* Product actions like order buttons */
-  .product-actions {
-    margin-top: 20px;
-  }
-  
-  .product-actions button {
-    margin-right: 10px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .product-actions button:hover {
-    background-color: #0056b3;
+/* Main container for all products */
+.pro-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid for products */
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Individual product card */
+.product-card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.02); /* Slight zoom effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+}
+
+/* Product image */
+.product-card .product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+/* Product title */
+.product-card .product-title {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Product price */
+.product-card .product-price {
+  font-size: 1.2rem;
+  color: #f00; /* Current price color */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Product part number */
+.product-card .product-part-number {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+/* Action buttons */
+.product-card .product-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-card .product-actions button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-card .product-actions button:hover {
+  background-color: #0056b3;
+}
+
+.product-card .whatsapp-btn {
+  background-color: #25d366;
+}
+
+.product-card .whatsapp-btn:hover {
+  background-color: #1ebe57;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .pro-container {
+      grid-template-columns: 1fr; /* Stacks products on mobile */
   }
 
-  /*=================================== Navigation search styling ===================================*/
-/* Container for the search box */
-.search-container {
-    display: flex;
-    justify-content: center; /* Center the search box */
-    margin-top: 20px;
+  .product-card {
+      max-width: 100%;
+      padding: 15px;
   }
-  
-  /* Search box styling */
-  .search-box {
-    display: flex;
-    align-items: center;
-    width: 400px;
-    height: 40px;
-    background: linear-gradient(to right, #2a52bd, #ff4766); /* Blue to red gradient */
-    border-radius: 20px; /* Rounded edges */
-    padding: 5px 15px; /* Padding inside the box */
-  }
-  
-  /* Input field styling */
-  .search-box input {
-    flex: 1;
-    border: none;
-    outline: none;
-    background: transparent;
-    color: white;
-    font-size: 16px;
-    padding-left: 10px;
-  }
-  
-  /* Placeholder text styling */
-  .search-box input::placeholder {
-    color: white;
-    opacity: 0.8;
-  }
-  
-  /* Button styling (for the search icon) */
-  .search-box button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: white;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-  }
-  
-  /* Optional: Include Font Awesome for the search icon */
-  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
-  
-  /* Hide search box on phones */
-  @media (max-width: 768px) {
-    .search-container {
-      display: none;
-    }
-  }
-  
+}
