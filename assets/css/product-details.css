@@ -1,0 +1,147 @@
+/* Container for the entire product detail section */
+.product-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  /* Styles for the images */
+  .product-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+  }
+  
+  /* Main product image */
+  .main-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+    padding-left: 50px;
+  }
+  
+  /* Thumbnail images */
+  .thumbnail-images {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  /* Thumbnail images styles */
+  .thumbnail-images img {
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  /* Container for product information */
+  .product-info {
+    flex: 2;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Product price with original price crossed out */
+  .product-price {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .product-price del {
+    color: #999;
+    margin-right: 10px;
+  }
+  
+  .product-price span {
+    color: #f00; /* Current price color */
+    font-weight: bold;
+  }
+  
+  /* Product rating */
+  .product-rating {
+    font-size: 1.2rem;
+    color: #ffa500;
+    margin-bottom: 10px;
+  }
+  
+  /* Product actions like order buttons */
+  .product-actions {
+    margin-top: 20px;
+  }
+  
+  .product-actions button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-actions button:hover {
+    background-color: #0056b3;
+  }
+
+  /*=================================== Navigation search styling ===================================*/
+/* Container for the search box */
+.search-container {
+    display: flex;
+    justify-content: center; /* Center the search box */
+    margin-top: 20px;
+  }
+  
+  /* Search box styling */
+  .search-box {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    background: linear-gradient(to right, #2a52bd, #ff4766); /* Blue to red gradient */
+    border-radius: 20px; /* Rounded edges */
+    padding: 5px 15px; /* Padding inside the box */
+  }
+  
+  /* Input field styling */
+  .search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  
+  /* Placeholder text styling */
+  .search-box input::placeholder {
+    color: white;
+    opacity: 0.8;
+  }
+  
+  /* Button styling (for the search icon) */
+  .search-box button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Optional: Include Font Awesome for the search icon */
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+  
+  /* Hide search box on phones */
+  @media (max-width: 768px) {
+    .search-container {
+      display: none;
+    }
+  }
+  

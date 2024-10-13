@@ -2411,7 +2411,6 @@ html {
 }
 
 
-
 /* Products Layout for the main container with sidebar */
 .main-container {
   display: flex;
@@ -2488,7 +2487,7 @@ html {
 
 .pro {
   background-color: #5543fc1c;
-  text-align: center;
+  text-align: left;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
@@ -2545,6 +2544,67 @@ html {
   background-color: #08bada;
   color: white;
 }
+
+.pro {
+  text-align: left; /* Left align text */
+}
+
+.pro h5, .pro h4, .pro a {
+  line-height: 1.1; /* Reduce space between lines */
+}
+
+/* WhatsApp Button Style */
+.order-whatsapp {
+  display: inline-block;
+  background-color: #b8fad0; /* WhatsApp green */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.order-whatsapp:hover {
+  background-color: #1eb857;
+}
+
+.order-whatsapp img {
+  width: 20px;
+  height: 20;
+  margin-right: 8px;
+}
+
+/* More Details Button Style */
+.view-more {
+  display: inline-block;
+  background: linear-gradient(to right, #2a51bd91, #74b6f38a);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.view-more:hover {
+  background: linear-gradient(to right, #2a51bd83, #ff476681);
+}
+
+/* Container for the buttons */
+.des {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
@@ -2871,11 +2931,11 @@ html {
 
 /* Icons for Next and Prev */
 .futuristic-control-prev-icon {
-  background-image: url('path/to/prev-icon.svg'); /* Replace with custom futuristic icon */
+  background-image: url('/assets/img/hero/previous-icon.jpg'); /* Replace with custom futuristic icon */
 }
 
 .futuristic-control-next-icon {
-  background-image: url('path/to/next-icon.svg'); /* Replace with custom futuristic icon */
+  background-image: url('/assets/img/hero/next-icon.jpg'); /* Replace with custom futuristic icon */
 }
 
 /* Hover effect with neon glow */
@@ -2896,59 +2956,59 @@ html {
   right: 15px;
 }
 
-
-
-/* Optional: Add font-awesome for search icon */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
-
-
-
-/* SEARCH BAR STYLING  NEW */
-/* Search Bar Container */
+/*=================================== Navigation search styling ===================================*/
+/* Container for the search box */
 .search-container {
   display: flex;
-  justify-content: center;  /* Centering search bar */
-  padding: 10px 0;
-  width: 100%;
-  background-color: #fff;  /* Match with the rest of the header */
+  justify-content: center; /* Center the search box */
+  margin-top: 20px;
 }
 
-/* Search Box Styling */
+/* Search box styling */
 .search-box {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 5px;
-  border-radius: 25px;
-  background-color: #f5f5f5;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 40px;
+  background: linear-gradient(to right, #2a52bd, #ff4766); /* Blue to red gradient */
+  border-radius: 20px; /* Rounded edges */
+  padding: 5px 15px; /* Padding inside the box */
 }
 
+/* Input field styling */
 .search-box input {
-  padding: 10px;
+  flex: 1;
   border: none;
-  border-radius: 25px;
-  font-size: 14px;
-  width: 300px;  /* Adjust width as necessary */
-  margin-right: 10px;
-}
-
-.search-box button {
-  background-color: #3B2A8F;
+  outline: none;
+  background: transparent;
   color: white;
-  padding: 10px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+/* Placeholder text styling */
+.search-box input::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+/* Button styling (for the search icon) */
+.search-box button {
+  background: none;
   border: none;
-  border-radius: 25px;
   cursor: pointer;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
 }
 
-.search-box i {
-  margin: 0;
-}
+/* Optional: Include Font Awesome for the search icon */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 
-/* Mobile View Adjustments */
+/* Hide search box on phones */
 @media (max-width: 768px) {
-  .search-box input {
-    width: 70%;  /* Narrower input field on mobile */
+  .search-container {
+    display: none;
   }
 }
