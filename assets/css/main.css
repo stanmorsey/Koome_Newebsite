@@ -1464,7 +1464,7 @@ section,
   max-width: 90%;
   transition: 0.3s;
   opacity: 0.5;
-  filter: grayscale(100);
+  filter: grayscale(30);
 }
 
 .clients .client-logo img:hover {
@@ -2411,221 +2411,6 @@ html {
 }
 
 
-/* Products Layout for the main container with sidebar */
-.main-container {
-  display: flex;
-  padding: 20px;
-  gap: 20px;
-  padding-top: 150px; /* space between nav and products */
-}
-
-.sidebar {
-  width: 20%;
-  background-color: #f7f7f7;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.sidebar h3 {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-}
-
-/* Category Sidebar Styling */
-.category-list {
-  list-style: none;
-  padding: 0;
-}
-
-.category-list li {
-  margin: 10px 0;
-}
-
-.category-list li a {
-  display: inline-block;
-  text-decoration: none;
-  color: #333;
-  font-size: 1.1rem;
-  padding: 10px 20px;
-  border-radius: 50px; /* Oval shape */
-  background-color: #f7f7f7; /* Light background for the oval shape */
-  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.category-list li a:hover {
-  background-color: #08bada;
-  color: white;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
-  font-weight: bold; /* Make the text bold on hover */
-}
-
-.filters {
-  margin-top: 30px;
-}
-
-.filters label,
-.filters select {
-  font-size: 1rem;
-  margin-top: 10px;
-  display: block;
-}
-
-/* Products Grid */
-.products-container {
-  width: 75%;
-}
-
-.pro-container {
-  display: grid;
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(300px, 1fr)
-  ); /* Responsive grid */
-  gap: 30px;
-}
-
-.pro {
-  background-color: #5543fc1c;
-  text-align: left;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.pro:hover {
-  transform: translateY(-10px); /* Lift effect on hover */
-  box-shadow: 0px 10px 20px rgba(3, 238, 255, 0.226); /* Deeper shadow on hover */
-}
-
-.pro img {
-  max-width: 100%;
-  border-radius: 12px; /* Soft corners for images */
-  transition: transform 0.3s ease; /* Image zoom effect */
-}
-
-.pro img:hover {
-  transform: scale(1.05); /* Slight zoom on hover */
-}
-
-.pro h5 {
-  font-size: 1.4rem; /* Bigger font for product name */
-  margin-top: 15px;
-  color: #333;
-}
-
-.pro h5:hover {
-  color: #059bff;
-}
-
-.pro h4 {
-  color: #08bada;
-  font-size: 1.5rem; /* Larger font for price */
-  margin-top: 10px;
-  font-weight: bold;
-}
-
-/* Add subtle effects to buttons/links within product cards */
-.pro a {
-  text-decoration: none;
-  font-size: 1rem;
-  color: #08bada;
-  font-weight: bold;
-  display: inline-block;
-  margin-top: 15px;
-  padding: 10px 20px;
-  border: 2px solid #08bada;
-  border-radius: 25px;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.pro a:hover {
-  background-color: #08bada;
-  color: white;
-}
-
-.pro {
-  text-align: left; /* Left align text */
-}
-
-.pro h5, .pro h4, .pro a {
-  line-height: 1.1; /* Reduce space between lines */
-}
-
-/* WhatsApp Button Style */
-.order-whatsapp {
-  display: inline-block;
-  background-color: #b8fad0; /* WhatsApp green */
-  color: white;
-  padding: 10px 20px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-  transition: background-color 0.3s ease;
-}
-
-.order-whatsapp:hover {
-  background-color: #1eb857;
-}
-
-.order-whatsapp img {
-  width: 20px;
-  height: 20;
-  margin-right: 8px;
-}
-
-/* More Details Button Style */
-.view-more {
-  display: inline-block;
-  background: linear-gradient(to right, #2a51bd91, #74b6f38a);
-  color: white;
-  padding: 10px 20px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 14px;
-  margin-top: 10px;
-  transition: background-color 0.3s ease;
-}
-
-.view-more:hover {
-  background: linear-gradient(to right, #2a51bd83, #ff476681);
-}
-
-/* Container for the buttons */
-.des {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-
-/* Mobile Responsiveness */
-@media (max-width: 768px) {
-  .main-container {
-    flex-direction: column;
-    padding-top: 120px;
-  }
-
-  .sidebar {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .products-container {
-    width: 100%;
-  }
-
-  .pro-container {
-    grid-template-columns: 1fr; /* Single column on mobile */
-  }
-}
 
 /* General Section Styles */
 .future-about-section {
@@ -3010,5 +2795,166 @@ html {
 @media (max-width: 768px) {
   .search-container {
     display: none;
+  }
+}
+
+
+
+
+/* ----------------------------------------------------------------
+allproducts page products layout
+ ------------------------------------------------------------------*/
+ .main-container {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  padding-top: 100px; 
+}
+
+/* Products Grid */
+.products-container {
+  width: 100%;
+}
+
+.pro-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  );
+  gap: 30px;
+}
+
+.pro {
+  background-color: #5543fc1c;
+  text-align: left;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.pro:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(3, 238, 255, 0.226);
+}
+
+.pro img {
+  max-width: 100%;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.pro img:hover {
+  transform: scale(1.05);
+}
+
+.des {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pro h5 {
+  font-size: 1.4rem;
+  margin-top: 15px;
+  color: #333;
+}
+
+.pro h5:hover {
+  color: #059bff;
+}
+
+.pro h4 {
+  color: #08bada;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Effects to buttons/links within product cards */
+.pro a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #08bada;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 2px solid #08bada;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pro a:hover {
+  background-color: #08bada;
+  color: white;
+}
+
+.pro h5, .pro h4, .pro a {
+  line-height: 1.1; 
+}
+
+/* WhatsApp Button Style */
+.order-whatsapp {
+  display: inline-block;
+  background-color: #b8fad0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.order-whatsapp:hover {
+  background-color: #1eb857;
+}
+
+.order-whatsapp img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+/* More Details Button Style */
+.view-more {
+  display: inline-block;
+  background: linear-gradient(to right, #2a51bd91, #74b6f38a);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.view-more:hover {
+  background: linear-gradient(to right, #2a51bd83, #ff476681);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    padding-top: 120px;
+  }
+
+  .products-container {
+    width: 100%;
+  }
+
+  .pro-container {
+    grid-template-columns: 1fr; /* Single column on mobile */
   }
 }

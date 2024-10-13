@@ -10,7 +10,6 @@ async function fetchProducts() {
     allProducts = products; // Store all products
     shuffleArray(allProducts); // Shuffle the products
     displayProducts(allProducts, document.getElementById("product-container"), currentPage);
-    populateCategoryFilters(allProducts); // Populate the category filter dynamically
   } catch (error) {
     console.error("Error fetching products:", error);
   }
@@ -32,7 +31,7 @@ function displayProducts(products, container, page) {
   const paginatedProducts = products.slice(start, end);
 
   if (paginatedProducts.length === 0) {
-    productHTML = "<p>No products available for this filter.</p>";
+    productHTML = "<p>No products available.</p>";
   } else {
     paginatedProducts.forEach((product) => {
       // WhatsApp message text, including product name, SKU, part number, and image link
@@ -44,7 +43,7 @@ function displayProducts(products, container, page) {
       const whatsappUrl = `https://wa.me/254113015069?text=${whatsappMessage}`;
 
       productHTML += `
-        <a href="/product-details/product-details.html?sku=${product.sku}" class="pro">
+        <div class="pro">
           <img src="${product.image}" alt="${product.name}" onerror="this.src='/assets/img/skyjet-placeholder.png'">
           <div class="des">
             <h5>${product.name}</h5>
@@ -60,7 +59,7 @@ function displayProducts(products, container, page) {
               <img src="/assets/img/logoFaviconIcon/whatsapp.png" alt="WhatsApp Icon"> Order on WhatsApp
             </a>
           </div>
-        </a>
+        </div>
       `;
     });
   }
@@ -92,106 +91,5 @@ function changePage(direction) {
   displayProducts(allProducts, document.getElementById("product-container"), currentPage);
 }
 
-// Populate the category filter based on product categories
-function populateCategoryFilters(products) {
-  const categoryFilter = document.getElementById("category-filter");
-  const categories = [...new Set(products.map((product) => product.category))];
-
-  let categoryHTML = `<option value="All">All Categories</option>`;
-  categories.forEach((category) => {
-    categoryHTML += `<option value="${category}">${category}</option>`;
-  });
-
-  categoryFilter.innerHTML = categoryHTML;
-}
-
-// Filter by category
-function filterProducts(category) {
-  let filteredProducts = allProducts;
-
-  if (category !== "All") {
-    filteredProducts = allProducts.filter(
-      (product) => product.category === category
-    );
-  }
-
-  displayProducts(
-    filteredProducts,
-    document.getElementById("product-container"),
-    currentPage
-  );
-}
-
-// Apply price filter
-function applyPriceFilter() {
-  const priceFilter = document.getElementById("price-filter").value;
-  let filteredProducts = allProducts;
-
-  if (priceFilter === "low") {
-    filteredProducts = allProducts.filter(
-      (product) => parseInt(product.price.replace("$", "")) < 5000
-    );
-  } else if (priceFilter === "medium") {
-    filteredProducts = allProducts.filter(
-      (product) =>
-        parseInt(product.price.replace("$", "")) >= 5000 &&
-        parseInt(product.price.replace("$", "")) <= 15000
-    );
-  } else if (priceFilter === "high") {
-    filteredProducts = allProducts.filter(
-      (product) => parseInt(product.price.replace("$", "")) > 15000
-    );
-  }
-
-  displayProducts(
-    filteredProducts,
-    document.getElementById("product-container"),
-    currentPage
-  );
-}
-
-// Search products and redirect to search results page
-function searchProducts() {
-  const query = document.getElementById("searchInput").value;
-  window.location.href = `../search-results/search-results.html?query=${encodeURIComponent(
-    query
-  )}`;
-}
-
 // Fetch products on page load
 document.addEventListener("DOMContentLoaded", fetchProducts);
-
-// Event listener for category filter
-document.getElementById("category-filter").addEventListener("change", (e) => {
-  filterProducts(e.target.value);
-});
-
-// Event listener for price filter
-document
-  .getElementById("price-filter")
-  .addEventListener("change", applyPriceFilter);
-
-// Handle search results on search-results.html
-document.addEventListener("DOMContentLoaded", () => {
-  const urlParams = new URLSearchParams(window.location.search);
-  const query = urlParams.get("query");
-
-  if (query) {
-    fetchProducts().then(() => {
-      const filteredProducts = allProducts.filter(
-        (product) =>
-          product.name.toLowerCase().includes(query.toLowerCase()) ||
-          product.description.toLowerCase().includes(query.toLowerCase()) ||
-          product.brand.toLowerCase().includes(query.toLowerCase()) ||
-          product.category.toLowerCase().includes(query.toLowerCase()) ||
-          product.part_number.toLowerCase().includes(query.toLowerCase())
-      );
-
-      displayProducts(
-        filteredProducts,
-        document.getElementById("searchResults"),
-        currentPage
-      );
-    });
-  }
-});
