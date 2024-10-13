@@ -1,96 +1,85 @@
-/* Main container for all products */
-.pro-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid for products */
-  gap: 20px;
-  justify-content: center;
-  padding: 20px;
+.product-main {
+  font-family: Arial, sans-serif;
 }
 
-/* Individual product card */
-.product-card {
-  background-color: #fff;
-  border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
-  padding: 20px;
+.product-main h2 {
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.product-card:hover {
-  transform: scale(1.02); /* Slight zoom effect */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow */
-}
-
-/* Product image */
-.product-card .product-image {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 15px;
-  object-fit: cover;
-}
-
-/* Product title */
-.product-card .product-title {
-  font-size: 1.2rem;
-  color: #333;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-/* Product price */
-.product-card .product-price {
-  font-size: 1.2rem;
-  color: #f00; /* Current price color */
-  font-weight: bold;
   margin-bottom: 10px;
 }
 
-/* Product part number */
-.product-card .product-part-number {
-  font-size: 0.9rem;
-  color: #888;
-  margin-bottom: 15px;
+.product-main hr {
+  margin-bottom: 20px;
 }
 
-/* Action buttons */
-.product-card .product-actions {
+.product-details {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  justify-content: space-between;
 }
 
-.product-card .product-actions button {
-  padding: 10px 20px;
+.product-images {
+  flex: 1;
+  text-align: center;
+}
+
+.product-images .main-image {
+  max-width: 70%;
+  height: auto;
+}
+
+.product-info {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.product-info p {
+  margin: 10px 0;
+}
+
+.product-price {
+  font-size: 1.5em;
+}
+
+/* button styles */
+.product-actions {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.product-actions button {
+  margin-right: 10px;
+  padding: 12px 25px;
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  font-size: 1.1em;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.product-card .product-actions button:hover {
+.product-actions button:hover {
   background-color: #0056b3;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-.product-card .whatsapp-btn {
-  background-color: #25d366;
+.product-actions button:active {
+  background-color: #004494;
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.product-card .whatsapp-btn:hover {
-  background-color: #1ebe57;
-}
-
-/* Responsive design for mobile */
+/* Mobile-friendly adjustments */
 @media (max-width: 768px) {
-  .pro-container {
-      grid-template-columns: 1fr; /* Stacks products on mobile */
+  .product-actions {
+    flex-direction: column;
   }
 
-  .product-card {
-      max-width: 100%;
-      padding: 15px;
+  .product-actions button {
+    width: 100%;
+    margin-bottom: 10px; 
   }
 }

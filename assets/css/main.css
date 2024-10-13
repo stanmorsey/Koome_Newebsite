@@ -2805,9 +2805,9 @@ html {
   }
 }
 
-/* ----------------------------------------------------------------
-    Allproducts page products layout
- ------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------------
+                                            Allproducts page products layout
+ ------------------------------------------------------------------------------------------------------------------*/
 .main-container {
   display: flex;
   padding: 20px;
@@ -2827,7 +2827,7 @@ html {
 }
 
 .pro {
-  background-color: #5543fc1c;
+  background-color: #f7c9c9;
   text-align: left;
   padding: 20px;
   border-radius: 15px;
@@ -3080,7 +3080,7 @@ html {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 20px;
-  border: 2px solid #08bada;
+  border: 2px solid #08bbda00;
   border-radius: 25px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -3094,65 +3094,4 @@ html {
 .pro h4,
 .pro a {
   line-height: 1.1; /* Reduce space between lines */
-}
-
-/* WhatsApp Button Style */
-.order-whatsapp {
-  display: inline-block;
-  background-color: #b8fad0; /* WhatsApp green */
-  color: white;
-  padding: 10px 20px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-  transition: background-color 0.3s ease;
-}
-
-.order-whatsapp:hover {
-  background-color: #1eb857;
-}
-
-.order-whatsapp img {
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
-}
-
-/* More Details Button Style */
-.view-more {
-  display: inline-block;
-  background: linear-gradient(to right, #2a51bd91, #74b6f38a);
-  color: white;
-  padding: 10px 20px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 14px;
-  margin-top: 10px;
-  transition: background-color 0.3s ease;
-}
-
-.view-more:hover {
-  background: linear-gradient(to right, #2a51bd83, #ff476681);
-}
-
-/* Mobile Responsiveness */
-@media (max-width: 768px) {
-  .main-container {
-    flex-direction: column;
-    padding-top: 120px;
-  }
-
-  .products-container {
-    width: 100%;
-  }
-
-  .pro-container {
-    grid-template-columns: 1fr; /* Single column on mobile */
-  }
 }
