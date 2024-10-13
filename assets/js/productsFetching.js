@@ -10,6 +10,7 @@ async function fetchProducts() {
     allProducts = products; // Store all products
     shuffleArray(allProducts); // Shuffle the products
     displayProducts(allProducts, document.getElementById("product-container"), currentPage);
+    populateFilters(allProducts); // Populate the filters dynamically
   } catch (error) {
     console.error("Error fetching products:", error);
   }
@@ -89,6 +90,97 @@ function displayProducts(products, container, page) {
 function changePage(direction) {
   currentPage += direction;
   displayProducts(allProducts, document.getElementById("product-container"), currentPage);
+}
+
+// Toggle filter sections
+function toggleFilter(filterId) {
+  const filterContent = document.getElementById(filterId);
+  const filterButton = filterContent.previousElementSibling;
+
+  if (filterContent.style.display === "none" || filterContent.style.display === "") {
+    filterContent.style.display = "block";
+    filterButton.textContent = filterButton.textContent.replace("+", "-");
+  } else {
+    filterContent.style.display = "none";
+    filterButton.textContent = filterButton.textContent.replace("-", "+");
+  }
+}
+
+// Populate filters dynamically
+function populateFilters(products) {
+  const categories = [...new Set(products.map(product => product.category))];
+  const brands = [...new Set(products.map(product => product.brand))];
+  const series = [...new Set(products.map(product => product.series))];
+  const materials = [...new Set(products.map(product => product.material))];
+  const sizes = [...new Set(products.map(product => product.size))];
+  const specs = [...new Set(products.map(product => product.spec))];
+  const colors = [...new Set(products.map(product => product.color))];
+
+  populateFilterSection('category', categories);
+  populateFilterSection('brand', brands);
+  populateFilterSection('series', series);
+  populateFilterSection('material', materials);
+  populateFilterSection('size', sizes);
+  populateFilterSection('spec', specs);
+  populateFilterSection('color', colors);
+}
+
+// Populate individual filter section
+function populateFilterSection(filterId, items) {
+  const filterContent = document.getElementById(filterId);
+  let filterHTML = "";
+  items.forEach(item => {
+    filterHTML += `
+      <label>
+        <input type="checkbox" value="${item}" onchange="filterProducts()">
+        ${item}
+      </label>
+    `;
+  });
+  filterContent.innerHTML = filterHTML;
+}
+
+// Filter products based on selected filters
+function filterProducts() {
+  const selectedCategories = getSelectedFilterValues('category');
+  const selectedBrands = getSelectedFilterValues('brand');
+  const selectedSeries = getSelectedFilterValues('series');
+  const selectedMaterials = getSelectedFilterValues('material');
+  const selectedSizes = getSelectedFilterValues('size');
+  const selectedSpecs = getSelectedFilterValues('spec');
+  const selectedColors = getSelectedFilterValues('color');
+
+  let filteredProducts = allProducts;
+
+  if (selectedCategories.length > 0) {
+    filteredProducts = filteredProducts.filter(product => selectedCategories.includes(product.category));
+  }
+  if (selectedBrands.length > 0) {
+    filteredProducts = filteredProducts.filter(product => selectedBrands.includes(product.brand));
+  }
+  if (selectedSeries.length > 0) {
+    filteredProducts = filteredProducts.filter(product => selectedSeries.includes(product.series));
+  }
+  if (selectedMaterials.length > 0) {
+    filteredProducts = filteredProducts.filter(product => selectedMaterials.includes(product.material));
+  }
+  if (selectedSizes.length > 0) {
+    filteredProducts = filteredProducts.filter(product => selectedSizes.includes(product.size));
+  }
+  if (selectedSpecs.length > 0) {
+    filteredProducts = filteredProducts.filter(product => selectedSpecs.includes(product.spec));
+  }
+  if (selectedColors.length > 0) {
+    filteredProducts = filteredProducts.filter(product => selectedColors.includes(product.color));
+  }
+
+  displayProducts(filteredProducts, document.getElementById("product-container"), currentPage);
+}
+
+// Get selected filter values
+function getSelectedFilterValues(filterId) {
+  const checkboxes = document.querySelectorAll(`#${filterId} input[type="checkbox"]:checked`);
+  return Array.from(checkboxes).map(checkbox => checkbox.value);
 }
 
 // Fetch products on page load

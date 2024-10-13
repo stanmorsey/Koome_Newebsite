@@ -193,7 +193,6 @@ h6 {
     order: 2;
     margin: 0 19px 2px 2px;
     padding: 3px 14px;
-    
   }
 
   .header .navmenu {
@@ -661,7 +660,6 @@ h6 {
   font-size: 13px;
 }
 
-
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -992,78 +990,89 @@ section,
 }
 
 .hero .btn-get-started {
-    color: var(--contrast-color);
-    background: linear-gradient(135deg, var(--accent-color), rgba(255, 255, 255, 0.2));
-    font-family: 'Roboto', sans-serif; /* Futuristic font */
-    font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 1.5px;
-    display: inline-block;
-    padding: 12px 30px;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
-    backdrop-filter: blur(5px);
+  color: var(--contrast-color);
+  background: linear-gradient(
+    135deg,
+    var(--accent-color),
+    rgba(255, 255, 255, 0.2)
+  );
+  font-family: "Roboto", sans-serif; /* Futuristic font */
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(5px);
 }
 
 .hero .btn-get-started:hover {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), var(--accent-color));
-    transform: translateY(-3px);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.2),
+    var(--accent-color)
+  );
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 
 .hero .btn-watch-video {
-    font-size: 16px;
-    transition: all 0.3s ease-in-out;
-    margin-left: 25px;
-    color: var(--default-color);
-    font-weight: 600;
-    position: relative;
-    padding: 12px 28px;
-    border-radius: 50px;
-    overflow: hidden;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+  margin-left: 25px;
+  color: var(--default-color);
+  font-weight: 600;
+  position: relative;
+  padding: 12px 28px;
+  border-radius: 50px;
+  overflow: hidden;
 }
 
 .hero .btn-watch-video:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, var(--accent-color), rgba(255, 255, 255, 0.2));
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    border-radius: 50px;
-    z-index: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    var(--accent-color),
+    rgba(255, 255, 255, 0.2)
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 50px;
+  z-index: 0;
 }
 
 .hero .btn-watch-video:hover:before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .hero .btn-watch-video span {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 .hero .btn-watch-video i {
-    color: var(--accent-color);
-    font-size: 32px;
-    transition: color 0.3s;
-    line-height: 0;
-    margin-right: 8px;
+  color: var(--accent-color);
+  font-size: 32px;
+  transition: color 0.3s;
+  line-height: 0;
+  margin-right: 8px;
 }
 
 .hero .btn-watch-video:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .hero .btn-watch-video:hover i {
-    color: color-mix(in srgb, var(--accent-color), transparent 15%);
-    transform: scale(1.1); /* Slight scaling effect */
+  color: color-mix(in srgb, var(--accent-color), transparent 15%);
+  transform: scale(1.1); /* Slight scaling effect */
 }
-
 
 @media (max-width: 640px) {
   .hero h2 {
@@ -1077,89 +1086,87 @@ section,
 }
 
 @media (min-width: 1200px) {
-    .hero .icon-boxes:before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: calc(50% + 20px);
-        background-color: rgba(255, 255, 255, 0.1);
-        border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-        z-index: 0;
-        filter: blur(15px); /* Soft focus effect */
-    }
+  .hero .icon-boxes:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(50% + 20px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid
+      color-mix(in srgb, var(--default-color), transparent 90%);
+    z-index: 0;
+    filter: blur(15px); /* Soft focus effect */
+  }
 }
 
 .hero .icon-boxes {
-    padding-bottom: 60px;
-    z-index: 4;
+  padding-bottom: 60px;
+  z-index: 4;
 }
 
 .hero .icon-box {
-    padding: 60px 30px;
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease-in-out;
-    border-radius: 12px;
-    z-index: 1;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    backdrop-filter: blur(10px); /* Background blur effect */
+  padding: 60px 30px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(0, 0, 0, 0.1)
+  );
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  border-radius: 12px;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  backdrop-filter: blur(10px); /* Background blur effect */
 }
 
 .hero .icon-box .title {
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 24px;
-    color: var(--contrast-color);
-    transition: color 0.3s ease;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: var(--contrast-color);
+  transition: color 0.3s ease;
 }
 
 .hero .icon-box .title a {
-    color: color-mix(in srgb, var(--default-color), transparent 20%);
-    transition: color 0.3s ease;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  transition: color 0.3s ease;
 }
 
 .hero .icon-box .icon {
-    margin-bottom: 20px;
-    padding-top: 10px;
-    display: inline-block;
-    transition: transform 0.3s ease-in-out, color 0.3s ease;
-    font-size: 48px;
-    line-height: 1;
-    color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin-bottom: 20px;
+  padding-top: 10px;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out, color 0.3s ease;
+  font-size: 48px;
+  line-height: 1;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
 .hero .icon-box:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    transform: translateY(-5px); /* Slight lift effect */
-    box-shadow: 0 12px 50px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px); /* Slight lift effect */
+  box-shadow: 0 12px 50px rgba(0, 0, 0, 0.3);
 }
 
 .hero .icon-box:hover .title a,
 .hero .icon-box:hover .icon {
-    color: var(--accent-color); /* Use a vibrant accent color */
-    transform: scale(1.1); /* Scale effect on hover */
+  color: var(--accent-color); /* Use a vibrant accent color */
+  transform: scale(1.1); /* Scale effect on hover */
 }
 
 .hero .icon-box:hover .title a {
-    opacity: 1; /* Ensure title remains visible */
+  opacity: 1; /* Ensure title remains visible */
 }
 
 .hero .icon-box:hover .icon {
-    color: var(--contrast-color); /* Change icon color on hover */
+  color: var(--contrast-color); /* Change icon color on hover */
 }
-
-
-
-
-
-
-
 
 /*--------------------------------------------------------------
 # Featured Services Section
@@ -2076,7 +2083,7 @@ section,
   box-shadow: 0px 0px 20px rgba(1, 9, 248, 0.1);
 }
 
-.container_contact{
+.container_contact {
   margin-top: 5%;
 }
 
@@ -2410,8 +2417,6 @@ html {
   }
 }
 
-
-
 /* General Section Styles */
 .future-about-section {
   background-color: #ffffff;
@@ -2599,7 +2604,6 @@ html {
   }
 }
 
-
 /* Responsive Design for Mobile */
 @media (max-width: 768px) {
   .future-about-content {
@@ -2679,7 +2683,6 @@ html {
   font-size: 1.5rem;
 }
 
-
 .carousel-item img {
   max-width: 100%;
   height: auto;
@@ -2716,11 +2719,11 @@ html {
 
 /* Icons for Next and Prev */
 .futuristic-control-prev-icon {
-  background-image: url('/assets/img/hero/previous-icon.jpg'); /* Replace with custom futuristic icon */
+  background-image: url("/assets/img/hero/previous-icon.jpg"); /* Replace with custom futuristic icon */
 }
 
 .futuristic-control-next-icon {
-  background-image: url('/assets/img/hero/next-icon.jpg'); /* Replace with custom futuristic icon */
+  background-image: url("/assets/img/hero/next-icon.jpg"); /* Replace with custom futuristic icon */
 }
 
 /* Hover effect with neon glow */
@@ -2755,7 +2758,11 @@ html {
   align-items: center;
   width: 400px;
   height: 40px;
-  background: linear-gradient(to right, #2a52bd, #ff4766); /* Blue to red gradient */
+  background: linear-gradient(
+    to right,
+    #2a52bd,
+    #ff4766
+  ); /* Blue to red gradient */
   border-radius: 20px; /* Rounded edges */
   padding: 5px 15px; /* Padding inside the box */
 }
@@ -2789,7 +2796,7 @@ html {
 }
 
 /* Optional: Include Font Awesome for the search icon */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
 
 /* Hide search box on phones */
 @media (max-width: 768px) {
@@ -2798,17 +2805,14 @@ html {
   }
 }
 
-
-
-
 /* ----------------------------------------------------------------
-allproducts page products layout
+    Allproducts page products layout
  ------------------------------------------------------------------*/
- .main-container {
+.main-container {
   display: flex;
   padding: 20px;
   gap: 20px;
-  padding-top: 100px; 
+  padding-top: 100px;
 }
 
 /* Products Grid */
@@ -2818,10 +2822,7 @@ allproducts page products layout
 
 .pro-container {
   display: grid;
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(300px, 1fr)
-  );
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 30px;
 }
 
@@ -2894,14 +2895,211 @@ allproducts page products layout
   color: white;
 }
 
-.pro h5, .pro h4, .pro a {
-  line-height: 1.1; 
+.pro h5,
+.pro h4,
+.pro a {
+  line-height: 1.1;
 }
 
 /* WhatsApp Button Style */
 .order-whatsapp {
   display: inline-block;
   background-color: #b8fad0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.order-whatsapp:hover {
+  background-color: #1eb857;
+}
+
+.order-whatsapp img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+/* More Details Button Style */
+.view-more {
+  display: inline-block;
+  background: linear-gradient(to right, #2a51bd91, #74b6f38a);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.view-more:hover {
+  background: linear-gradient(to right, #2a51bd83, #ff476681);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    padding-top: 120px;
+  }
+
+  .products-container {
+    width: 100%;
+  }
+
+  .pro-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*-allproducts page Sidebar styling -*/
+.sidebar {
+  width: 18%;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.filter-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: #333;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  padding: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.filter-toggle:hover {
+  color: #08bada;
+}
+
+.filter-content {
+  display: none;
+  padding-left: 10px;
+}
+
+.filter-content label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.filter-content input {
+  margin-right: 10px;
+}
+
+/* Products Grid */
+.products-container {
+  width: 75%;
+}
+
+.pro-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.pro {
+  background-color: #5543fc1c;
+  text-align: left;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.pro:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(3, 238, 255, 0.226);
+}
+
+.pro img {
+  max-width: 100%;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.pro img:hover {
+  transform: scale(1.05);
+}
+
+.des {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pro h5 {
+  font-size: 1.4rem;
+  margin-top: 15px;
+  color: #333;
+}
+
+.pro h5:hover {
+  color: #059bff;
+}
+
+.pro h4 {
+  color: #08bada;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Effects to buttons/links within product cards */
+.pro a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #08bada;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 2px solid #08bada;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pro a:hover {
+  background-color: #08bada;
+  color: white;
+}
+
+.pro h5,
+.pro h4,
+.pro a {
+  line-height: 1.1; /* Reduce space between lines */
+}
+
+/* WhatsApp Button Style */
+.order-whatsapp {
+  display: inline-block;
+  background-color: #b8fad0; /* WhatsApp green */
   color: white;
   padding: 10px 20px;
   border-radius: 50px;
