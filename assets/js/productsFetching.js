@@ -183,5 +183,11 @@ function getSelectedFilterValues(filterId) {
   return Array.from(checkboxes).map(checkbox => checkbox.value);
 }
 
+// Toggle filters on mobile
+function toggleFilters() {
+  var sidebar = document.querySelector('.sidebar');
+  sidebar.classList.toggle('show');
+}
+
 // Fetch products on page load
 document.addEventListener("DOMContentLoaded", fetchProducts);

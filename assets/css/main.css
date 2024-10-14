@@ -2808,7 +2808,7 @@ html {
 /* ------------------------------------------------------------------------------------------------------------------
                                             Allproducts page products layout
  ------------------------------------------------------------------------------------------------------------------*/
-.main-container {
+ .main-container {
   display: flex;
   padding: 20px;
   gap: 20px;
@@ -2827,7 +2827,7 @@ html {
 }
 
 .pro {
-  background-color: #f7c9c9;
+  background-color: #ffffff;
   text-align: left;
   padding: 20px;
   border-radius: 15px;
@@ -2885,7 +2885,7 @@ html {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 20px;
-  border: 2px solid #08bada;
+  border: 2px solid #ffffff;
   border-radius: 25px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -2931,7 +2931,7 @@ html {
 /* More Details Button Style */
 .view-more {
   display: inline-block;
-  background: linear-gradient(to right, #2a51bd91, #74b6f38a);
+  background: linear-gradient(to right, #2a51bd, #74b6f3);
   color: white;
   padding: 10px 20px;
   border-radius: 50px;
@@ -2939,11 +2939,12 @@ html {
   font-weight: bold;
   font-size: 14px;
   margin-top: 10px;
+  border: 2px solid #ffffff;
   transition: background-color 0.3s ease;
 }
 
 .view-more:hover {
-  background: linear-gradient(to right, #2a51bd83, #ff476681);
+  background: linear-gradient(to right, #2a51bd, #ff4766);
 }
 
 /* Mobile Responsiveness */
@@ -2960,9 +2961,35 @@ html {
   .pro-container {
     grid-template-columns: 1fr;
   }
+
+  .pro {
+    padding: 15px;
+  }
+
+  .pro img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .des {
+    padding: 10px;
+  }
+
+  .pro h5 {
+    font-size: 1.2rem;
+  }
+
+  .pro h4 {
+    font-size: 1.3rem;
+  }
+
+  .pro a, .view-more, .order-whatsapp {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
 }
 
-/*-allproducts page Sidebar styling -*/
+/* Sidebar styling */
 .sidebar {
   width: 18%;
   background-color: #f7f7f7;
@@ -3010,88 +3037,32 @@ html {
   margin-right: 10px;
 }
 
-/* Products Grid */
-.products-container {
-  width: 75%;
+/* Hide filters on mobile devices */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .filter-button {
+    display: block;
+  }
 }
 
-.pro-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 30px;
+/* Show filters when the filter button is clicked */
+.sidebar.show {
+  display: block;
 }
 
-.pro {
-  background-color: #5543fc1c;
-  text-align: left;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  display: flex;
-  flex-direction: column;
-}
-
-.pro:hover {
-  transform: translateY(-10px);
-  box-shadow: 0px 10px 20px rgba(3, 238, 255, 0.226);
-}
-
-.pro img {
-  max-width: 100%;
-  border-radius: 12px;
-  transition: transform 0.3s ease;
-}
-
-.pro img:hover {
-  transform: scale(1.05);
-}
-
-.des {
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.pro h5 {
-  font-size: 1.4rem;
-  margin-top: 15px;
-  color: #333;
-}
-
-.pro h5:hover {
-  color: #059bff;
-}
-
-.pro h4 {
-  color: #08bada;
-  font-size: 1.5rem;
-  margin-top: 10px;
-  font-weight: bold;
-}
-
-/* Effects to buttons/links within product cards */
-.pro a {
-  text-decoration: none;
-  font-size: 1rem;
-  color: #08bada;
-  font-weight: bold;
-  display: inline-block;
-  margin-top: 15px;
-  padding: 10px 20px;
-  border: 2px solid #08bbda00;
-  border-radius: 25px;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.pro a:hover {
-  background-color: #08bada;
+/* Style the filter button */
+.filter-button {
+  display: none; /* Hidden by default, only shown on mobile */
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  background-color: #007bff;
   color: white;
-}
-
-.pro h5,
-.pro h4,
-.pro a {
-  line-height: 1.1; /* Reduce space between lines */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
 }
