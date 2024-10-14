@@ -66,14 +66,10 @@
       </a>
 
       <!--====================Search Box=====================================-->
-      <div class="search-container">
-        <div class="search-box">
-          <input type="text" id="search-input" placeholder="Search Part Number or Keyword">
-          <button id="search-button">
-            <i class="fa fa-search"></i>
-          </button>
-        </div>
-      </div>
+      <form id="search-form" action="search-results.html" method="GET">
+        <input type="text" id="search-input" name="query" placeholder="Search products...">
+        <button type="submit">Search</button>
+      </form>
 
 
 
@@ -1227,6 +1223,7 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/productsFetching.js"></script>
+  <script src="assets/js/search-results.js"></script>
 
 </body>
 
