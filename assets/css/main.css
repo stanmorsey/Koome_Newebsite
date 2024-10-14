@@ -2744,66 +2744,62 @@ html {
   right: 15px;
 }
 
-/*=================================== Navigation search styling ===================================*/
-/* Container for the search box */
-.search-container {
-  display: flex;
-  justify-content: center; /* Center the search box */
-  margin-top: 20px;
-}
-
-/* Search box styling */
-.search-box {
-  display: flex;
-  align-items: center;
-  width: 400px;
-  height: 40px;
-  background: linear-gradient(
-    to right,
-    #2a52bd,
-    #ff4766
-  ); /* Blue to red gradient */
-  border-radius: 20px; /* Rounded edges */
-  padding: 5px 15px; /* Padding inside the box */
-}
-
-/* Input field styling */
-.search-box input {
-  flex: 1;
-  border: none;
-  outline: none;
-  background: transparent;
-  color: white;
-  font-size: 16px;
-  padding-left: 10px;
-}
-
-/* Placeholder text styling */
-.search-box input::placeholder {
-  color: white;
-  opacity: 0.8;
-}
-
-/* Button styling (for the search icon) */
-.search-box button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: white;
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-}
-
-/* Optional: Include Font Awesome for the search icon */
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
-
-/* Hide search box on phones */
-@media (max-width: 768px) {
-  .search-container {
-    display: none;
+/* ------------------------------------------------------------------------------------------------------------------
+                                            Search box styling
+ ------------------------------------------------------------------------------------------------------------------*/
+   /* Container for the form */
+   #search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
   }
-}
+
+  /* Styling the search input */
+  #search-input {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    outline: none;
+    transition: all 0.3s ease;
+    width: 300px;
+    max-width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Input focus state for smooth border effect */
+  #search-input:focus {
+    border-color: #6200ea; /* Purple accent for focus */
+    box-shadow: 0 4px 15px rgba(98, 0, 234, 0.3);
+  }
+
+  /* Search button with a gradient */
+  #search-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #ff6b6b, #f06595);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(240, 101, 149, 0.2);
+    transition: all 0.3s ease;
+  }
+
+  /* Button hover effect */
+  #search-form button:hover {
+    background: linear-gradient(90deg, #f06595, #ff6b6b);
+    box-shadow: 0 6px 15px rgba(240, 101, 149, 0.4);
+  }
+
+  /* Button focus outline for accessibility */
+  #search-form button:focus {
+    outline: 2px solid #ff6b6b;
+    outline-offset: 2px;
+  }
 
 /* ------------------------------------------------------------------------------------------------------------------
                                             Allproducts page products layout
@@ -3066,3 +3062,8 @@ html {
   cursor: pointer;
   border-radius: 5px;
 }
+
+
+/*--========================================
+      Top Bar 
+    ===============================================-*/
