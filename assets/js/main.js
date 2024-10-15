@@ -253,7 +253,7 @@ document.getElementById('search-toggle').addEventListener('click', function(even
       searchToggle.textContent = 'Search'; // Change button text
   } else {
       searchInput.style.display = 'none'; // Hide search input
-      searchToggle.textContent = 'Click to Search'; // Reset button text
+      searchToggle.textContent = 'Search'; // Reset button text
   }
 });
 
@@ -265,7 +265,7 @@ document.addEventListener('click', function(event) {
   
   if (!searchForm.contains(event.target)) {
       searchInput.style.display = 'none'; // Hide search input
-      searchToggle.textContent = 'Click to Search'; // Reset button text
+      searchToggle.textContent = 'Search'; // Reset button text
   }
 });
 

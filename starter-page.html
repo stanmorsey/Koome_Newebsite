@@ -108,12 +108,11 @@
     <!-- End Logo and Navigation-->
 
     <!--====================Search Box=====================================-->
-    <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Search Part Number, Item, or category...">
-      <button onclick="searchProducts(document.getElementById('searchInput').value)">
-        <i class="fa fa-search"></i>
-      </button>
-    </div>
+<!-- Search form -->
+<form id="search-form" action="#" method="GET">
+  <button id="search-toggle">Search</button>
+  <input type="text" id="search-input" name="query" placeholder="Search products..." style="display: none;">
+</form>
 
 
   </header>
