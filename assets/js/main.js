@@ -240,3 +240,36 @@ const heroSwiper = new Swiper('.futuristic-hero-carousel', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+// this is the search bar responsiveness styling 
+// Toggle the search bar visibility when button is clicked
+document.getElementById('search-toggle').addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent form submission
+  var searchInput = document.getElementById('search-input');
+  var searchToggle = document.getElementById('search-toggle');
+  
+  if (searchInput.style.display === 'none' || searchInput.style.display === '') {
+      searchInput.style.display = 'block'; // Show search input
+      searchToggle.textContent = 'Search'; // Change button text
+  } else {
+      searchInput.style.display = 'none'; // Hide search input
+      searchToggle.textContent = 'Click to Search'; // Reset button text
+  }
+});
+
+// Hide search input when clicking outside the form
+document.addEventListener('click', function(event) {
+  var searchForm = document.getElementById('search-form');
+  var searchInput = document.getElementById('search-input');
+  var searchToggle = document.getElementById('search-toggle');
+  
+  if (!searchForm.contains(event.target)) {
+      searchInput.style.display = 'none'; // Hide search input
+      searchToggle.textContent = 'Click to Search'; // Reset button text
+  }
+});
+
+document.getElementById('search-toggle').addEventListener('click', function() {
+  var searchContainer = document.querySelector('.search-container');
+  searchContainer.classList.toggle('active');
+});
