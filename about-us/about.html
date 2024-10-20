@@ -75,26 +75,23 @@
       </a>
 
       <!--====================Search Box=====================================-->
-      <div class="search-container">
-        <div class="search-box">
-          <input type="text" id="searchInput" placeholder="Search Part Number, Item, or Category...">
-          <button onclick="searchProducts(document.getElementById('searchInput').value)">
-            <i class="fa fa-search"></i>
-          </button>
-        </div>
-      </div>
+      <form id="search-form" action="#" method="GET">
+        <button id="search-toggle">Search Here</button>
+        <input type="text" id="search-input" name="query" placeholder="Search products..." style="display: none;">
+      </form>
+
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="/index.html" class="active">Home</a></li>
+          <li><a href="/index.html">Home</a></li>
           <li><a href="/allProducts.html">Shop</a></li>
-          <li class="dropdown"><a href="/about.html">About</a></li>
+          <li><a href="/about-us/about.html">About</a></li>
           <li class="dropdown"><a href="#"><span>Categories</span> <i
                 class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="/product-categories/aircraft-electricals.html">Electrical Lighting</a></li>
-              <li class="dropdown"><a href="/product-categories/oils-lubricants.html"><span>Aircraft Maintenance</span> <i
-                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li class="dropdown"><a href="/product-categories/oils-lubricants.html"><span>Aircraft Maintenance</span>
+                  <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                   <li><a href="/product-categories/aircraft-filtration.html">Aircraft Filtration</a></li>
                   <li><a href="/product-categories/oils-lubricants.html">Oils,Lubricants</a></li>
@@ -126,7 +123,7 @@
     </div>
     <!-- End Logo and Navigation-->
 
-  
+
 
   </header>
 
@@ -292,8 +289,8 @@
   <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="/assets/js/main.js"></script>
-  <script src="/assets/js/productsFetching.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/productsFetching.js"></script>
 
 </body>
 

@@ -69,13 +69,13 @@
         <ul>
           <li><a href="/index.html" class="active">Home</a></li>
           <li><a href="/allProducts.html">Shop</a></li>
-          <li class="dropdown"><a href="/about.html">About</a></li>
+          <li><a href="/about-us/about.html">About</a></li>
           <li class="dropdown"><a href="#"><span>Categories</span> <i
                 class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="/product-categories/aircraft-electricals.html">Electrical Lighting</a></li>
-              <li class="dropdown"><a href="/product-categories/oils-lubricants.html"><span>Aircraft Maintenance</span> <i
-                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li class="dropdown"><a href="/product-categories/oils-lubricants.html"><span>Aircraft Maintenance</span>
+                  <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                   <li><a href="/product-categories/aircraft-filtration.html">Aircraft Filtration</a></li>
                   <li><a href="/product-categories/oils-lubricants.html">Oils,Lubricants</a></li>
@@ -108,11 +108,11 @@
     <!-- End Logo and Navigation-->
 
     <!--====================Search Box=====================================-->
-<!-- Search form -->
-<form id="search-form" action="#" method="GET">
-  <button id="search-toggle">Search</button>
-  <input type="text" id="search-input" name="query" placeholder="Search products..." style="display: none;">
-</form>
+    <!-- Search form -->
+    <form id="search-form" action="#" method="GET">
+      <button id="search-toggle">Search</button>
+      <input type="text" id="search-input" name="query" placeholder="Search products..." style="display: none;">
+    </form>
 
 
   </header>
@@ -317,16 +317,16 @@
   <script src="../assets/js/main.js"></script>
   <script src="../assets/js/productsFetching.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       const urlParams = new URLSearchParams(window.location.search);
       const query = urlParams.get('query');
       if (query) {
         fetch('../assets/products/products.json')
           .then(response => response.json())
           .then(data => {
-            const results = data.filter(product => 
-              product.partNumber.includes(query) || 
-              product.item.includes(query) || 
+            const results = data.filter(product =>
+              product.partNumber.includes(query) ||
+              product.item.includes(query) ||
               product.category.includes(query)
             );
             displayResults(results);
