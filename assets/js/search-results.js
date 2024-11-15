@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Function to perform the search
     const performSearch = () => {
       const query = searchInput.value.toLowerCase();
-      fetch("/assets/products/products.json")
+      fetch("../products/products.json")
         .then((response) => {
           if (!response.ok) {
             throw new Error("Failed to fetch products");
