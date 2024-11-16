@@ -522,9 +522,14 @@ h6 {
   margin-right: 6px;
 }
 
+.footer .container .credits {
+  display: inline-flex;
+  align-items: center;
+}
+
 .footer .container .credits .logo img {
-  max-height: 25px;
-  margin-right: auto;
+  max-height: 20px;
+  margin-right: 5px;
 }
 
 .footer .footer-about .logo span {
