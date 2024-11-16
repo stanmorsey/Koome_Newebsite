@@ -2,15 +2,27 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Skyjet Aircraft Spares</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+  <title>All Products - Skyjet Supplies</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+  <!-- Cache-Control Meta Tags -->
+  <meta http-equiv="Cache-Control" content="public, max-age=60">
+  <meta http-equiv="Expires" content="0">
 
   <!-- Favicons -->
-  <link href="assets/img/logoFaviconIcon/skyjetLogoMain.png" rel="icon">
-  <link href="assets/img/logoFaviconIcon/skyjetLogoMain.png" rel="apple-touch-icon">
+  <link href="/assets/img/logoFaviconIcon/skyjetLogoMain.png" rel="icon" />
+  <link href="/assets/img/logoFaviconIcon/skyjetLogoMain.png" rel="apple-touch-icon" />
+
+  <!-- Open Graph Tags for Social Sharing -->
+  <meta property="og:title" content="All Products - Skyjet">
+  <meta property="og:description" content="Browse through our item rich aircraft spares">
+  <meta property="og:image" content="/assets/img/logoFaviconIcon/skyjetLogoMain.png">
+  <meta property="og:url" content="">
+  <meta property="og:type" content="website">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -36,26 +48,6 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
 
     <!--========================================
-      Top Bar 
-    ===============================================--
-    <div class="topbar d-flex align-items-center"></div>
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a
-            href="mailto:contact@example.com">contact@example.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
-      </div>
-      <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
-    </div>
-    </div><!-- End Top Bar -->
-
-
-    <!--========================================
       Logo and Navigation
     ===============================================-->
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
@@ -65,16 +57,28 @@
         <h1 class="sitename">Skyjet</h1>
       </a>
 
-      <!--====================Search Box=====================================-->
-      <!-- Search form -->
-      <form id="search-form" action="#" method="GET">
+      <!--====================================
+      Search Box
+      =====================================-->
+      <form id="search-form" action="./search-results/search-results.html" method="GET">
         <button id="search-toggle">Search</button>
-        <input type="text" id="search-input" name="query" placeholder="Search products..." style="display: none;">
+        <input type="text" id="search-input" name="query" placeholder="Search products..." style="display: none;" />
       </form>
 
+      <!--====================================
+      Navigation
+      =====================================-->
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="/index.html" class="active">Home</a></li>
+          <li class="dropdown"><a href="../about-us/about.html"><span>About</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="../about-us/about.html">About skyjet</a></li>
+              <li><a href="../about-us/Frequently-Asked-Questions.html">FAQs</a></li>
+              <li><a href="../about-us/privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="../about-us/terms-&-conditions.html">Terms & Conditions</a></li>
+            </ul>
+          </li>
           <li><a href="/allProducts.html">Shop</a></li>
           <li><a href="/about-us/about.html">About</a></li>
           <li class="dropdown"><a href="#"><span>Categories</span> <i
@@ -109,7 +113,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="allProducts.html">Visit Spares</a>
+      <a class="btn-getstarted" href="/allProducts.html">Visit Spares</a>
 
     </div>
     <!-- End Logo and Navigation-->
@@ -194,37 +198,6 @@
       </div>
     </section>
 
-
-    <!--================== Main Content with Sidebar =====================--
-    <div class="main-container">
-      <!-- Sidebar for Categories and Filters --
-      <aside class="sidebar">
-        <h3>Categories</h3>
-        <ul class="category-list">
-          <li><a href="#" onclick="filterProducts('All')">All</a></li>
-          <li><a href="#" onclick="filterProducts('Engine Parts')">Engine Parts</a></li>
-          <li><a href="#" onclick="filterProducts('Hydraulic Fluids')">Hydraulic Fluids</a></li>
-          <li><a href="#" onclick="filterProducts('Oils & Lubricants')">Oils & Lubricants</a></li>
-          <li><a href="#" onclick="filterProducts('Electrical Systems')">Electrical Systems</a></li>
-          <li><a href="#" onclick="filterProducts('Tapes & Adhesives')">Tapes & Adhesives</a></li>
-          <li><a href="#" onclick="filterProducts('Seals & Bearings')">Seals & Bearings</a></li>
-          <li><a href="#" onclick="filterProducts('Aircraft Hardware')">Aircraft Hardware</a></li>
-          <li><a href="#" onclick="filterProducts('Aircraft Paints')">Aircraft Paints</a></li>
-        </ul>
-
-        <!-- Filter options for price --
-        <div class="filters">
-          <h3>Filter by Price</h3>
-          <label for="price-filter">Price Range</label>
-          <select id="price-filter" onchange="applyPriceFilter()">
-            <option value="all">All Prices</option>
-            <option value="low">Under Ksh.5000</option>
-            <option value="medium">Ksh.5000 - Ksh.15000</option>
-            <option value="high">Above Ksh.15000</option>
-          </select>
-        </div>
-      </aside>-->
-
     <!-------------------------------------------------------------
        Allproducts page - products filter
       ------------------------------------------------------------>
@@ -296,14 +269,17 @@
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <img src="assets/img/logoFaviconIcon/skyjetTextLogo.png" alt="skyjet aircraft supplies logo" />
+          <a href="/index.html" class="logo d-flex align-items-center">
+            <img src="/assets/img/logoFaviconIcon/skyjetTextLogo.png" alt="skyjet aircraft supplies logo" />
           </a>
           <div class="footer-contact pt-3">
             <p>Wilson Airport</p>
             <p>Lang'ata, Nairobi</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+254 1130 1506 9</span></p>
-            <p><strong>Email:</strong> <span>info@skyjetaircraftspares.com</span></p>
+            <p class="mt-3"><strong>Phone:</strong><a href="tel:+254700862369"><span>+254 7 0086
+                  2369</span></a></p>
+            <p><strong>Email:</strong> <a
+                href="mailto:info@skyjetaircraftspares.com"><span>info@skyjetaircraftspares.com</span></a>
+            </p>
           </div>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -316,22 +292,22 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Platform use</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="../about-us/Frequently-Asked-Questions.html">FAQs</a></li>
+            <li><a href="../about-us/privacy-policy.html">Page use</a></li>
+            <li><a href="../contact-us.html">Contact Us</a></li>
+            <li><a href="../about-us/terms-&-conditions.html">Terms of service</a></li>
+            <li><a href="../about-us/privacy-policy.html">Privacy policy</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Our Categories</h4>
           <ul>
-            <li><a href="#">Safety tools</a></li>
-            <li><a href="#">Aircraft Engine parts</a></li>
-            <li><a href="#">Aircraft Filtration</a></li>
-            <li><a href="#">Aircraft Wheels & Brakes</a></li>
-            <li><a href="#">Hydraulic Fluids</a></li>
+            <li><a href="../product-categories/emergency-equipment.html">Safety tools</a></li>
+            <li><a href="../product-categories/aircraft-engine-parts.html">Aircraft Engine parts</a></li>
+            <li><a href="../product-categories/aircraft-filtration.html">Aircraft Filtration</a></li>
+            <li><a href="../product-categories/wheels-brakes.html">Aircraft Wheels & Brakes</a></li>
+            <li><a href="../product-categories/hydraulic-fluids.html">Hydraulic Fluids</a></li>
           </ul>
         </div>
 
@@ -349,14 +325,15 @@
       </div>
     </div>
 
-    <!--======================= Products Section =============================-->
-    <section id="all-products" class="section-p1 products-container">
-      <h2>All Products</h2>
-      <p>Browse our extensive collection of aircraft parts and accessories.</p>
-      <div id="product-container" class="pro-container">
-        <!-- Products will be dynamically injected here -->
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Skyjet Supplies Services Ltd.</strong>
+        <span>All Rights Reserved</span>
+      </p>
+      <div class="credits">
+        Powered by <a href="https://surgeafrica.co.ke" class="logo d-flex align-items-center"><img
+            src="../assets/img/clients/surge-logo.png" alt="surge innovations logo" /></a>
       </div>
-    </section>
+    </div>
 
   </footer>
 
@@ -378,6 +355,7 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/productsFetching.js"></script>
+  <script src="assets/js/search-toggle.js"></script>
 
 </body>
 

@@ -522,6 +522,11 @@ h6 {
   margin-right: 6px;
 }
 
+.footer .container .credits .logo img {
+  max-height: 25px;
+  margin-right: auto;
+}
+
 .footer .footer-about .logo span {
   font-size: 26px;
   font-weight: 700;
