@@ -122,8 +122,74 @@
   </header>
 
   <main class="main">
+    <section>
+      <!--just spacing-->
+    </section>
 
-    <!--=================== Hero Section with Carousel =====================-->
+    <!-------------------------------------------------------------
+       Allproducts page - products filter
+      ------------------------------------------------------------>
+    <div class="main-container">
+      <button class="filter-button" onclick="toggleFilters()">Show Filters</button>
+      <div class="sidebar">
+        <h3>Filters</h3>
+        <div class="filter-section">
+          <button class="filter-toggle" onclick="toggleFilter('category')">Categories +</button>
+          <div id="category" class="filter-content">
+            <!-- Categories checkboxes will be dynamically populated here -->
+          </div>
+        </div>
+        <div class="filter-section">
+          <button class="filter-toggle" onclick="toggleFilter('brand')">Brand +</button>
+          <div id="brand" class="filter-content">
+            <!-- Brand checkboxes will be dynamically populated here -->
+          </div>
+        </div>
+        <div class="filter-section">
+          <button class="filter-toggle" onclick="toggleFilter('series')">Series +</button>
+          <div id="series" class="filter-content">
+            <!-- Series checkboxes will be dynamically populated here -->
+          </div>
+        </div>
+        <div class="filter-section">
+          <button class="filter-toggle" onclick="toggleFilter('material')">Material +</button>
+          <div id="material" class="filter-content">
+            <!-- Material checkboxes will be dynamically populated here -->
+          </div>
+        </div>
+        <div class="filter-section">
+          <button class="filter-toggle" onclick="toggleFilter('size')">Size +</button>
+          <div id="size" class="filter-content">
+            <!-- Size checkboxes will be dynamically populated here -->
+          </div>
+        </div>
+        <div class="filter-section">
+          <button class="filter-toggle" onclick="toggleFilter('spec')">Spec +</button>
+          <div id="spec" class="filter-content">
+            <!-- Spec checkboxes will be dynamically populated here -->
+          </div>
+        </div>
+        <div class="filter-section">
+          <button class="filter-toggle" onclick="toggleFilter('color')">Color +</button>
+          <div id="color" class="filter-content">
+            <!-- Color checkboxes will be dynamically populated here -->
+          </div>
+        </div>
+        <div class="filter-section">
+          <button class="filter-toggle" onclick="toggleFilter('price')">Price +</button>
+          <div id="price" class="filter-content">
+            <!-- Price checkboxes will be dynamically populated here -->
+          </div>
+        </div>
+      </div>
+      <div class="products-container">
+        <div id="product-container" class="pro-container">
+          <!-- Products will be dynamically populated here -->
+        </div>
+      </div>
+    </div>
+
+    <!--=================== Footer Hero Section with Carousel =====================-->
     <section class="futuristic-hero">
       <div class="swiper-container futuristic-hero-carousel">
         <div class="swiper-wrapper">
@@ -197,69 +263,6 @@
         <div class="swiper-pagination"></div>
       </div>
     </section>
-
-    <!-------------------------------------------------------------
-       Allproducts page - products filter
-      ------------------------------------------------------------>
-    <div class="main-container">
-      <button class="filter-button" onclick="toggleFilters()">Show Filters</button>
-      <div class="sidebar">
-        <h3>Filters</h3>
-        <div class="filter-section">
-          <button class="filter-toggle" onclick="toggleFilter('category')">Categories +</button>
-          <div id="category" class="filter-content">
-            <!-- Categories checkboxes will be dynamically populated here -->
-          </div>
-        </div>
-        <div class="filter-section">
-          <button class="filter-toggle" onclick="toggleFilter('brand')">Brand +</button>
-          <div id="brand" class="filter-content">
-            <!-- Brand checkboxes will be dynamically populated here -->
-          </div>
-        </div>
-        <div class="filter-section">
-          <button class="filter-toggle" onclick="toggleFilter('series')">Series +</button>
-          <div id="series" class="filter-content">
-            <!-- Series checkboxes will be dynamically populated here -->
-          </div>
-        </div>
-        <div class="filter-section">
-          <button class="filter-toggle" onclick="toggleFilter('material')">Material +</button>
-          <div id="material" class="filter-content">
-            <!-- Material checkboxes will be dynamically populated here -->
-          </div>
-        </div>
-        <div class="filter-section">
-          <button class="filter-toggle" onclick="toggleFilter('size')">Size +</button>
-          <div id="size" class="filter-content">
-            <!-- Size checkboxes will be dynamically populated here -->
-          </div>
-        </div>
-        <div class="filter-section">
-          <button class="filter-toggle" onclick="toggleFilter('spec')">Spec +</button>
-          <div id="spec" class="filter-content">
-            <!-- Spec checkboxes will be dynamically populated here -->
-          </div>
-        </div>
-        <div class="filter-section">
-          <button class="filter-toggle" onclick="toggleFilter('color')">Color +</button>
-          <div id="color" class="filter-content">
-            <!-- Color checkboxes will be dynamically populated here -->
-          </div>
-        </div>
-        <div class="filter-section">
-          <button class="filter-toggle" onclick="toggleFilter('price')">Price +</button>
-          <div id="price" class="filter-content">
-            <!-- Price checkboxes will be dynamically populated here -->
-          </div>
-        </div>
-      </div>
-      <div class="products-container">
-        <div id="product-container" class="pro-container">
-          <!-- Products will be dynamically populated here -->
-        </div>
-      </div>
-    </div>
 
   </main>
 

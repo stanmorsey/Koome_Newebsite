@@ -1,28 +1,13 @@
 body {
     font-family: Arial, sans-serif; /* Set a default font */
     margin: 0; /* Remove default margin */
-    padding: 20px; /* Add some padding around the page */
+    padding: 0px; /* Add some padding around the page */
     background-color: #f9f9f9; /* Light background color */
-}
-
-.main {
-    max-width: 1200px; /* Set a maximum width for the main content */
-    margin: auto; /* Center the main content */
-    background-color: #fff; /* White background for the content */
-    padding: 20px; /* Padding inside the main content */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .product-layout {
     display: flex; /* Use flexbox for layout */
     gap: 20px; /* Space between image and details */
-}
-
-.product-section {
-    margin-bottom: 20px; /* Space between sections */
-    padding: 10px; /* Padding inside each section */
-    border-bottom: 1px solid #e0e0e0; /* Light bottom border */
 }
 
 .product-section:last-child {
@@ -33,6 +18,7 @@ body {
     font-size: 28px; /* Larger font size for product name */
     font-weight: bold; /* Bold text */
     color: #333; /* Dark text color */
+    text-align: center;
 }
 
 #product-image img {
