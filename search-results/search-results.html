@@ -38,8 +38,9 @@
   <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
-  <link href="../assets/css/main.css" rel="stylesheet">
+  <!-- Main CSS File --
+  <link href="../assets/css/main.css" rel="stylesheet">-->
+<link href="../assets/css/search-results.css" rel="stylesheet">
 
 </head>
 
@@ -121,7 +122,6 @@
   </header>
 
   <main class="main">
-    </div>
     <div class="main-container">
       <div class="sidebar">
         <h3>Filters</h3>
@@ -175,7 +175,7 @@
         </div>
       </div>
       <div class="products-container">
-        <div id="search-results-container" class="pro-container">
+        <div id="search-results-container">
           <!-- Searched Products will be dynamically populated here -->
         </div>
       </div>
@@ -275,170 +275,167 @@
   <script src="../assets/js/main.js"></script>
   <script src="../assets/js/search-toggle.js"></script>
   <script>
-    let allProducts = [];
-    let currentPage = 1;
-    const productsPerPage = 20;
+    document.addEventListener("DOMContentLoaded", () => {
+      let allProducts = [];
+      const productsPerPage = 20;
 
-    // Fetch products from JSON and store them in `allProducts`
-    async function fetchProducts(category) {
-      try {
-        const response = await fetch("../assets/products/products.json");
-        allProducts = await response.json();
-        filterAndDisplayProducts(); // Call this after fetching products
-        populateFilters(allProducts); // Populate the filters dynamically
-      } catch (error) {
-        console.error("Error fetching products:", error);
-      }
-    }
-
-    // Function to extract query parameter from URL
-    function getQueryParameter(param) {
-      const urlParams = new URLSearchParams(window.location.search);
-      return urlParams.get(param);
-    }
-
-    // Filter and display products based on the search query
-    function filterAndDisplayProducts() {
-      const query = getQueryParameter('query');
-      if (!query) {
-        document.getElementById('search-results-container').innerHTML = '<p>No search query provided.</p>';
-        return;
+      // Fetch products from JSON and store them in `allProducts`
+      async function fetchProducts() {
+        try {
+          const response = await fetch("../assets/products/products.json");
+          if (!response.ok) {
+            throw new Error("Failed to fetch products");
+          }
+          allProducts = await response.json();
+          filterAndDisplayProducts(); // Filter and display products after fetching
+          populateFilters(allProducts); // Dynamically populate filter sections
+        } catch (error) {
+          console.error("Error fetching products:", error);
+          document.getElementById('search-results-container').innerHTML =
+            "<p>Error fetching products. Please try again later.</p>";
+        }
       }
 
-      const lowerCaseQuery = query.toLowerCase();
-      const filteredProducts = allProducts.filter(product =>
-        product.name.toLowerCase().includes(lowerCaseQuery) ||
-        (product.description && product.description.toLowerCase().includes(lowerCaseQuery))
-      );
+      // Get query parameter from URL
+      function getQueryParameter(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+      }
 
-      displayProducts(filteredProducts, document.getElementById('search-results-container'));
-    }
+      // Filter and display products based on the search query
+      function filterAndDisplayProducts() {
+        const query = getQueryParameter("query");
+        if (!query) {
+          document.getElementById("search-results-container").innerHTML =
+            "<p>No search query provided.</p>";
+          return;
+        }
 
-    // Display products dynamically
-    function displayProducts(products, container) {
-      let productHTML = "";
+        const lowerCaseQuery = query.toLowerCase();
+        const filteredProducts = allProducts.filter(
+          (product) =>
+            product.name.toLowerCase().includes(lowerCaseQuery) ||
+            (product.description &&
+              product.description.toLowerCase().includes(lowerCaseQuery)) ||
+            (product.category &&
+              product.category.toLowerCase().includes(lowerCaseQuery)) ||
+            (product.brand && product.brand.toLowerCase().includes(lowerCaseQuery))
+        );
 
-      if (products.length === 0) {
-        productHTML = "<p>No products found.</p>";
-      } else {
-        products.forEach((product) => {
-          productHTML += `
-            <div class="pro">
-              <img src="${product.image}" alt="${product.name}" onerror="this.src='../assets/img/skyjet-placeholder.png'">
-              <div class="des">
-                <h5>${product.name}</h5>
-                <h4>${product.price}</h4>
-                <p>${product.description ? product.description : 'No description available'}</p>
-                <p><strong>Part Number:</strong> ${product.part_number}</p>
-                <a href="/product-details/product-details.html?sku=${product.sku}" class="view-more">More Details</a>
-              </div>
+        displayProducts(filteredProducts, document.getElementById("search-results-container"));
+      }
+
+      // Display products dynamically
+      function displayProducts(products, container) {
+        let productHTML = "";
+
+        if (products.length === 0) {
+          productHTML = "<p>No products found.</p>";
+        } else {
+          products.forEach((product) => {
+            const priceWithCurrency = product.currency
+              ? `${product.currency} ${product.price}`
+              : "Price not available";
+
+            // WhatsApp URL (if needed)
+            const whatsappMessage = encodeURIComponent(
+              `Hello, I'm interested in ordering the product "${product.name}" (SKU: ${product.sku}).`
+            );
+            const whatsappUrl = `https://wa.me/254113015069?text=${whatsappMessage}`;
+
+            productHTML += `
+        <div class="product-card">
+          <!-- Product Image -->
+          <img 
+            src="${product.image}" 
+            alt="${product.name}" 
+            class="product-image" 
+            onerror="this.src='/assets/img/skyjet-placeholder.png'"
+          >
+
+          <!-- Product Details -->
+          <div class="product-details">
+            <h5 class="product-name">${product.name}</h5>
+            <h4 class="product-price">${priceWithCurrency}</h4>
+            <p class="product-part-number"><strong>Part Number:</strong> ${product.part_number || "N/A"}</p>
+            <p class="product-category"><strong>Category:</strong> ${product.category || "Uncategorized"}</p>
+            <p class="product-brand"><strong>Brand:</strong> ${product.brand || "Unknown"}</p>
+            
+            <!-- Action Buttons -->
+            <div class="product-actions">
+              <a href="/product-details/product-details.html?sku=${product.sku}" class="btn view-more">More Details</a>
+              <a 
+                href="${whatsappUrl}" 
+                target="_blank" 
+                class="btn order-whatsapp"
+              >
+                <img src="/assets/img/logoFaviconIcon/whatsapp.png" alt="WhatsApp Icon" class="whatsapp-icon"> Order on WhatsApp
+              </a>
             </div>
-          `;
+          </div>
+        </div>
+      `;
+          });
+        }
+
+        container.innerHTML = productHTML;
+      }
+
+      // Dynamically populate filters
+      function populateFilters(products) {
+        const categories = [...new Set(products.map((product) => product.category).filter(Boolean))];
+        const brands = [...new Set(products.map((product) => product.brand).filter(Boolean))];
+
+        populateFilterSection("category", categories);
+        populateFilterSection("brand", brands);
+      }
+
+      // Populate individual filter section
+      function populateFilterSection(filterId, items) {
+        const filterContent = document.getElementById(filterId);
+        let filterHTML = "";
+        items.forEach((item) => {
+          filterHTML += `
+        <label>
+          <input type="checkbox" value="${item}" onchange="filterProducts()">
+          ${item}
+        </label>
+      `;
         });
+        filterContent.innerHTML = filterHTML;
       }
 
-      container.innerHTML = productHTML;
-    }
+      // Filter products based on selected filters
+      function filterProducts() {
+        const selectedCategories = getSelectedFilterValues("category");
+        const selectedBrands = getSelectedFilterValues("brand");
 
-    // Fetch products when the page loads
-    document.addEventListener("DOMContentLoaded", fetchProducts);
+        let filteredProducts = allProducts;
 
-    // Toggle filter sections
-    function toggleFilter(filterId) {
-      const filterContent = document.getElementById(filterId);
-      const filterButton = filterContent.previousElementSibling;
+        if (selectedCategories.length > 0) {
+          filteredProducts = filteredProducts.filter((product) =>
+            selectedCategories.includes(product.category)
+          );
+        }
+        if (selectedBrands.length > 0) {
+          filteredProducts = filteredProducts.filter((product) =>
+            selectedBrands.includes(product.brand)
+          );
+        }
 
-      if (filterContent.style.display === "none" || filterContent.style.display === "") {
-        filterContent.style.display = "block";
-        filterButton.textContent = filterButton.textContent.replace("+", "-");
-      } else {
-        filterContent.style.display = "none";
-        filterButton.textContent = filterButton.textContent.replace("-", "+");
-      }
-    }
-
-    // Populate filters dynamically
-    function populateFilters(products) {
-      const categories = [...new Set(products.map(product => product.category))];
-      const brands = [...new Set(products.map(product => product.brand))];
-      const series = [...new Set(products.map(product => product.series))];
-      const materials = [...new Set(products.map(product => product.material))];
-      const sizes = [...new Set(products.map(product => product.size))];
-      const specs = [...new Set(products.map(product => product.spec))];
-      const colors = [...new Set(products.map(product => product.color))];
-
-      populateFilterSection('category', categories);
-      populateFilterSection('brand', brands);
-      populateFilterSection('series', series);
-      populateFilterSection('material', materials);
-      populateFilterSection('size', sizes);
-      populateFilterSection('spec', specs);
-      populateFilterSection('color', colors);
-    }
-
-    // Populate individual filter section
-    function populateFilterSection(filterId, items) {
-      const filterContent = document.getElementById(filterId);
-      let filterHTML = "";
-      items.forEach(item => {
-        filterHTML += `
-          <label>
-            <input type="checkbox" value="${item}" onchange="filterProducts()">
-            ${item}
-          </label>
-        `;
-      });
-      filterContent.innerHTML = filterHTML;
-    }
-
-    // Filter products based on selected filters
-    function filterProducts() {
-      const selectedCategories = getSelectedFilterValues('category');
-      const selectedBrands = getSelectedFilterValues('brand');
-      const selectedSeries = getSelectedFilterValues('series');
-      const selectedMaterials = getSelectedFilterValues('material');
-      const selectedSizes = getSelectedFilterValues('size');
-      const selectedSpecs = getSelectedFilterValues('spec');
-      const selectedColors = getSelectedFilterValues('color');
-
-      let filteredProducts = allProducts;
-
-      if (selectedCategories.length > 0) {
-        filteredProducts = filteredProducts.filter(product => selectedCategories.includes(product.category));
-      }
-      if (selectedBrands.length > 0) {
-        filteredProducts = filteredProducts.filter(product => selectedBrands.includes(product.brand));
-      }
-      if (selectedSeries.length > 0) {
-        filteredProducts = filteredProducts.filter(product => selectedSeries.includes(product.series));
-      }
-      if (selectedMaterials.length > 0) {
-        filteredProducts = filteredProducts.filter(product => selectedMaterials.includes(product.material));
-      }
-      if (selectedSizes.length > 0) {
-        filteredProducts = filteredProducts.filter(product => selectedSizes.includes(product.size));
-      }
-      if (selectedSpecs.length > 0) {
-        filteredProducts = filteredProducts.filter(product => selectedSpecs.includes(product.spec));
-      }
-      if (selectedColors.length > 0) {
-        filteredProducts = filteredProducts.filter(product => selectedColors.includes(product.color));
+        displayProducts(filteredProducts, document.getElementById("search-results-container"));
       }
 
-      displayProducts(filteredProducts, document.getElementById("search-results-container"));
-    }
+      // Get selected filter values
+      function getSelectedFilterValues(filterId) {
+        const checkboxes = document.querySelectorAll(`#${filterId} input[type="checkbox"]:checked`);
+        return Array.from(checkboxes).map((checkbox) => checkbox.value);
+      }
 
-    // Get selected filter values
-    function getSelectedFilterValues(filterId) {
-      const checkboxes = document.querySelectorAll(`#${filterId} input[type="checkbox"]:checked`);
-      return Array.from(checkboxes).map(checkbox => checkbox.value);
-    }
+      // Fetch products on page load
+      fetchProducts();
+    });
 
-    // Toggle filters on mobile
-    function toggleFilters() {
-      var sidebar = document.querySelector('.sidebar');
-      sidebar.classList.toggle('show');
-    }
   </script>
 
 </body>
