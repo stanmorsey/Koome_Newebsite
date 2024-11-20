@@ -32,35 +32,35 @@ function displayProducts(products, container, page) {
   const paginatedProducts = products.slice(start, end);
 
   if (paginatedProducts.length === 0) {
-    productHTML = "<p>No products available.</p>";
+    productHTML = "<p class='no-products-message'>No products available.</p>";
   } else {
     paginatedProducts.forEach((product) => {
-      // Fix: Show currency before price
       const priceWithCurrency = `${product.currency || "USD"} ${product.price || "N/A"}`;
-
-      // WhatsApp message text, including product name, SKU, part number, and image link
       const whatsappMessage = encodeURIComponent(
         `Hi, I'm interested in ordering the product "${product.name}" (SKU: ${product.sku}). Could you please provide more details?\n\nProduct Part Number: ${product.part_number}\n\nProduct Image: ${product.image}`
       );
-
-      // WhatsApp URL with the message
       const whatsappUrl = `https://wa.me/254113015069?text=${whatsappMessage}`;
 
       productHTML += `
-        <div class="pro">
-          <img src="${product.image}" alt="${product.name}" onerror="this.src='/assets/img/skyjet-placeholder.png'">
-          <div class="des">
-            <h5>${product.name}</h5>
-            <h4>${priceWithCurrency}</h4>
-            <p>${product.description ? product.description : "No description available"}</p> <!-- Show description -->
-            <p><strong>Part Number:</strong> ${product.part_number || "N/A"}</p> <!-- Show part number -->
-
-            <!-- More Details Button -->
-            <button class="view-more" data-sku="${product.sku}">More Details</button>
-
-            <!-- WhatsApp Order Button -->
-            <a href="${whatsappUrl}" target="_blank" class="order-whatsapp">
-              <img src="/assets/img/logoFaviconIcon/whatsapp.png" alt="WhatsApp Icon"> Order on WhatsApp
+        <div class="product-card">
+          <img 
+            src="${product.image}" 
+            alt="${product.name}" 
+            class="product-image" 
+            onerror="this.src='/assets/img/skyjet-placeholder.png'"
+          >
+          <div class="product-details">
+            <h5 class="product-name">${product.name}</h5>
+            <h4 class="product-price">${priceWithCurrency}</h4>
+            <!--<p class="product-description">${product.description || "No description available"}</p>-->
+            <p class="product-part-number"><strong>Part Number:</strong> ${product.part_number || "N/A"}</p>
+            <button class="btn view-more" data-sku="${product.sku}">More Details</button>
+            <a 
+              href="${whatsappUrl}" 
+              target="_blank" 
+              class="btn order-whatsapp"
+            >
+              <img src="/assets/img/logoFaviconIcon/whatsapp.png" alt="WhatsApp Icon" class="whatsapp-icon"> Order on WhatsApp
             </a>
           </div>
         </div>
