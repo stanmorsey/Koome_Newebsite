@@ -2,7 +2,7 @@ let allProducts = [];
 let currentPage = 1;
 const productsPerPage = 20;
 
-// Fetch products from JSON and store them in `allProducts`
+// Fetch products from JSON and store them in allProducts
 async function fetchProducts() {
   try {
     const response = await fetch("/assets/products/products.json");
@@ -16,12 +16,7 @@ async function fetchProducts() {
   }
 }
 
-// Reusable function to format price with currency
-function formatPrice(product) {
-  return `${product.currency || "USD"} ${product.price || "N/A"}`;
-}
-
-// Shuffle array function (optional: can disable randomization)
+// Shuffle array function
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -37,12 +32,15 @@ function displayProducts(products, container, page) {
   const paginatedProducts = products.slice(start, end);
 
   if (paginatedProducts.length === 0) {
-    productHTML = "<p>No products available matching your criteria.</p>";
+    productHTML = "<p>No products available.</p>";
   } else {
     paginatedProducts.forEach((product) => {
+      // Fix: Show currency before price
+      const priceWithCurrency = `${product.currency || "USD"} ${product.price || "N/A"}`;
+
       // WhatsApp message text, including product name, SKU, part number, and image link
       const whatsappMessage = encodeURIComponent(
-        `Hi, I'm interested in ordering the product "${product.name || "N/A"}" (SKU: ${product.sku || "N/A"}). Could you please provide more details?\n\nProduct Part Number: ${product.part_number || "N/A"}\n\nProduct Image: ${product.image || "N/A"}`
+        `Hi, I'm interested in ordering the product "${product.name}" (SKU: ${product.sku}). Could you please provide more details?\n\nProduct Part Number: ${product.part_number}\n\nProduct Image: ${product.image}`
       );
 
       // WhatsApp URL with the message
@@ -50,12 +48,12 @@ function displayProducts(products, container, page) {
 
       productHTML += `
         <div class="pro">
-          <img src="${product.image}" alt="${product.name || "Product Image"}" onerror="this.src='/assets/img/skyjet-placeholder.png'">
+          <img src="${product.image}" alt="${product.name}" onerror="this.src='/assets/img/skyjet-placeholder.png'">
           <div class="des">
-            <h5>${product.name || "No Name Available"}</h5>
-            <h4>${formatPrice(product)}</h4>
-            <p>${product.description || "No description available"}</p>
-            <p><strong>Part Number:</strong> ${product.part_number || "N/A"}</p>
+            <h5>${product.name}</h5>
+            <h4>${priceWithCurrency}</h4>
+            <p>${product.description ? product.description : "No description available"}</p> <!-- Show description -->
+            <p><strong>Part Number:</strong> ${product.part_number || "N/A"}</p> <!-- Show part number -->
 
             <!-- More Details Button -->
             <button class="view-more" data-sku="${product.sku}">More Details</button>
@@ -72,46 +70,56 @@ function displayProducts(products, container, page) {
 
   container.innerHTML = productHTML;
 
-  // Event delegation for "View More" buttons
-  container.addEventListener("click", (event) => {
-    if (event.target.classList.contains("view-more")) {
+  // Event listeners to "View More" buttons
+  document.querySelectorAll(".view-more").forEach((button) => {
+    button.addEventListener("click", (event) => {
       const productSku = event.target.getAttribute("data-sku");
       window.location.href = `/product-details/product-details.html?sku=${productSku}`;
-    }
+    });
   });
 
   // Pagination controls
-  const totalPages = Math.ceil(products.length / productsPerPage);
   const paginationControls = `
     <div class="pagination">
       <button onclick="changePage(-1)" ${page === 1 ? "disabled" : ""}>Previous</button>
-      <span>Page ${page} of ${totalPages}</span>
+      <span>Page ${page} of ${Math.ceil(products.length / productsPerPage)}</span>
       <button onclick="changePage(1)" ${end >= products.length ? "disabled" : ""}>Next</button>
     </div>
   `;
   container.insertAdjacentHTML("beforeend", paginationControls);
 }
 
-// Change page function with edge case guards
+// Change page function
 function changePage(direction) {
-  const totalPages = Math.ceil(allProducts.length / productsPerPage);
-  if ((direction === -1 && currentPage === 1) || (direction === 1 && currentPage >= totalPages)) return;
   currentPage += direction;
   displayProducts(allProducts, document.getElementById("product-container"), currentPage);
 }
 
-// Populate filters dynamically and update based on selections
+// Toggle filter sections
+function toggleFilter(filterId) {
+  const filterContent = document.getElementById(filterId);
+  const filterButton = filterContent.previousElementSibling;
+
+  if (filterContent.style.display === "none" || filterContent.style.display === "") {
+    filterContent.style.display = "block";
+    filterButton.textContent = filterButton.textContent.replace("+", "-");
+  } else {
+    filterContent.style.display = "none";
+    filterButton.textContent = filterButton.textContent.replace("-", "+");
+  }
+}
+
+// Populate filters dynamically
 function populateFilters(products) {
   const categories = [...new Set(products.map((product) => product.category))];
   const brands = [...new Set(products.map((product) => product.brand))];
-  // Additional filter options can be added here...
 
-  updateFilterSection("category", categories);
-  updateFilterSection("brand", brands);
+  populateFilterSection("category", categories);
+  populateFilterSection("brand", brands);
 }
 
-// Update filter options dynamically
-function updateFilterSection(filterId, items) {
+// Populate individual filter section
+function populateFilterSection(filterId, items) {
   const filterContent = document.getElementById(filterId);
   let filterHTML = "";
   items.forEach((item) => {
@@ -133,25 +141,13 @@ function filterProducts() {
   let filteredProducts = allProducts;
 
   if (selectedCategories.length > 0) {
-    filteredProducts = filteredProducts.filter((product) =>
-      selectedCategories.includes(product.category)
-    );
+    filteredProducts = filteredProducts.filter((product) => selectedCategories.includes(product.category));
   }
   if (selectedBrands.length > 0) {
-    filteredProducts = filteredProducts.filter((product) =>
-      selectedBrands.includes(product.brand)
-    );
+    filteredProducts = filteredProducts.filter((product) => selectedBrands.includes(product.brand));
   }
 
-  // Update filters dynamically based on remaining products
-  updateFilters(filteredProducts);
-
   displayProducts(filteredProducts, document.getElementById("product-container"), currentPage);
-}
-
-// Update filters based on filtered products
-function updateFilters(products) {
-  populateFilters(products);
 }
 
 // Get selected filter values
