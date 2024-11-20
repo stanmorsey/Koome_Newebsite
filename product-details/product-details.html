@@ -40,7 +40,7 @@
 
   <!-- Main CSS File -->
   <link href="/assets/css/main.css" rel="stylesheet">
-  <link href="/assets/css/product-details2.css" rel="stylesheet">
+  <link href="/assets/css/product-details.css" rel="stylesheet">
 
 </head>
 
@@ -124,41 +124,16 @@
 
   <main class="main">
     <section>
-      
-    </section>
-    <!--Dynamic Product Details Section-->
-    <section id="product-name" class="product-section">
-        <!--Product name is dynamically injected here using our product-details2 js file-->
-    </section>
-    
-    <section class="product-layout">
-        <section id="product-image" class="product-section">
-            <!--Product image is dynamically injected here using our product-details2 js file-->
-        </section>
-        
-        <div class="product-details">
-            <section id="product-info" class="product-section">
-                <!--Product info is dynamically injected here using our product-details2 js file-->
-            </section>
-            <section id="product-details" class="product-section">
-                <!--Product details are dynamically injected here using our product-details2 js file-->
-            </section>
-            <section id="product-specs" class="product-section">
-                <!--Product spec is dynamically injected here using our product-details2 js file-->
-            </section>
-        </div>
+
     </section>
 
-    <!--Buttons Section-->
-    <section id="buttons-section" class="product-section">
-        <!-- Buttons for order actions -->
-        <div class="product-actions">
-            <button id="whatsapp-order">Order via WhatsApp</button>
-            <button id="call-order">Order via Call</button>
-            <button id="email-order">Order via Email</button>
-        </div>
+    <!-- Products fetched dynamically file-->
+    <section>
+      <div id="product-details-container">
+        <!-- The injected HTML from JavaScript will appear here -->
+      </div>
     </section>
-</main>
+  </main>
 
   <footer id="footer" class="footer position-relative light-background">
 
@@ -250,7 +225,7 @@
 
   <!-- Main JS File -->
   <script src="/assets/js/main.js"></script>
-  <script src="/assets/js/product-details2.js"></script>
+  <script src="/assets/js/product-details.js"></script>
   <script src="../assets/js/search-toggle.js"></script>
 
 </body>
