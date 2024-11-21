@@ -131,6 +131,53 @@
   </header>
 
   <main class="main">
+    <section>
+      <div class="find-your-fit">
+        <h2>Find what fits you</h2>
+        <p>We help you find parts that match your aircraft's needs and budget!</p>
+      
+        <div class="tabs">
+          <!-- Tabs -->
+          <div class="tab-header">
+            <button class="tab-link active" onclick="openTab(event, 'search')">Search by Manufacturer Part Number</button>
+            <button class="tab-link" onclick="openTab(event, 'brand')">Filter by Brand</button>
+            <button class="tab-link" onclick="openTab(event, 'type')">Filter by Body Type</button>
+          </div>
+      
+          <!-- Tab Content -->
+          <div class="tab-content">
+            <div id="search" class="tab-pane active">
+              <h3>Search by Manufacturer Part Number</h3>
+              <input type="text" id="search-input" placeholder="Enter Part Number..." class="search-input">
+              <div id="search-results-container" class="results-container">
+                <!-- Real-time search results will be dynamically displayed here -->
+              </div>
+            </div>
+            <div id="brand" class="tab-pane">
+              <h3>Filter by Brand</h3>
+              <select id="brand-dropdown" class="filter-dropdown">
+                <!-- Options will be dynamically populated -->
+              </select>
+              <button class="btn" onclick="filterProductsByBrand()">Filter</button>
+              <div id="brand-results-container" class="results-container">
+                <!-- Brand-filtered results will be displayed here -->
+              </div>
+            </div>
+            <div id="type" class="tab-pane">
+              <h3>Filter by Body Type</h3>
+              <select id="type-dropdown" class="filter-dropdown">
+                <!-- Options will be dynamically populated -->
+              </select>
+              <button class="btn" onclick="filterProductsByType()">Filter</button>
+              <div id="type-results-container" class="results-container">
+                <!-- Body Type-filtered results will be displayed here -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">

@@ -11,7 +11,7 @@
 :root {
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #000000; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #0d99c0; /* Color for headings, subheadings and title throughout the website */
+  --heading-color: #241148; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #3924af; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -3230,6 +3230,112 @@ html {
 }
 
 
-/*--========================================
-      Top Bar 
-    ===============================================-*/
+
+/* -------------------------------------How to order ---------------------------------------*/
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #0b0221; /* Dark background color */
+  color: white;
+}
+
+/* Section styling */
+.order-process-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.order-process-heading {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Cards container */
+.order-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+/* Individual cards */
+.order-card {
+  background: linear-gradient(145deg, #3d206e, #241148);
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  text-align: left;
+  box-shadow: 0px 10px 20px rgba(125, 172, 224, 0.4);
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.order-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.6);
+}
+
+/* Card number badge */
+.order-number {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #b392ff;
+  color: #0b0221;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 35px;
+  text-align: center;
+}
+
+/* Card title */
+.order-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 50px 0 10px;
+}
+
+/* Card description */
+.order-description {
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+/* Order button */
+.order-button-container {
+  margin-top: 20px;
+}
+
+.order-button {
+  background: white;
+  color: #0b0221;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 25px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.order-button:hover {
+  background: #e3e3e3;
+  transform: scale(1.05);
+}
+
+.order-button .order-arrow {
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.order-button:hover .order-arrow {
+  transform: translateX(5px);
+}
