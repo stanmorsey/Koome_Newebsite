@@ -2842,7 +2842,7 @@ html {
  .main-container {
   display: flex;
   padding: 20px;
-  gap: 20px;
+  gap: 20px; /* Added consistent gap */
   padding-top: 100px;
 }
 
@@ -2854,13 +2854,13 @@ html {
 /* More Details Button Style */
 .view-more {
   display: inline-block;
-  background: linear-gradient(to right, #2a51bd, #74b6f3);
+  background: linear-gradient(to right, #2a51bd, #5549c2);
   color: white;
-  padding: 10px 20px;
+  padding: 8px 15px; /* Reduced padding */
   border-radius: 50px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px; /* Reduced font size */
   margin-top: 10px;
   border: 2px solid #ffffff;
   transition: background-color 0.3s ease;
@@ -2880,9 +2880,15 @@ html {
 /* Container Styling */
 #product-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Smaller min-width for more columns */
   gap: 20px;
   padding: 20px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto; 
+  object-fit: cover; /* Ensures images fill the space neatly */
 }
 
 #pagination-container {
@@ -2906,19 +2912,20 @@ html {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 
-.product-image {
-  width: 100%;
-  height: auto;
-}
-
 .product-details {
   padding: 15px;
 }
 
 .product-name {
-  font-size: 1.2rem;
+  font-size: 1rem; /* Reduced from 1.2rem */
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .product-name {
+    font-size: 0.9rem; /* Further reduced font size for smaller screens */
+  }
 }
 
 .product-price {
@@ -2942,8 +2949,8 @@ html {
 /* Buttons */
 .btn {
   display: inline-block;
-  padding: 10px 15px;
-  font-size: 0.9rem;
+  padding: 8px 12px; /* Reduced padding */
+  font-size: 0.8rem; /* Reduced font size */
   font-weight: 600;
   color: #fff;
   background-color: #007bff;
@@ -2965,11 +2972,14 @@ html {
   justify-content: center;
   background-color: #25d366;
   margin-top: 10px;
+  padding: 8px 15px; /* Reduced padding */
+  font-size: 12px; /* Reduced font size */
+  border-radius: 4px; /* Added consistency with other buttons */
 }
 
 .whatsapp-icon {
-  width: 20px;
-  height: 20px;
+  width: 18px; /* Reduced size */
+  height: 18px;
   margin-right: 5px;
 }
 
@@ -2982,6 +2992,15 @@ html {
 
   .products-container {
     width: 100%;
+  }
+
+  #product-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* More columns for mobile screens */
+    gap: 15px; /* Reduced gap for smaller screens */
+  }
+
+  .product-image {
+    height: auto; /* Smaller height for images on mobile */
   }
 
   .pro-container {
@@ -3010,10 +3029,11 @@ html {
   }
 
   .pro a, .view-more, .order-whatsapp {
-    font-size: 0.9rem;
-    padding: 8px 15px;
+    font-size: 0.8rem; /* Consistent small size for buttons */
+    padding: 7px 12px; /* Adjusted for smaller screens */
   }
 }
+
 
 /* Default styles for mobile phones *
 #product-container {
@@ -3030,7 +3050,7 @@ html {
   }
 }
 
-/* Styles for desktops *
+/* Styles for desktops */
 @media (min-width: 1024px) {
   #product-container {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
