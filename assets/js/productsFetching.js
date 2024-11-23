@@ -39,7 +39,7 @@ function displayProducts(products, container, page) {
       const whatsappMessage = encodeURIComponent(
         `Hi, I'm interested in ordering the product "${product.name}" (SKU: ${product.sku}). Could you please provide more details?\n\nProduct Part Number: ${product.part_number}\n\nProduct Image: ${product.image}`
       );
-      const whatsappUrl = `https://wa.me/254113015069?text=${whatsappMessage}`;
+      const whatsappUrl = `https://wa.me/254796962055?text=${whatsappMessage}`;
 
       productHTML += `
         <div class="product-card">
