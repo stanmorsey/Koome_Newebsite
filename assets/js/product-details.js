@@ -60,11 +60,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Add event listeners for order buttons
                 document.getElementById("whatsapp-order").addEventListener("click", () => {
                     const whatsappMessage = `Hello, I would like to order the following product:\n\nName: ${name}\nPrice: ${price}\nDescription: ${description}\nBrand: ${brand}\nCategory: ${category}\nAvailability: ${availability}`;
-                    window.open(`https://wa.me/254113015069?text=${encodeURIComponent(whatsappMessage)}`, "_blank");
+                    window.open(`https://wa.me/254796962055?text=${encodeURIComponent(whatsappMessage)}`, "_blank");
                 });
 
                 document.getElementById("call-order").addEventListener("click", () => {
-                    window.location.href = "tel:+254113015069";
+                    window.location.href = "tel:+254796962055";
                 });
 
                 document.getElementById("email-order").addEventListener("click", () => {
