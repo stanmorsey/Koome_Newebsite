@@ -12,7 +12,7 @@
   margin-bottom: 15px;
   font-size: 2rem;
   font-weight: bold;
-  color: #007bff;
+  color: #3c06af;
 }
 
 .product-main hr {
@@ -62,7 +62,7 @@
 .product-price {
   font-size: 1.8em;
   font-weight: bold;
-  color: #28a745;
+  color: #3c06af;
   margin-top: 10px;
 }
 
@@ -76,7 +76,7 @@
 
 .product-actions button {
   padding: 12px 25px;
-  background: linear-gradient(to right, #007bff, #0056b3);
+  background: linear-gradient(145deg, #3d206e, #241148);
   color: white;
   border: none;
   border-radius: 25px;
@@ -88,7 +88,7 @@
 }
 
 .product-actions button:hover {
-  background: linear-gradient(to right, #0056b3, #004494);
+  background: linear-gradient(to right, #3d206e, #b392ff);
   transform: translateY(-3px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
