@@ -850,8 +850,8 @@ section,
 /* ------------------------------------------------------------------------------------------------------------------
                                             Search box styling
  ------------------------------------------------------------------------------------------------------------------*/
-   
- /* Container for the form */
+
+/* Container for the form */
 #search-form {
   display: flex;
   justify-content: center;
@@ -910,33 +910,71 @@ section,
 /* Specific styles for mobile view */
 @media (max-width: 768px) {
   #search-form {
-      position: relative;
+    position: relative;
   }
 
   #search-input {
-      position: absolute;
-      top: 50px; /* Adjust this value based on where you want the input to appear */
-      left: 50%;
-      transform: translateX(-50%);
-      width: 9000px; /* Make the search bar fit the mobile screen width */
-      z-index: 999; /* Ensure it stays on top of other elements */
-      display: none; /* Initially hidden */
+    position: absolute;
+    top: 50px; /* Adjust this value based on where you want the input to appear */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 9000px; /* Make the search bar fit the mobile screen width */
+    z-index: 999; /* Ensure it stays on top of other elements */
+    display: none; /* Initially hidden */
   }
 
   #search-toggle {
-      font-size: 12px;
-      padding: 6px 12px;
+    font-size: 12px;
+    padding: 6px 12px;
   }
 }
 
 /* ------------------------------------------------------------------------------------------------------------------
                                             search results page products layout
  ------------------------------------------------------------------------------------------------------------------*/
- .main-container {
+.main-container {
   display: flex;
   padding: 20px;
   gap: 20px;
   padding-top: 100px;
+}
+
+/*Page controls i.e < 1 2 3 4 > styling*/
+#pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.page-button {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #333;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.page-button:hover:not([disabled]) {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.page-button:disabled {
+  color: #ccc;
+  background-color: #f8f9fa;
+  cursor: not-allowed;
+}
+
+.page-button.active {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: default;
 }
 
 /* Products Grid */
@@ -1102,7 +1140,9 @@ section,
     font-size: 1.3rem;
   }
 
-  .btn, .view-more, .order-whatsapp {
+  .btn,
+  .view-more,
+  .order-whatsapp {
     font-size: 0.9rem;
     padding: 8px 15px;
   }
@@ -1119,7 +1159,7 @@ section,
 
 .pagination button {
   background-color: #007bff;
-  color: white; 
+  color: white;
   border: none;
   padding: 10px 20px;
   margin: 5px;
@@ -1130,13 +1170,13 @@ section,
 }
 
 .pagination button:disabled {
-  background-color: #cccccc; 
-  cursor: not-allowed; 
+  background-color: #cccccc;
+  cursor: not-allowed;
 }
 
 .pagination span {
   font-size: 16px;
-  margin: 0 10px; 
+  margin: 0 10px;
   line-height: 40px; /* Align text vertically */
 }
 
@@ -1218,7 +1258,6 @@ section,
   border-radius: 5px;
 }
 
-
 /*===Next and previous button Pagination controls styling ===*/
 .pagination {
   display: flex;
@@ -1230,7 +1269,7 @@ section,
 
 .pagination button {
   background-color: #007bff;
-  color: white; 
+  color: white;
   border: none;
   padding: 10px 20px;
   margin: 5px;
@@ -1241,17 +1280,15 @@ section,
 }
 
 .pagination button:disabled {
-  background-color: #cccccc; 
-  cursor: not-allowed; 
+  background-color: #cccccc;
+  cursor: not-allowed;
 }
 
 .pagination span {
   font-size: 16px;
-  margin: 0 10px; 
+  margin: 0 10px;
   line-height: 40px; /* Align text vertically */
 }
-
-
 
 /* =======Sidebar styling ========*/
 .sidebar {
@@ -1330,7 +1367,6 @@ section,
   cursor: pointer;
   border-radius: 5px;
 }
-
 
 /*--========================================
       Top Bar 
