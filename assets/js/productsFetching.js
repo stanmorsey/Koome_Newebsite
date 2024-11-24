@@ -9,7 +9,12 @@ async function fetchProducts() {
     const products = await response.json();
     allProducts = products; // Store all products
     shuffleArray(allProducts); // Shuffle the products
-    displayProducts(allProducts, document.getElementById("product-container"), currentPage);
+    displayProducts(
+      allProducts,
+      document.getElementById("product-container"),
+      currentPage
+    );
+    renderPagination(allProducts.length); // Render page numbers
     populateFilters(allProducts); // Populate the filters dynamically
   } catch (error) {
     console.error("Error fetching products:", error);
@@ -35,7 +40,9 @@ function displayProducts(products, container, page) {
     productHTML = "<p class='no-products-message'>No products available.</p>";
   } else {
     paginatedProducts.forEach((product) => {
-      const priceWithCurrency = `${product.currency || "USD"} ${product.price || "N/A"}`;
+      const priceWithCurrency = `${product.currency || "USD"} ${
+        product.price || "N/A"
+      }`;
       const whatsappMessage = encodeURIComponent(
         `Hi, I'm interested in ordering the product "${product.name}" (SKU: ${product.sku}). Could you please provide more details?\n\nProduct Part Number: ${product.part_number}\n\nProduct Image: ${product.image}`
       );
@@ -52,9 +59,12 @@ function displayProducts(products, container, page) {
           <div class="product-details">
             <h5 class="product-name">${product.name}</h5>
             <h4 class="product-price">${priceWithCurrency}</h4>
-            <!--<p class="product-description">${product.description || "No description available"}</p>-->
-            <p class="product-part-number"><strong>Part Number:</strong> ${product.part_number || "N/A"}</p>
-            <button class="btn view-more" data-sku="${product.sku}">More Details</button>
+            <p class="product-part-number"><strong>Part Number:</strong> ${
+              product.part_number || "N/A"
+            }</p>
+            <button class="btn view-more" data-sku="${
+              product.sku
+            }">More Details</button>
             <a 
               href="${whatsappUrl}" 
               target="_blank" 
@@ -77,83 +87,65 @@ function displayProducts(products, container, page) {
       window.location.href = `/product-details/product-details.html?sku=${productSku}`;
     });
   });
+}
 
-  // Pagination controls
-  const paginationControls = `
-    <div class="pagination">
-      <button onclick="changePage(-1)" ${page === 1 ? "disabled" : ""}>Previous</button>
-      <span>Page ${page} of ${Math.ceil(products.length / productsPerPage)}</span>
-      <button onclick="changePage(1)" ${end >= products.length ? "disabled" : ""}>Next</button>
-    </div>
+// Render Pagination with Limited Page Numbers
+function renderPagination(totalProducts) {
+  const paginationContainer = document.getElementById("pagination-container");
+  const totalPages = Math.ceil(totalProducts / productsPerPage);
+  const maxVisiblePages = 4; // Number of pages to show at a time
+  let paginationHTML = "";
+
+  // Previous Button
+  paginationHTML += `
+    <button 
+      class="page-button prev" 
+      onclick="changePage(currentPage - 1)" 
+      ${currentPage === 1 ? "disabled" : ""}>
+      &lt;
+    </button>
   `;
-  container.insertAdjacentHTML("beforeend", paginationControls);
+
+  // Calculate visible page range
+  const startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+  const endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+
+  for (let i = startPage; i <= endPage; i++) {
+    paginationHTML += `
+      <button 
+        class="page-button ${i === currentPage ? "active" : ""}" 
+        onclick="changePage(${i})">
+        ${i}
+      </button>
+    `;
+  }
+
+  // Next Button
+  paginationHTML += `
+    <button 
+      class="page-button next" 
+      onclick="changePage(currentPage + 1)" 
+      ${currentPage === totalPages ? "disabled" : ""}>
+      &gt;
+    </button>
+  `;
+
+  paginationContainer.innerHTML = paginationHTML;
 }
 
 // Change page function
-function changePage(direction) {
-  currentPage += direction;
-  displayProducts(allProducts, document.getElementById("product-container"), currentPage);
-}
+function changePage(pageNumber) {
+  const totalPages = Math.ceil(allProducts.length / productsPerPage);
 
-// Toggle filter sections
-function toggleFilter(filterId) {
-  const filterContent = document.getElementById(filterId);
-  const filterButton = filterContent.previousElementSibling;
-
-  if (filterContent.style.display === "none" || filterContent.style.display === "") {
-    filterContent.style.display = "block";
-    filterButton.textContent = filterButton.textContent.replace("+", "-");
-  } else {
-    filterContent.style.display = "none";
-    filterButton.textContent = filterButton.textContent.replace("-", "+");
+  if (pageNumber > 0 && pageNumber <= totalPages) {
+    currentPage = pageNumber;
+    displayProducts(
+      allProducts,
+      document.getElementById("product-container"),
+      currentPage
+    );
+    renderPagination(allProducts.length); // Update pagination buttons
   }
-}
-
-// Populate filters dynamically
-function populateFilters(products) {
-  const categories = [...new Set(products.map((product) => product.category))];
-  const brands = [...new Set(products.map((product) => product.brand))];
-
-  populateFilterSection("category", categories);
-  populateFilterSection("brand", brands);
-}
-
-// Populate individual filter section
-function populateFilterSection(filterId, items) {
-  const filterContent = document.getElementById(filterId);
-  let filterHTML = "";
-  items.forEach((item) => {
-    filterHTML += `
-      <label>
-        <input type="checkbox" value="${item}" onchange="filterProducts()">
-        ${item}
-      </label>
-    `;
-  });
-  filterContent.innerHTML = filterHTML;
-}
-
-// Filter products based on selected filters
-function filterProducts() {
-  const selectedCategories = getSelectedFilterValues("category");
-  const selectedBrands = getSelectedFilterValues("brand");
-
-  let filteredProducts = allProducts;
-
-  if (selectedCategories.length > 0) {
-    filteredProducts = filteredProducts.filter((product) => selectedCategories.includes(product.category));
-  }
-  if (selectedBrands.length > 0) {
-    filteredProducts = filteredProducts.filter((product) => selectedBrands.includes(product.brand));
-  }
-
-  displayProducts(filteredProducts, document.getElementById("product-container"), currentPage);
-}
-
-// Get selected filter values
-function getSelectedFilterValues(filterId) {
-  const checkboxes = document.querySelectorAll(`#${filterId} input[type="checkbox"]:checked`);
-  return Array.from(checkboxes).map((checkbox) => checkbox.value);
 }
 
 // Toggle filters on mobile
