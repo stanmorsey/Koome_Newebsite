@@ -2,7 +2,7 @@
   "menuTitles": [
     {
       "menuTitle": "Aircraft Engine Parts",
-      "categoryId": "cat001",
+      "menuId": "menu001",
       "description": "Parts and supplies for aircraft engines",
       "isFeatured": true,
       "categories": [
@@ -21,7 +21,6 @@
               "price": 120,
               "currency": "$",
               "partNumber": "AL1234",
-              "alternate": "",
               "sku": "AL1234-LED",
               "weight": "1.5kg",
               "dimensions": "20cm x 10cm x 5cm",
@@ -29,76 +28,100 @@
               "tags": ["LED", "navigation", "aviation"],
               "isAvailable": true,
               "imageGallery": [
-                "https://example.com/images/led_navigation_1.jpg",
-                "https://example.com/images/led_navigation_2.jpg"
+                "https://example.com/images/led_navigation_1.jpg"
               ],
-              "long-description": "High-efficiency LED navigation lights for aircraft.",
-              "status": "active"
-            },
-            {
-              "itemId": "item002",
-              "name": "Landing Light Bulb",
-              "description": "Standard landing light bulb for aircraft.",
-              "price": 50,
-              "currency": "$",
-              "partNumber": "AL5678",
-              "alternate": "",
-              "sku": "AL5678-BULB",
-              "weight": "0.3kg",
-              "dimensions": "15cm x 7cm x 3cm",
-              "brand": "SkyJet",
-              "tags": ["bulb", "landing light", "aviation"],
-              "isAvailable": true,
-              "imageGallery": [
-                "https://example.com/images/landing_light_bulb.jpg"
-              ],
-              "long-description": "Standard landing light bulb for aircraft.",
               "status": "active"
             }
           ]
         },
         {
-          "name": "Engine Parts",
-          "image": "https://example.com/images/engine_parts.jpg",
+          "name": "Airframe Parts",
+          "image": "https://example.com/images/airframe_parts.jpg",
           "categoryId": "cat001-02",
-          "slug": "engine-parts",
-          "description": "Complete engine parts for aircraft engines including filters and spark plugs.",
+          "slug": "airframe-parts",
+          "description": "Essential parts for aircraft airframes.",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "item002",
+              "name": "Airframe Rivets",
+              "description": "Durable rivets for aircraft airframes.",
+              "price": 15,
+              "currency": "$",
+              "partNumber": "AF1234",
+              "sku": "AF1234-RIVET",
+              "weight": "0.05kg",
+              "dimensions": "5cm x 1cm x 1cm",
+              "brand": "SkyJet",
+              "tags": ["rivets", "airframe", "aviation"],
+              "isAvailable": true,
+              "imageGallery": [
+                "https://example.com/images/airframe_rivets.jpg"
+              ],
+              "status": "active"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menuTitle": "Avionics & Instruments",
+      "menuId": "menu002",
+      "description": "Advanced avionics and instruments for aircraft.",
+      "isFeatured": false,
+      "categories": [
+        {
+          "name": "Altitude Encoders",
+          "image": "https://example.com/images/altitude_encoders.jpg",
+          "categoryId": "cat002-01",
+          "slug": "altitude-encoders",
+          "description": "Precise altitude encoders for aviation use.",
           "status": "active",
           "items": [
             {
               "itemId": "item003",
-              "name": "Aircraft Spark Plug",
-              "description": "High-performance spark plug designed for aircraft engines.",
-              "price": 80,
+              "name": "Standard Altitude Encoder",
+              "description": "Reliable altitude encoder for aircraft.",
+              "price": 300,
               "currency": "$",
-              "partNumber": "EP1234",
-              "alternate": "",
-              "sku": "EP1234-SPARK",
-              "weight": "0.2kg",
-              "dimensions": "10cm x 5cm x 2cm",
+              "partNumber": "AE1234",
+              "sku": "AE1234-ENC",
+              "weight": "1.2kg",
+              "dimensions": "10cm x 10cm x 5cm",
               "brand": "SkyJet",
-              "tags": ["spark plug", "engine", "aviation"],
+              "tags": ["altitude", "encoder", "aviation"],
               "isAvailable": true,
-              "imageGallery": ["https://example.com/images/spark_plug.jpg"],
-              "long-description": "High-performance spark plug designed for aircraft engines.",
+              "imageGallery": [
+                "https://example.com/images/altitude_encoder.jpg"
+              ],
               "status": "active"
-            },
+            }
+          ]
+        },
+        {
+          "name": "Antenna",
+          "image": "https://example.com/images/antenna.jpg",
+          "categoryId": "cat002-02",
+          "slug": "antenna",
+          "description": "High-performance antennas for aviation communication.",
+          "status": "active",
+          "items": [
             {
               "itemId": "item004",
-              "name": "Air Filter",
-              "description": "High-efficiency air filter for aircraft engines.",
-              "price": 50,
+              "name": "Communication Antenna",
+              "description": "High-gain communication antenna for aircraft.",
+              "price": 220,
               "currency": "$",
-              "partNumber": "AF5678",
-              "alternate": "",
-              "sku": "AF5678-FILTER",
-              "weight": "0.5kg",
-              "dimensions": "12cm x 8cm x 4cm",
+              "partNumber": "CA1234",
+              "sku": "CA1234-ANT",
+              "weight": "0.8kg",
+              "dimensions": "25cm x 5cm x 5cm",
               "brand": "SkyJet",
-              "tags": ["air filter", "engine", "aviation"],
+              "tags": ["antenna", "communication", "aviation"],
               "isAvailable": true,
-              "imageGallery": ["https://example.com/images/air_filter.jpg"],
-              "long-description": "High-efficiency air filter for aircraft engines.",
+              "imageGallery": [
+                "https://example.com/images/communication_antenna.jpg"
+              ],
               "status": "active"
             }
           ]
