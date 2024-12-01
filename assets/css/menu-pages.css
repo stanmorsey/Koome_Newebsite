@@ -877,10 +877,11 @@
     }
   }
 
-   /* ------------------------------------------------------------------------------------------------------------------
-                                              category card styling
+  /* ------------------------------------------------------------------------------------------------------------------
+                                              Category Card Styling
    ------------------------------------------------------------------------------------------------------------------*/
-  /* General Reset */
+
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -889,7 +890,7 @@
   
   body {
     font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
+    background-color: #f9f9f900;
     color: #333;
     line-height: 1.6;
     margin: 0;
@@ -953,8 +954,12 @@
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
   }
   
-  /* Responsive Design */
-  @media (max-width: 768px) {
+  /* ------------------------------------------------------------------------------------------------------------------
+                                                Responsive Design
+     ------------------------------------------------------------------------------------------------------------------*/
+  
+  /* For Tablets (Max-width: 1024px) */
+  @media (max-width: 1024px) {
     header h1 {
       font-size: 1.5rem;
     }
@@ -965,6 +970,33 @@
   
     .card h2 {
       font-size: 1rem;
+    }
+  
+    /* Adjust layout to 4 columns on tablets */
+    .grid-container {
+      grid-template-columns: repeat(4, 1fr); /* 4 columns on tablet */
+      gap: 20px;
+    }
+  }
+  
+  /* For Phones (Max-width: 768px) */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.25rem;
+    }
+  
+    .card img {
+      height: 120px; /* Adjust image size for phones */
+    }
+  
+    .card h2 {
+      font-size: 0.9rem;
+    }
+  
+    /* Adjust layout to 2 columns on phones */
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on phone */
+      gap: 15px; /* Space between cards */
     }
   }
   
