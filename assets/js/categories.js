@@ -1,9 +1,8 @@
 // Select the categories container
 const categoriesContainer = document.getElementById("categories-container");
 
-// Get the page identifier from the URL
-const params = new URLSearchParams(window.location.search);
-const pageTitle = params.get("page"); // E.g., "Aircraft Engine Parts" or "Avionics & Instruments"
+// Hardcoded Menu Title for the first menu (Aircraft Engine Parts)
+const menuTitle = "Aircraft Engine Parts"; // Replace with the desired menu title
 
 // Fetch JSON data from external file
 fetch("/assets/products/products.json")
@@ -12,18 +11,18 @@ fetch("/assets/products/products.json")
     return response.json();
   })
   .then(data => {
-    displayCategories(data.menuTitles, pageTitle);
+    displayCategories(data.menuTitles, menuTitle);
   })
   .catch(error => {
     console.error("Error fetching JSON data:", error);
     categoriesContainer.innerHTML = "<p>Error loading categories. Please try again later.</p>";
   });
 
-// Function to display categories
-function displayCategories(menuData, pageTitle) {
-  const selectedMenu = menuData.find(menu => menu.menuTitle === pageTitle);
+// Function to display categories for the specified menu title
+function displayCategories(menuData, menuTitle) {
+  const selectedMenu = menuData.find(menu => menu.menuTitle === menuTitle);
   if (!selectedMenu) {
-    categoriesContainer.innerHTML = "<p>Categories not found for this page.</p>";
+    categoriesContainer.innerHTML = "<p>Categories not found for this menu.</p>";
     return;
   }
 
@@ -34,28 +33,13 @@ function displayCategories(menuData, pageTitle) {
       <img src="${category.image}" alt="${category.name}" />
       <h2>${category.name}</h2>
     `;
-    card.addEventListener("click", () => displayProducts(category));
+
+    // Redirect to the selected category's page on click
+    card.addEventListener("click", () => {
+      const categorySlug = encodeURIComponent(category.slug); // Encode slug for URL safety
+      window.location.href = `/products-selected-category.html?category=${categorySlug}`;
+    });
+
     categoriesContainer.appendChild(card);
   });
-}
-
-// Function to display products in a category
-function displayProducts(category) {
-  // Clear the container for new content
-  categoriesContainer.innerHTML = `<h1>${category.name}</h1>`;
-  
-  if (category.items && category.items.length > 0) {
-    category.items.forEach(item => {
-      const productCard = document.createElement("div");
-      productCard.className = "card";
-      productCard.innerHTML = `
-        <img src="${item.imageGallery[0]}" alt="${item.name}" />
-        <h2>${item.name}</h2>
-        <p>Part Number: ${item.partNumber}</p>
-      `;
-      categoriesContainer.appendChild(productCard);
-    });
-  } else {
-    categoriesContainer.innerHTML += "<p>No products available in this category.</p>";
-  }
 }
