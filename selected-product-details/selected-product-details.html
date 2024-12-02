@@ -41,81 +41,203 @@
     <!-- Main CSS File -->
     <link href="/assets/css/menu-pages.css" rel="stylesheet">
     <style>
-        /* Product details container styling */
-        .product-details-container {
+        /* ------------------------------------------------------------------------------------------------------------------
+                                            Allproducts page products layout
+ ------------------------------------------------------------------------------------------------------------------*/
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        main {
+            max-width: 1800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Product Detail Section */
+        .product-detail {
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            background-color: #f9f9f9;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
         }
 
-        /* Left-side image styling */
-        .product-image-container {
+        .product-detail-image {
             flex: 1;
-            max-width: 40%;
-            text-align: center;
+            max-width: 500px;
+            border-radius: 10px;
+            object-fit: cover;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
         }
 
-        .product-image {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Right-side details styling */
-        .product-details-content {
-            flex: 2;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .product-name {
-            font-size: 1.8em;
-            font-weight: bold;
-            color: #333;
+        .product-detail-image:hover {
+            transform: scale(1.05);
         }
 
         .product-info {
-            font-size: 1.2em;
+            flex: 1;
+            padding: 20px;
+        }
+
+        .product-info .product-name {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #007bff;
+        }
+
+        .product-info .product-price {
+            font-size: 1.8rem;
+            color: #28a745;
+            margin: 10px 0;
+        }
+
+        .product-info .product-short-description {
+            font-style: italic;
             color: #555;
+            margin-bottom: 20px;
         }
 
-        .product-description {
-            margin-top: 15px;
-            font-size: 1em;
-            line-height: 1.5;
+        .product-info .product-description {
             color: #666;
+            margin-bottom: 20px;
         }
 
-        .enquiry-buttons {
+        .product-specifications {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .product-specifications li {
+            margin-bottom: 10px;
+        }
+
+        .product-actions {
             margin-top: 20px;
+        }
+
+        .product-actions .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            transition: background 0.3s ease, transform 0.2s;
+        }
+
+        .product-actions .btn:hover {
+            background-color: #0056b3;
+            transform: translateY(-3px);
+        }
+
+        .product-actions .order-whatsapp {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #25d366;
+            margin-top: 10px;
+        }
+
+        .product-actions .order-whatsapp:hover {
+            background-color: #128c7e;
+        }
+
+        .whatsapp-icon {
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Similar Products Section */
+        .similar-products-row {
             display: flex;
             gap: 15px;
+            overflow-x: auto;
+            padding: 10px 0;
         }
 
-        .btn {
-            padding: 10px 20px;
-            font-size: 1em;
-            font-weight: bold;
-            color: white;
-            text-decoration: none;
+        .similar-product-card {
+            flex: 0 0 auto;
+            width: 200px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
             text-align: center;
-            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        .btn-whatsapp {
-            background-color: #25d366;
+        .similar-product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
         }
 
-        .btn-call {
-            background-color: #007bff;
+        .similar-product-image {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .similar-product-name {
+            font-size: 1rem;
+            font-weight: bold;
+            color: #333;
+            margin: 10px;
+        }
+
+        .similar-product-name:hover {
+            color: #007bff;
+        }
+
+        /* Error Message */
+        .error-message {
+            text-align: center;
+            color: red;
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .product-detail {
+                flex-direction: column;
+            }
+
+            .product-detail-image {
+                width: 100%;
+            }
+
+            .product-info {
+                padding: 10px;
+            }
+
+            .similar-products-row {
+                flex-wrap: wrap;
+            }
         }
     </style>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
@@ -228,6 +350,8 @@
     </header>
 
     <main class="main">
+        <section></section>
+
         <div id="product-details-container">
             <!-- JavaScript will dynamically inject product details here -->
         </div>

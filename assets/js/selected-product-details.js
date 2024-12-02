@@ -45,36 +45,45 @@ function displayProductDetails(menuData, itemId) {
     }
 
     // Display the product details
-    productDetailsContainer.innerHTML = `
-  <div class="product-details">
-    <div class="product-image-container">
-      <img 
-        src="${foundProduct.imageGallery?.[0]}" 
-        alt="${foundProduct.name}" 
-        class="product-image"
-        onerror="this.src='/assets/img/skyjet-placeholder.png'"
-      />
-    </div>
-    <div class="product-details-content">
+productDetailsContainer.innerHTML = `
+  <div class="product-detail">
+    <!-- Image Section -->
+    <img 
+      src="${foundProduct.imageGallery?.[0]}" 
+      alt="${foundProduct.name}" 
+      class="product-detail-image"
+      onerror="this.src='/assets/img/skyjet-placeholder.png'"
+    />
+    
+    <!-- Information Section -->
+    <div class="product-info">
       <h1 class="product-name">${foundProduct.name}</h1>
-      <p class="product-price"><strong>Price:</strong> ${foundProduct.currency}${foundProduct.price}</p>
-      <p class="product-part-number"><strong>Part Number:</strong> ${foundProduct.partNumber}</p>
-      <p class="product-description"><strong>Description:</strong> ${foundProduct.description}</p>
-      <p class="product-sku"><strong>SKU:</strong> ${foundProduct.sku}</p>
-      <p class="product-weight"><strong>Weight:</strong> ${foundProduct.weight}</p>
-      <p class="product-dimensions"><strong>Dimensions:</strong> ${foundProduct.dimensions}</p>
-      <p class="product-brand"><strong>Brand:</strong> ${foundProduct.brand}</p>
-      <p class="product-tags"><strong>Tags:</strong> ${foundProduct.tags.join(", ")}</p>
-      <p class="product-availability"><strong>Availability:</strong> ${foundProduct.isAvailable ? "In Stock" : "Out of Stock"}</p>
-      <div class="enquiry-buttons">
+      <p class="product-price">${foundProduct.currency}${foundProduct.price}</p>
+      <p class="product-short-description"><strong>Description:</strong> ${foundProduct.description}</p>
+      
+      <ul class="product-specifications">
+        <li><strong>Manufacturer Part Number:</strong> ${foundProduct.partNumber}</li>
+        <li><strong>SKU:</strong> ${foundProduct.sku}</li>
+        <li><strong>Weight:</strong> ${foundProduct.weight}</li>
+        <li><strong>Dimensions:</strong> ${foundProduct.dimensions}</li>
+        <li><strong>Brand:</strong> ${foundProduct.brand}</li>
+        <li><strong>Tags:</strong> ${foundProduct.tags.join(", ")}</li>
+        <li><strong>Availability:</strong> ${foundProduct.isAvailable ? "In Stock" : "Out of Stock"}</li>
+      </ul>
+      
+      <!-- Action Buttons -->
+      <div class="product-actions">
         <a href="https://wa.me/?text=I'm%20interested%20in%20${encodeURIComponent(foundProduct.name)}" 
            target="_blank" 
-           class="btn btn-whatsapp"
-           id="whatsapp-enquiry">Enquire via WhatsApp</a>
-        <a href="tel:+1234567890" class="btn btn-call" id="call-enquiry">Call to Enquire</a>
+           class="btn order-whatsapp">
+          <img src="/assets/icons/whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon" />
+          Enquire via WhatsApp
+        </a>
+        <a href="tel:+1234567890" class="btn">Call to Enquire</a>
       </div>
     </div>
   </div>
 `;
+
 
 }
