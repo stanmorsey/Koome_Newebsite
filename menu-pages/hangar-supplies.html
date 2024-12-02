@@ -297,17 +297,21 @@
                 const card = document.createElement("div");
                 card.className = "card";
                 card.innerHTML = `
-      <img 
-        src="${category.image}" 
-        alt="${category.name}" 
-        onerror="this.onerror=null;this.src='/assets/img/skyjet-placeholder.png';" />
-      <h2>${category.name}</h2>
-    `;
+            <div class="card-image">
+                <img 
+                    src="${category.image}" 
+                    alt="${category.name}" 
+                    onerror="this.onerror=null;this.src='/assets/img/skyjet-placeholder.png';" />
+            </div>
+            <div class="card-content">
+                <h2>${category.name}</h2>
+            </div>
+        `;
 
                 // Redirect to the selected category's page on click
                 card.addEventListener("click", () => {
                     const categorySlug = encodeURIComponent(category.slug); // Encode slug for URL safety
-                    window.location.href = `/products-selected-category.html?category=${categorySlug}`;
+                    window.location.href = `/selected-products-category.html?category=${categorySlug}`;
                 });
 
                 categoriesContainer.appendChild(card);
