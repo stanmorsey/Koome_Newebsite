@@ -40,6 +40,84 @@
 
     <!-- Main CSS File -->
     <link href="/assets/css/menu-pages.css" rel="stylesheet">
+    <style>
+        /* Product details container styling */
+        .product-details-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        /* Left-side image styling */
+        .product-image-container {
+            flex: 1;
+            max-width: 40%;
+            text-align: center;
+        }
+
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Right-side details styling */
+        .product-details-content {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .product-name {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .product-info {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .product-description {
+            margin-top: 15px;
+            font-size: 1em;
+            line-height: 1.5;
+            color: #666;
+        }
+
+        .enquiry-buttons {
+            margin-top: 20px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            font-size: 1em;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .btn-whatsapp {
+            background-color: #25d366;
+        }
+
+        .btn-call {
+            background-color: #007bff;
+        }
+    </style>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
     </script>
     <script type="text/javascript">
