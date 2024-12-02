@@ -982,30 +982,11 @@ section,
   width: 100%;
 }
 
-#search-results-container {
+#results-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
-}
-
-/* More Details Button Style */
-.view-more {
-  display: inline-block;
-  background: linear-gradient(to right, #2a51bd, #74b6f3);
-  color: white;
-  padding: 10px 20px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 14px;
-  margin-top: 10px;
-  border: 2px solid #ffffff;
-  transition: background-color 0.3s ease;
-}
-
-.view-more:hover {
-  background: linear-gradient(to right, #2a51bd, #ff4766);
 }
 
 /* General Reset */
@@ -1023,7 +1004,7 @@ section,
 }
 
 /* Product Card Styling */
-.product-card {
+.item-card {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -1032,39 +1013,39 @@ section,
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.product-card:hover {
+.item-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 
-.product-image {
+.item-image {
   width: 100%;
   height: auto;
 }
 
-.product-details {
-  padding: 15px;
+.item-details {
+  padding: 10px;
 }
 
-.product-name {
+.item-name {
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-.product-price {
+.item-price {
   font-size: 1.1rem;
-  color: #28a745;
+  color: #c71d1d;
   margin-bottom: 10px;
 }
 
-.product-description {
+.item-description {
   font-size: 0.9rem;
   color: #666;
   margin-bottom: 10px;
 }
 
-.product-part-number {
+.item-part-number {
   font-size: 0.9rem;
   color: #333;
   margin-bottom: 15px;
@@ -1119,24 +1100,24 @@ section,
     grid-template-columns: 1fr;
   }
 
-  .product-card {
+  .item-card {
     padding: 15px;
   }
 
-  .product-image {
+  .item-image {
     max-width: 100%;
     height: auto;
   }
 
-  .product-details {
+  .item-details {
     padding: 10px;
   }
 
-  .product-name {
+  .item-name {
     font-size: 1.2rem;
   }
 
-  .product-price {
+  .item-price {
     font-size: 1.3rem;
   }
 

@@ -1,86 +1,114 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Get the search query from the URL
   const urlParams = new URLSearchParams(window.location.search);
   const query = urlParams.get("query") ? urlParams.get("query").toLowerCase() : "";
 
-  // Get references to spinner and results container
-  const spinner = document.getElementById("spinner");
-  const resultsContainer = document.getElementById("results-container");
-
-  // Show spinner while loading
-  spinner.style.display = "flex";
-
-  // Fetch JSON data and process the search
   fetch('/assets/products/products.json')
-    .then(response => response.json())
-    .then(data => {
-      // Flatten the product items for easier searching
-      const items = data.menuTitles.flatMap(menu =>
-        menu.categories.flatMap(category => category.items)
-      );
+      .then(response => response.json())
+      .then(data => {
+          const items = data.menuTitles.flatMap(menu =>
+              menu.categories.flatMap(category => category.items)
+          );
 
-      // Perform search
-      const results = advancedSearch(items, query);
+          // Search Logic
+          const results = advancedSearch(items, query);
 
-      // Hide spinner after processing
-      spinner.style.display = "none";
-
-      // Display the results
-      displayResults(results, query);
-    })
-    .catch(error => {
-      // Hide spinner and show error message
-      spinner.style.display = "none";
-      resultsContainer.innerHTML = "<p>Error fetching products. Please try again later.</p>";
-      console.error("Error fetching products:", error);
-    });
+          // Display the results
+          displayResults(results, query);
+      })
+      .catch(error => console.error("Error fetching products:", error));
 });
 
-// Advanced Search Logic
 function advancedSearch(items, query) {
   if (!query) return [];
 
-  // Filter items based on the query
-  return items.filter(item =>
-    item.partNumber.toLowerCase().includes(query) || // Match part number
-    item.name.toLowerCase().includes(query) || // Match name
-    item.description.toLowerCase().includes(query) || // Match description
-    (item.tags || []).some(tag => tag.toLowerCase().includes(query)) // Match tags
-  );
+  // Weight-based filtering
+  const exactMatches = [];
+  const partialMatches = [];
+  const fuzzyMatches = [];
+
+  items.forEach(item => {
+      const fields = [
+          item.partNumber.toLowerCase(),
+          item.name.toLowerCase(),
+          item.description.toLowerCase(),
+          ...(item.tags || []).map(tag => tag.toLowerCase())
+      ];
+
+      const exactMatch = fields.some(field => field === query);
+      const partialMatch = fields.some(field => field.includes(query));
+      const fuzzyMatch = fields.some(field => levenshteinDistance(field, query) <= 2); // Typo tolerance
+
+      if (exactMatch) {
+          exactMatches.push(item);
+      } else if (partialMatch) {
+          partialMatches.push(item);
+      } else if (fuzzyMatch) {
+          fuzzyMatches.push(item);
+      }
+  });
+
+  // Combine results with priority
+  return [...exactMatches, ...partialMatches, ...fuzzyMatches];
 }
 
-// Display Results Logic
+// Display Results Function
 function displayResults(results, query) {
   const resultsContainer = document.getElementById("results-container");
-  resultsContainer.innerHTML = ""; // Clear previous results
+  resultsContainer.innerHTML = "";
 
   if (results.length === 0) {
-    resultsContainer.innerHTML = "<p>No products found. Try different keywords!</p>";
-    return;
+      resultsContainer.innerHTML = "<p>No products found. Try different keywords!</p>";
+      return;
   }
 
-  // Create result cards for each item
   results.forEach(item => {
-    const resultCard = document.createElement("div");
-    resultCard.className = "col-md-4 mb-4";
+      const resultCard = document.createElement("div");
+      resultCard.className = "result-card";
 
-    resultCard.innerHTML = `
-        <div class="card h-100">
-            <img src="${item.imageGallery[0]}" class="card-img-top" alt="${item.name}">
-            <div class="card-body">
-                <h5 class="card-title">${highlightMatch(item.name, query)}</h5>
-                <p class="card-text"><strong>Part Number:</strong> ${item.partNumber}</p>
-                <p class="card-text"><strong></strong> ${item.currency}${item.price}</p>
-            </div>
-        </div>
-    `;
-    resultsContainer.appendChild(resultCard);
+      resultCard.innerHTML = `
+          <div class="item-card mb-4">
+              <img src="${item.imageGallery[0]}" class="item-image" alt="${item.name}">
+              <div class="item-details">
+                  <h5 class="item-name">${highlightMatch(item.name, query)}</h5>
+                  <!--<p class="item-description">${highlightMatch(item.description, query)}</p>-->
+                  <p class="item-part-number">MPN: ${item.partNumber}</p>
+                  <p class="item-price"> <strong>${item.currency}${item.price}</strong></p>
+              </div>
+          </div>
+      `;
+      resultsContainer.appendChild(resultCard);
   });
 }
 
-// Helper Function: Highlight Matching Terms
+// Helper Function: Highlight Matches
 function highlightMatch(text, query) {
   if (!text || !query) return text;
   const regex = new RegExp(`(${query})`, 'gi');
   return text.replace(regex, '<mark>$1</mark>');
+}
+
+// Helper Function: Levenshtein Distance
+function levenshteinDistance(a, b) {
+  const matrix = Array.from({ length: b.length + 1 }, () =>
+      Array(a.length + 1).fill(0)
+  );
+
+  for (let i = 0; i <= a.length; i++) matrix[0][i] = i;
+  for (let j = 0; j <= b.length; j++) matrix[j][0] = j;
+
+  for (let j = 1; j <= b.length; j++) {
+      for (let i = 1; i <= a.length; i++) {
+          if (b[j - 1] === a[i - 1]) {
+              matrix[j][i] = matrix[j - 1][i - 1];
+          } else {
+              matrix[j][i] = Math.min(
+                  matrix[j - 1][i] + 1, // Deletion
+                  matrix[j][i - 1] + 1, // Insertion
+                  matrix[j - 1][i - 1] + 1 // Substitution
+              );
+          }
+      }
+  }
+
+  return matrix[b.length][a.length];
 }
