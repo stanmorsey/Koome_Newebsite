@@ -46,7 +46,8 @@
               "tags": ["LED", "navigation", "aviation"],
               "isAvailable": true,
               "imageGallery": [
-                "https://example.com/images/led_navigation_1.jpg"
+                "https://example.com/images/led_navigation_1.jpg",
+                "https://example.com/images/led_navigation_2.jpg"
               ],
               "status": "active"
             },

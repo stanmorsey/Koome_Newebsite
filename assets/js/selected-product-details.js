@@ -59,27 +59,25 @@ productDetailsContainer.innerHTML = `
     <div class="product-info">
       <h1 class="product-name">${foundProduct.name}</h1>
       <p class="product-price">${foundProduct.currency}${foundProduct.price}</p>
-      <p class="product-short-description"><strong>Description:</strong> ${foundProduct.description}</p>
+      <p class="product-short-description"> ${foundProduct.description}</p>
       
       <ul class="product-specifications">
         <li><strong>Manufacturer Part Number:</strong> ${foundProduct.partNumber}</li>
-        <li><strong>SKU:</strong> ${foundProduct.sku}</li>
         <li><strong>Weight:</strong> ${foundProduct.weight}</li>
         <li><strong>Dimensions:</strong> ${foundProduct.dimensions}</li>
-        <li><strong>Brand:</strong> ${foundProduct.brand}</li>
         <li><strong>Tags:</strong> ${foundProduct.tags.join(", ")}</li>
         <li><strong>Availability:</strong> ${foundProduct.isAvailable ? "In Stock" : "Out of Stock"}</li>
       </ul>
       
       <!-- Action Buttons -->
       <div class="product-actions">
-        <a href="https://wa.me/?text=I'm%20interested%20in%20${encodeURIComponent(foundProduct.name)}" 
+        <a href="https://wa.me/+254796962055?text=I'm%20interested%20in%20${encodeURIComponent(foundProduct.name)}" 
            target="_blank" 
            class="btn order-whatsapp">
-          <img src="/assets/icons/whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon" />
+          <img src="/assets/img/logoFaviconIcon/whatsapp.png" alt="WhatsApp" class="whatsapp-icon" />
           Enquire via WhatsApp
         </a>
-        <a href="tel:+1234567890" class="btn">Call to Enquire</a>
+        <a href="tel:+254796962055" class="btn">Call to Enquire</a>
       </div>
     </div>
   </div>
