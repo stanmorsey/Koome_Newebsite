@@ -56,29 +56,85 @@
 
   <header id="header" class="header d-flex align-items-center fixed-top">
 
-    <!--========================================
-      Logo and Navigation
-    ===============================================-->
+    <!--====== Logo and Navigation ======-->
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="./index.html" class="logo d-flex align-items-center me-auto">
-        <img src="./assets/img/logoFaviconIcon/skyjetLogoMain.png" alt="skyjet supplies logo">
+      <a href="/index.html" class="logo d-flex align-items-center me-auto">
+        <img src="/assets/img/logoFaviconIcon/skyjetLogoMain.png" alt="skyjet supplies logo">
         <h1 class="sitename"><strong>Skyjet</strong></h1>
       </a>
 
-      <!--====================================
-      Search Box
-      =====================================-->
-      <form id="search-form" action="./search-results/search-results.html" method="GET">
+      <!--====== Search Box ======-->
+      <form id="search-form" action="/search-results/search-results.html" method="GET">
         <button id="search-toggle">Search</button>
         <input type="text" id="search-input" name="query" placeholder="Search products..." style="display: none;" />
       </form>
 
-      <!--====================================
-      Navigation
-      =====================================-->
+      <!--====== Navigation ======-->
       <nav id="navmenu" class="navmenu">
         <ul>
+          <li class="dropdown"><a href="#/"><span>Aircraft Tools</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Abrasive Holders</a></li>
+              <li><a href="#">Air Chucks</a></li>
+              <li><a href="#">Air Regulators</a></li>
+              <li><a href="#">Hydraulic Jacks</a></li>
+              <li><a href="#">Jack Pads</a></li>
+              <li><a href="/menu-pages/tools-&-equipment.html"><Strong>All Tools & Equipment</Strong></a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#"><span>Engine Parts</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Aircraft lighting</a></li>
+              <li><a href="#">Airframe parts</a></li>
+              <li><a href="#">Electricals</a></li>
+              <li><a href="#">Engine parts and supplies</a></li>
+              <li><a href="#">Filtration</a></li>
+              <li><a href="/menu-pages/aircraft-engine-parts.html"><Strong>All Engine parts</Strong></a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#"><span>Hangar Supplies</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Abrasives</a></li>
+              <li><a href="#">Adhesives</a></li>
+              <li><a href="#">Aerospace Sealants</a></li>
+              <li><a href="#">Air Dusters</a></li>
+              <li><a href="#">Alkaline Cleaner</a></li>
+              <li><a href="/menu-pages/hangar-supplies.html"><Strong>All Hangar Supplies</Strong></a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#"><span>Avionics & Instruments</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Altitude encoders</a></li>
+              <li><a href="#">Antennae erosion masks</a></li>
+              <li><a href="#">Antenna</a></li>
+              <li><a href="#">Aviation ELT</a></li>
+              <li><a href="#">Communication</a></li>
+              <li><a href="/menu-pages/avionics-&-instruments.html"><Strong>View All</Strong></a></li>
+            </ul>
+          </li>
+
+          <!--<li class="dropdown"><a href="#"><span>Top Brands</span> <i
+                          class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                      <li><a href="#"></a></li>
+                      <li><a href="#"></a></li>
+                      <li><a href="#"></a></li>
+                      <li><a href="#"></a></li>
+                      <li><a href="#"></a></li>
+                      <li><a href="/menu-pages/top-brands.html"><Strong>All Brands</Strong></a></li>
+                  </ul>
+              </li>-->
+
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="../about-us/about.html">About skyjet</a></li>
@@ -88,41 +144,12 @@
               <li><a href="../about-us/terms-&-conditions.html">Terms & Conditions</a></li>
             </ul>
           </li>
-          <li><a href="/allProducts.html">Spares & Supplies</a></li>
-          <li class="dropdown"><a href="#"><span>Categories</span> <i
-                class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="/product-categories/aircraft-electricals.html">Electrical Lighting</a></li>
-              <li class="dropdown"><a href="/product-categories/oils-lubricants.html"><span>Aircraft Maintenance</span>
-                  <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="/product-categories/aircraft-filtration.html">Aircraft Filtration</a></li>
-                  <li><a href="/product-categories/oils-lubricants.html">Oils & Lubricants</a></li>
-                  <li><a href="/product-categories/aircraft paints.html">Aircraft Paints</a></li>
-                </ul>
-              </li>
-              <li><a href="/product-categories/airframe-parts.html">Hydraulic Fluids</a></li>
-              <li><a href="/product-categories/adhesvies.html">Adhesives</a></li>
-              <li><a href="/product-categories/seals-bearings.html">Seals & Bearings</a></li>
-              <li><a href="/product-categories/aircraft-hardware.html">Aircraft Hardware</a></li>
-              <li><a href="/product-categories/aircraft paints.html">Aircraft Paints</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Aircraft Spares</span> <i
-                class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="/product-categories/airframe-parts.html">Airframes parts</a></li>
-              <li><a href="/product-categories/aircraft-engine-parts.html">Engines Parts</a></li>
-              <li><a href="/product-categories/wheels-brakes.html">Wheels and brakes</a></li>
-            </ul>
-          </li>
-          <li><a href="contact-us.html">Contact Us</a></li>
+
+          <li><a href="../contact-us.html">Contact Us</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-      <a class="btn-getstarted" href="/allProducts.html">Visit Spares</a>
-
+      <!-- <a class="btn-getstarted" href="/allProducts.html">Visit Spares</a>-->
     </div>
     <!-- End Logo and Navigation-->
 

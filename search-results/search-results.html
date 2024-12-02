@@ -48,9 +48,7 @@
 
   <header id="header" class="header d-flex align-items-center fixed-top">
 
-    <!--========================================
-      Logo and Navigation
-    ===============================================-->
+    <!--====== Logo and Navigation ======-->
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="/index.html" class="logo d-flex align-items-center me-auto">
@@ -58,19 +56,77 @@
         <h1 class="sitename"><strong>Skyjet</strong></h1>
       </a>
 
-      <!--====================================
-      Search Box
-      =====================================-->
+      <!--====== Search Box ======-->
       <form id="search-form" action="/search-results/search-results.html" method="GET">
         <button id="search-toggle">Search</button>
         <input type="text" id="search-input" name="query" placeholder="Search products..." style="display: none;" />
       </form>
 
-      <!--====================================
-      Navigation
-      =====================================-->
+      <!--====== Navigation ======-->
       <nav id="navmenu" class="navmenu">
         <ul>
+          <li class="dropdown"><a href="#/"><span>Aircraft Tools</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Abrasive Holders</a></li>
+              <li><a href="#">Air Chucks</a></li>
+              <li><a href="#">Air Regulators</a></li>
+              <li><a href="#">Hydraulic Jacks</a></li>
+              <li><a href="#">Jack Pads</a></li>
+              <li><a href="/menu-pages/tools-&-equipment.html"><Strong>All Tools & Equipment</Strong></a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#"><span>Engine Parts</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Aircraft lighting</a></li>
+              <li><a href="#">Airframe parts</a></li>
+              <li><a href="#">Electricals</a></li>
+              <li><a href="#">Engine parts and supplies</a></li>
+              <li><a href="#">Filtration</a></li>
+              <li><a href="/menu-pages/aircraft-engine-parts.html"><Strong>All Engine parts</Strong></a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#"><span>Hangar Supplies</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Abrasives</a></li>
+              <li><a href="#">Adhesives</a></li>
+              <li><a href="#">Aerospace Sealants</a></li>
+              <li><a href="#">Air Dusters</a></li>
+              <li><a href="#">Alkaline Cleaner</a></li>
+              <li><a href="/menu-pages/hangar-supplies.html"><Strong>All Hangar Supplies</Strong></a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#"><span>Avionics & Instruments</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Altitude encoders</a></li>
+              <li><a href="#">Antennae erosion masks</a></li>
+              <li><a href="#">Antenna</a></li>
+              <li><a href="#">Aviation ELT</a></li>
+              <li><a href="#">Communication</a></li>
+              <li><a href="/menu-pages/avionics-&-instruments.html"><Strong>View All</Strong></a></li>
+            </ul>
+          </li>
+
+          <!--<li class="dropdown"><a href="#"><span>Top Brands</span> <i
+              class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="/menu-pages/top-brands.html"><Strong>All Brands</Strong></a></li>
+              </ul>
+          </li>-->
+
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="../about-us/about.html">About skyjet</a></li>
@@ -80,114 +136,39 @@
               <li><a href="../about-us/terms-&-conditions.html">Terms & Conditions</a></li>
             </ul>
           </li>
-          <li><a href="/allProducts.html">Spares & Supplies</a></li>
-          <li class="dropdown"><a href="#"><span>Categories</span> <i
-                class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="/product-categories/aircraft-electricals.html">Electrical Lighting</a></li>
-              <li class="dropdown"><a href="/product-categories/oils-lubricants.html"><span>Aircraft Maintenance</span>
-                  <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="/product-categories/aircraft-filtration.html">Aircraft Filtration</a></li>
-                  <li><a href="/product-categories/oils-lubricants.html">Oils & Lubricants</a></li>
-                  <li><a href="/product-categories/aircraft paints.html">Aircraft Paints</a></li>
-                </ul>
-              </li>
-              <li><a href="/product-categories/airframe-parts.html">Hydraulic Fluids</a></li>
-              <li><a href="/product-categories/adhesvies.html">Adhesives</a></li>
-              <li><a href="/product-categories/seals-bearings.html">Seals & Bearings</a></li>
-              <li><a href="/product-categories/aircraft-hardware.html">Aircraft Hardware</a></li>
-              <li><a href="/product-categories/aircraft paints.html">Aircraft Paints</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Aircraft Spares</span> <i
-                class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="/product-categories/airframe-parts.html">Airframes parts</a></li>
-              <li><a href="/product-categories/aircraft-engine-parts.html">Engines Parts</a></li>
-              <li><a href="/product-categories/wheels-brakes.html">Wheels and brakes</a></li>
-            </ul>
-          </li>
+
           <li><a href="../contact-us.html">Contact Us</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-      <a class="btn-getstarted" href="/allProducts.html">Visit Spares</a>
-
+      <!-- <a class="btn-getstarted" href="/allProducts.html">Visit Spares</a>-->
     </div>
     <!-- End Logo and Navigation-->
 
   </header>
 
   <main class="main">
-    <section>
 
-    </section>
-    <!-------------------------------------------------------------
-      Allproducts  page - products filter
-      ------------------------------------------------------------>
-    <!-- Page Controls after products are fetched -->
-    <div id="pagination-container" class="pagination-controls">
-      <!-- Page numbers will be dynamically populated here -->
-    </div>
-    
+
+
     <div class="main-container">
-      <div class="sidebar">
-        <h3>Filters</h3>
-        <div class="filter-section">
-          <button class="filter-toggle" onclick="toggleFilter('category')">Categories +</button>
-          <div id="category" class="filter-content">
-            <!-- Categories checkboxes will be dynamically populated here -->
-          </div>
-        </div>
-        <div class="filter-section">
-          <button class="filter-toggle" onclick="toggleFilter('brand')">Brand +</button>
-          <div id="brand" class="filter-content">
-            <!-- Brand checkboxes will be dynamically populated here -->
-          </div>
-        </div>
-        <div class="filter-section">
-          <button class="filter-toggle" onclick="toggleFilter('series')">Series +</button>
-          <div id="series" class="filter-content">
-            <!-- Series checkboxes will be dynamically populated here -->
-          </div>
-        </div>
-        <div class="filter-section">
-          <button class="filter-toggle" onclick="toggleFilter('material')">Material +</button>
-          <div id="material" class="filter-content">
-            <!-- Material checkboxes will be dynamically populated here -->
-          </div>
-        </div>
-        <div class="filter-section">
-          <button class="filter-toggle" onclick="toggleFilter('size')">Size +</button>
-          <div id="size" class="filter-content">
-            <!-- Size checkboxes will be dynamically populated here -->
-          </div>
-        </div>
-        <div class="filter-section">
-          <button class="filter-toggle" onclick="toggleFilter('spec')">Spec +</button>
-          <div id="spec" class="filter-content">
-            <!-- Spec checkboxes will be dynamically populated here -->
-          </div>
-        </div>
-        <div class="filter-section">
-          <button class="filter-toggle" onclick="toggleFilter('color')">Color +</button>
-          <div id="color" class="filter-content">
-            <!-- Color checkboxes will be dynamically populated here -->
-          </div>
-        </div>
-        <div class="filter-section">
-          <button class="filter-toggle" onclick="toggleFilter('price')">Price +</button>
-          <div id="price" class="filter-content">
-            <!-- Price checkboxes will be dynamically populated here -->
-          </div>
-        </div>
-      </div>
       <div class="products-container">
-        <div id="search-results-container">
-          <!-- Searched Products will be dynamically populated here -->
+
+        <div>
+          <h1 class="text-center my-4"><strong>Here are your search results</strong></h1>
         </div>
+
+        <div id="spinner" class="d-flex justify-content-center align-items-center"
+          style="min-height: 200px; display: none;">
+          <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+
+        <div id="results-container" class="container">
+          <!-- Results will be injected here -->
+        </div>
+
       </div>
     </div>
   </main>
@@ -286,232 +267,93 @@
   <script src="../assets/js/main.js"></script>
   <script src="../assets/js/search-toggle.js"></script>
   <script>
-    document.addEventListener("DOMContentLoaded", () => {
-        let allProducts = [];
-        let currentPage = 1;
-        const productsPerPage = 20;
+    document.addEventListener("DOMContentLoaded", function () {
+      // Get the search query from the URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const query = urlParams.get("query") ? urlParams.get("query").toLowerCase() : "";
 
-        // Fetch products from JSON and store them in `allProducts`
-        async function fetchProducts() {
-            try {
-                const response = await fetch("../assets/products/products.json");
-                if (!response.ok) {
-                    throw new Error("Failed to fetch products");
-                }
-                allProducts = await response.json();
-                filterAndDisplayProducts(); // Filter and display products after fetching
-                populateFilters(allProducts); // Dynamically populate filter sections
-            } catch (error) {
-                console.error("Error fetching products:", error);
-                document.getElementById("search-results-container").innerHTML =
-                    "<p>Error fetching products. Please try again later.</p>";
-            }
-        }
+      // Get references to spinner and results container
+      const spinner = document.getElementById("spinner");
+      const resultsContainer = document.getElementById("results-container");
 
-        // Get query parameter from URL
-        function getQueryParameter(param) {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get(param);
-        }
+      // Show spinner while loading
+      spinner.style.display = "flex";
 
-        // Filter and display products based on the search query
-        function filterAndDisplayProducts() {
-            const query = getQueryParameter("query");
-            if (!query) {
-                document.getElementById("search-results-container").innerHTML =
-                    "<p>No search query provided.</p>";
-                return;
-            }
+      // Fetch JSON data and process the search
+      fetch('/assets/products/products.json')
+        .then(response => response.json())
+        .then(data => {
+          // Flatten the product items for easier searching
+          const items = data.menuTitles.flatMap(menu =>
+            menu.categories.flatMap(category => category.items)
+          );
 
-            const lowerCaseQuery = query.toLowerCase();
-            const filteredProducts = allProducts.filter(
-                (product) =>
-                    product.name.toLowerCase().includes(lowerCaseQuery) ||
-                    (product.description &&
-                        product.description.toLowerCase().includes(lowerCaseQuery)) ||
-                    (product.category &&
-                        product.category.toLowerCase().includes(lowerCaseQuery)) ||
-                    (product.brand && product.brand.toLowerCase().includes(lowerCaseQuery))
-            );
+          // Perform search
+          const results = advancedSearch(items, query);
 
-            displayProducts(
-                filteredProducts,
-                document.getElementById("search-results-container"),
-                currentPage
-            );
-            renderPagination(filteredProducts.length); // Add pagination controls
-        }
+          // Hide spinner after processing
+          spinner.style.display = "none";
 
-        // Display products dynamically with pagination
-        function displayProducts(products, container, page) {
-            let productHTML = "";
-            const start = (page - 1) * productsPerPage;
-            const end = start + productsPerPage;
-            const paginatedProducts = products.slice(start, end);
-
-            if (paginatedProducts.length === 0) {
-                productHTML = "<p>No products found.</p>";
-            } else {
-                paginatedProducts.forEach((product) => {
-                    const priceWithCurrency = product.currency
-                        ? `${product.currency} ${product.price}`
-                        : "Price not available";
-
-                    // WhatsApp URL (if needed)
-                    const whatsappMessage = encodeURIComponent(
-                        `Hello, I'm interested in ordering the product "${product.name}" (SKU: ${product.sku}).`
-                    );
-                    const whatsappUrl = `https://wa.me/254113015069?text=${whatsappMessage}`;
-
-                    productHTML += `
-                    <div class="product-card">
-                        <!-- Product Image -->
-                        <img 
-                            src="${product.image}" 
-                            alt="${product.name}" 
-                            class="product-image" 
-                            onerror="this.src='/assets/img/skyjet-placeholder.png'"
-                        >
-
-                        <!-- Product Details -->
-                        <div class="product-details">
-                            <h5 class="product-name">${product.name}</h5>
-                            <h4 class="product-price">${priceWithCurrency}</h4>
-                            <p class="product-part-number"><strong>Part Number:</strong> ${product.part_number || "N/A"}</p>
-                            <p class="product-category"><strong>Category:</strong> ${product.category || "Uncategorized"}</p>
-                            <p class="product-brand"><strong>Brand:</strong> ${product.brand || "Unknown"}</p>
-                            
-                            <!-- Action Buttons -->
-                            <div class="product-actions">
-                                <a href="/product-details/product-details.html?sku=${product.sku}" class="btn view-more">More Details</a>
-                                <a 
-                                    href="${whatsappUrl}" 
-                                    target="_blank" 
-                                    class="btn order-whatsapp"
-                                >
-                                    <img src="/assets/img/logoFaviconIcon/whatsapp.png" alt="WhatsApp Icon" class="whatsapp-icon"> Order on WhatsApp
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                `;
-                });
-            }
-
-            container.innerHTML = productHTML;
-        }
-
-        // Render Pagination with Limited Page Numbers
-        function renderPagination(totalProducts) {
-            const paginationContainer = document.getElementById("pagination-container");
-            const totalPages = Math.ceil(totalProducts / productsPerPage);
-            const maxVisiblePages = 4; // Number of pages to show at a time
-            let paginationHTML = "";
-
-            // Previous Button
-            paginationHTML += `
-                <button 
-                    class="page-button prev" 
-                    onclick="changePage(currentPage - 1)" 
-                    ${currentPage === 1 ? "disabled" : ""}>
-                    &lt;
-                </button>
-            `;
-
-            // Calculate visible page range
-            const startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
-            const endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
-
-            for (let i = startPage; i <= endPage; i++) {
-                paginationHTML += `
-                    <button 
-                        class="page-button ${i === currentPage ? "active" : ""}" 
-                        onclick="changePage(${i})">
-                        ${i}
-                    </button>
-                `;
-            }
-
-            // Next Button
-            paginationHTML += `
-                <button 
-                    class="page-button next" 
-                    onclick="changePage(currentPage + 1)" 
-                    ${currentPage === totalPages ? "disabled" : ""}>
-                    &gt;
-                </button>
-            `;
-
-            paginationContainer.innerHTML = paginationHTML;
-        }
-
-        // Change page function
-        function changePage(pageNumber) {
-            const totalPages = Math.ceil(allProducts.length / productsPerPage);
-
-            if (pageNumber > 0 && pageNumber <= totalPages) {
-                currentPage = pageNumber;
-                filterAndDisplayProducts();
-            }
-        }
-
-        // Dynamically populate filters
-        function populateFilters(products) {
-            const categories = [...new Set(products.map((product) => product.category).filter(Boolean))];
-            const brands = [...new Set(products.map((product) => product.brand).filter(Boolean))];
-
-            populateFilterSection("category", categories);
-            populateFilterSection("brand", brands);
-        }
-
-        // Populate individual filter section
-        function populateFilterSection(filterId, items) {
-            const filterContent = document.getElementById(filterId);
-            let filterHTML = "";
-            items.forEach((item) => {
-                filterHTML += `
-                    <label>
-                        <input type="checkbox" value="${item}" onchange="filterProducts()">
-                        ${item}
-                    </label>
-                `;
-            });
-            filterContent.innerHTML = filterHTML;
-        }
-
-        // Filter products based on selected filters
-        function filterProducts() {
-            const selectedCategories = getSelectedFilterValues("category");
-            const selectedBrands = getSelectedFilterValues("brand");
-
-            let filteredProducts = allProducts;
-
-            if (selectedCategories.length > 0) {
-                filteredProducts = filteredProducts.filter((product) =>
-                    selectedCategories.includes(product.category)
-                );
-            }
-            if (selectedBrands.length > 0) {
-                filteredProducts = filteredProducts.filter((product) =>
-                    selectedBrands.includes(product.brand)
-                );
-            }
-
-            currentPage = 1; // Reset to the first page after filtering
-            displayProducts(filteredProducts, document.getElementById("search-results-container"), currentPage);
-            renderPagination(filteredProducts.length);
-        }
-
-        // Get selected filter values
-        function getSelectedFilterValues(filterId) {
-            const checkboxes = document.querySelectorAll(`#${filterId} input[type="checkbox"]:checked`);
-            return Array.from(checkboxes).map((checkbox) => checkbox.value);
-        }
-
-        // Fetch products on page load
-        fetchProducts();
+          // Display the results
+          displayResults(results, query);
+        })
+        .catch(error => {
+          // Hide spinner and show error message
+          spinner.style.display = "none";
+          resultsContainer.innerHTML = "<p>Error fetching products. Please try again later.</p>";
+          console.error("Error fetching products:", error);
+        });
     });
-</script>
+
+    // Advanced Search Logic
+    function advancedSearch(items, query) {
+      if (!query) return [];
+
+      // Filter items based on the query
+      return items.filter(item =>
+        item.partNumber.toLowerCase().includes(query) || // Match part number
+        item.name.toLowerCase().includes(query) || // Match name
+        item.description.toLowerCase().includes(query) || // Match description
+        (item.tags || []).some(tag => tag.toLowerCase().includes(query)) // Match tags
+      );
+    }
+
+    // Display Results Logic
+    function displayResults(results, query) {
+      const resultsContainer = document.getElementById("results-container");
+      resultsContainer.innerHTML = ""; // Clear previous results
+
+      if (results.length === 0) {
+        resultsContainer.innerHTML = "<p>No products found. Try different keywords!</p>";
+        return;
+      }
+
+      // Create result cards for each item
+      results.forEach(item => {
+        const resultCard = document.createElement("div");
+        resultCard.className = "col-md-4 mb-4";
+
+        resultCard.innerHTML = `
+            <div class="card h-100">
+                <img src="${item.imageGallery[0]}" class="card-img-top" alt="${item.name}">
+                <div class="card-body">
+                    <h5 class="card-title">${highlightMatch(item.name, query)}</h5>
+                    <p class="card-text"><strong>Part Number:</strong> ${item.partNumber}</p>
+                    <p class="card-text"><strong></strong> ${item.currency}${item.price}</p>
+                </div>
+            </div>
+        `;
+        resultsContainer.appendChild(resultCard);
+      });
+    }
+
+    // Helper Function: Highlight Matching Terms
+    function highlightMatch(text, query) {
+      if (!text || !query) return text;
+      const regex = new RegExp(`(${query})`, 'gi');
+      return text.replace(regex, '<mark>$1</mark>');
+    }
+  </script>
 
 </body>
 
