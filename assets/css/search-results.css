@@ -1051,6 +1051,14 @@ section,
   margin-bottom: 15px;
 }
 
+/* Error Message */
+.error-message {
+  text-align: center;
+  color: red;
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;

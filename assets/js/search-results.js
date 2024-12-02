@@ -57,7 +57,7 @@ function displayResults(results, query) {
   resultsContainer.innerHTML = "";
 
   if (results.length === 0) {
-      resultsContainer.innerHTML = "<p>No products found. Try different keywords!</p>";
+      resultsContainer.innerHTML = "<p class='error-message'>No products found. Try different keywords!</p>";
       return;
   }
 
