@@ -52,7 +52,7 @@
               "status": "active"
             },
             {
-              "itemId": "item001",
+              "itemId": "item002",
               "name": "LED Navigation Lights",
               "description": "High-efficiency LED navigation lights for aircraft.",
               "price": 120,
@@ -70,7 +70,7 @@
               "status": "active"
             },
             {
-              "itemId": "item001",
+              "itemId": "item003",
               "name": "LED Navigation Lights",
               "description": "High-efficiency LED navigation lights for aircraft.",
               "price": 120,
@@ -88,7 +88,7 @@
               "status": "active"
             },
             {
-              "itemId": "item001",
+              "itemId": "item004",
               "name": "LED Navigation Lights",
               "description": "High-efficiency LED navigation lights for aircraft.",
               "price": 120,
