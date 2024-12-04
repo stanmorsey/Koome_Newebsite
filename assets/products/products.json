@@ -482,7 +482,7 @@
         },
         {
           "name": "Airframe Parts",
-          "image": "",
+          "image": "/assets/img/product-category-images/airframe-parts-main.jpg",
           "categoryId": "cat2-1",
           "slug": "airframe-parts",
           "description": "Lord 100PDL23-6",
@@ -508,7 +508,7 @@
         },
         {
           "name": "Electrical",
-          "image": "",
+          "image": "/assets/img/product-category-images/eletrical.jpg",
           "categoryId": "cat3-1",
           "slug": "electrical",
           "description": "M39029/30-218",
@@ -646,7 +646,7 @@
         },
         {
           "name": "Engine parts & supplies",
-          "image": "",
+          "image": "/assets/img/product-category-images/engine-parts-and-supplies.jpg",
           "categoryId": "cat4-1",
           "slug": "engine-parts-and-supplies",
           "description": "",
@@ -672,7 +672,7 @@
         },
         {
           "name": "Filtration",
-          "image": "",
+          "image": "/assets/img/product-category-images/filtration.jpg",
           "categoryId": "cat5-1",
           "slug": "filtration",
           "description": "HP FILTER",
@@ -1306,7 +1306,7 @@
         },
         {
           "name": "Hardware",
-          "image": "",
+          "image": "/assets/img/product-category-images/hardware.jpg",
           "categoryId": "cat6-1",
           "slug": "hardware",
           "description": "O-RING",
@@ -2468,7 +2468,7 @@
         },
         {
           "name": "Ignition systems",
-          "image": "",
+          "image": "/assets/img/product-category-images/ignition systems.jpg",
           "categoryId": "cat7-1",
           "slug": "ignition-systems",
           "description": "IGNITER",
@@ -2574,7 +2574,7 @@
         },
         {
           "name": "Landing gear & tires",
-          "image": "",
+          "image": "/assets/img/product-category-images/brakes-tyres.jpg",
           "categoryId": "cat8-1",
           "slug": "landing-gear-and-tires",
           "description": "",
