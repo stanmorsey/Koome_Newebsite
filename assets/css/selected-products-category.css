@@ -1,0 +1,117 @@
+/* Container styling */
+#products-container {
+    padding: 20px;
+    background-color: #ffffff00;
+  }
+  
+  /* Category title styling */
+  .category-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #6f00ee;
+    font-weight: bold;
+  }
+  
+  /* General grid layout for products */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 20px;
+    width: 100%;
+    justify-content: center; /* Center align content when there's only one product */
+  }
+  
+  /* Special case for a single product */
+.products-grid.single-product {
+    grid-template-columns: minmax(150px, 250px); /* Set fixed width for single product */
+    justify-content: center; /* Center the single product card */
+  }
+
+  /* Product card styling */
+  .product-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Product image styling */
+  .product-card-image img {
+    width: 100%;
+    height: auto; /* Ensures the image displays fully */
+    object-fit: contain; /* Prevents cropping */
+    background-color: #f3f3f3;
+  }
+  
+  /* Product card content */
+  .product-card-content {
+    padding: 15px;
+    text-align: left; /* Left-align content for consistency */
+  }
+  
+  .product-card-title {
+    font-size: 1.25rem;
+    margin: 10px 0;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .product-card-price {
+    font-size: 1rem;
+    color: #28a745;
+    font-weight: 500;
+    margin: 5px 0;
+  }
+  
+  .product-card-part {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    text-align: center;
+    color: #ff6b6b;
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design */
+  
+  /* Small Devices: Two-column layout and left-aligned text */
+  @media (max-width: 768px) {
+    .products-grid {
+      grid-template-columns: repeat(2, 1fr); /* Two columns for phones */
+    }
+  
+    .product-card-content {
+      text-align: left; /* Left-align text */
+      padding: 10px;
+    }
+  
+    .product-card-title {
+      font-size: 1rem;
+    }
+  
+    .product-card-price,
+    .product-card-part {
+      font-size: 0.9rem;
+    }
+  
+    .product-card-image img {
+      height: auto; /* Maintain original aspect ratio */
+      object-fit: contain; /* Ensure the entire image is displayed */
+    }
+  }
+  

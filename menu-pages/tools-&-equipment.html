@@ -90,13 +90,12 @@
                     <li class="dropdown"><a href="#"><span>Engine Parts</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="#">Aircraft lighting</a></li>
-                            <li><a href="#">Airframe parts</a></li>
-                            <li><a href="#">Electricals</a></li>
-                            <li><a href="#">Engine parts and supplies</a></li>
-                            <li><a href="#">Filtration</a></li>
-                            <li><a href="/menu-pages/aircraft-engine-parts.html"><Strong>All Engine parts</Strong></a>
-                            </li>
+                            <li><a href="/selected-products-category.html?category=aircraft-lighting">Aircraft lighting</a></li>
+                            <li><a href="/selected-products-category.html?category=airframe-parts">Airframe parts</a></li>
+                            <li><a href="/selected-products-category.html?category=electrical">Electricals</a></li>
+                            <li><a href="/selected-products-category.html?category=engine-parts-and-supplies">Engine parts and supplies</a></li>
+                            <li><a href="/selected-products-category.html?category=filtration">Filtration</a></li>
+                            <li><a href="/menu-pages/aircraft-engine-parts.html"><Strong>All Engine parts</Strong></a></li>
                         </ul>
                     </li>
 
@@ -271,7 +270,7 @@
         const categoriesContainer = document.getElementById("categories-container");
 
         // Hardcoded Menu Title for the first menu (Aircraft Engine Parts)
-        const menuTitle = "Aircraft Engine Parts"; // Replace with the desired menu title
+        const menuTitle = "Aircraft Tools"; // Replace with the desired menu title
 
         // Fetch JSON data from external file
         fetch("/assets/products/products.json")
@@ -284,14 +283,14 @@
             })
             .catch(error => {
                 console.error("Error fetching JSON data:", error);
-                categoriesContainer.innerHTML = "<p>Error loading categories. Please try again later.</p>";
+                categoriesContainer.innerHTML = "<p class='error-message' >Error loading categories. Please try again later.</p>";
             });
 
         // Function to display categories for the specified menu title
         function displayCategories(menuData, menuTitle) {
             const selectedMenu = menuData.find(menu => menu.menuTitle === menuTitle);
             if (!selectedMenu) {
-                categoriesContainer.innerHTML = "<p>Categories not found for this menu.</p>";
+                categoriesContainer.innerHTML = "<p class='error-message'> Categories not found for this menu.</p>";
                 return;
             }
 

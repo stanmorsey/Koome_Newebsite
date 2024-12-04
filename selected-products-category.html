@@ -40,6 +40,7 @@
 
     <!-- Main CSS File -->
     <link href="/assets/css/menu-pages.css" rel="stylesheet">
+    <link href="/assets/css/selected-products-category.css" rel="stylesheet">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
     </script>
     <script type="text/javascript">
@@ -90,13 +91,12 @@
                     <li class="dropdown"><a href="#"><span>Engine Parts</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="#">Aircraft lighting</a></li>
-                            <li><a href="#">Airframe parts</a></li>
-                            <li><a href="#">Electricals</a></li>
-                            <li><a href="#">Engine parts and supplies</a></li>
-                            <li><a href="#">Filtration</a></li>
-                            <li><a href="/menu-pages/aircraft-engine-parts.html"><Strong>All Engine parts</Strong></a>
-                            </li>
+                            <li><a href="/selected-products-category.html?category=aircraft-lighting">Aircraft lighting</a></li>
+                            <li><a href="/selected-products-category.html?category=airframe-parts">Airframe parts</a></li>
+                            <li><a href="/selected-products-category.html?category=electrical">Electricals</a></li>
+                            <li><a href="/selected-products-category.html?category=engine-parts-and-supplies">Engine parts and supplies</a></li>
+                            <li><a href="/selected-products-category.html?category=filtration">Filtration</a></li>
+                            <li><a href="/menu-pages/aircraft-engine-parts.html"><Strong>All Engine parts</Strong></a></li>
                         </ul>
                     </li>
 
@@ -158,10 +158,14 @@
 
     <main class="main">
         <section>
-            
+
         </section>
-        <!--categories are injected here dynamically-->
-        <div id="products-container" class="grid-container"></div>
+
+        <!-- Products Container injected with js -->
+        <div id="products-container">
+            <h1 class="category-title"></h1> <!-- Category title dynamically injected -->
+            <div class="products-grid"></div> <!-- Products grid dynamically populated -->
+        </div>
     </main>
 
 
