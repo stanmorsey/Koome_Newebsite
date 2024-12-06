@@ -2634,7 +2634,7 @@
         },
         {
           "name": "Antenna Erosion Masks",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/antenna-erosion-masks",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antenna-erosion-masks.jpg",
           "categoryId": "menu2-cat2-1",
           "slug": "antenna-erosion-masks",
           "description": "",
@@ -2660,7 +2660,7 @@
         },
         {
           "name": "Antennas",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/antennas",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antennas.jpg",
           "categoryId": "menu2-cat3-1",
           "slug": "antennas",
           "description": "",
@@ -2686,7 +2686,7 @@
         },
         {
           "name": "Aviation ELT",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/aviation-elt",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/aviation-elt.jpg",
           "categoryId": "menu2-cat4-1",
           "slug": "aviation-elt",
           "description": "",
@@ -2712,7 +2712,7 @@
         },
         {
           "name": "Communication",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/communications",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/communications.jpg",
           "categoryId": "menu2-cat5-1",
           "slug": "communication",
           "description": "",
@@ -2802,7 +2802,7 @@
         },
         {
           "name": "ELT Antenna",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/Artex 110-340 Antenna",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Artex 110-340 Antenna.jpg",
           "categoryId": "menu2-cat6-1",
           "slug": "elt-antenna",
           "description": "",
@@ -2837,14 +2837,14 @@
               "brand": null,
               "tags": null,
               "isAvailable": false,
-              "imageGallery": ["/assets/img/product-category-images/Artex 110-340 Antenna"],
+              "imageGallery": ["/assets/img/product-category-images/Artex 110-340 Antenna.jpg"],
               "status": "active"
             }
           ]
         },
         {
           "name": "Instruments",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch.jpg",
           "categoryId": "menu2-cat7-1",
           "slug": "instruments",
           "description": "",
@@ -2863,7 +2863,7 @@
               "brand": null,
               "tags": null,
               "isAvailable": false,
-              "imageGallery": ["/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch"],
+              "imageGallery": ["/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch.jpg"],
               "status": "active"
             }
           ]
