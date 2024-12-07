@@ -1129,3 +1129,59 @@
     color: #fff;
   }
   
+
+/* General container styling */
+.sorting-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1rem 0;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  width: 100%;
+}
+
+/* Label styling */
+.sorting-container label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-right: 10px;
+}
+
+/* Select dropdown styling */
+.sorting-container select {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #555;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover and focus effect for select */
+.sorting-container select:hover,
+.sorting-container select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .sorting-container {
+      max-width: 100%;
+  }
+
+  .sorting-container label {
+      font-size: 14px;
+  }
+
+  .sorting-container select {
+      font-size: 13px;
+  }
+}

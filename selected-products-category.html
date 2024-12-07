@@ -173,18 +173,25 @@
 
         </section>
 
+        <!-- Sorting Options -->
+        <div class="sorting-container">
+            <label for="sort-options">Sort by:</label>
+            <select id="sort-options">
+                <option value="default">Default</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+                <option value="name-asc">Name: A to Z</option>
+                <option value="name-desc">Name: Z to A</option>
+            </select>
+        </div>
+
         <!-- Products Container injected with js -->
         <div id="products-container">
             <h1 class="category-title"></h1> <!-- Category title dynamically injected -->
             <div class="products-grid"></div> <!-- Products grid dynamically populated -->
         </div>
 
-        <div class="pagination-container">
-            <button class="pagination-button active">1</button>
-            <button class="pagination-button">2</button>
-            <button class="pagination-button">3</button>
-        </div>
-
+        <div class="pagination-container"></div>
 
     </main>
 
