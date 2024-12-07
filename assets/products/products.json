@@ -563,8 +563,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat3-4-electrical-50-MIRAJ® M131858M FAA-PMA Brush, Electrical Contact-N131858M",
-              "name": "MIRAJ® M131858M FAA-PMA Brush, Electrical Contact",
+              "itemId": "cat3-4-electrical-50-MIRAJ® M131858M FAA-A Brush, Electrical Contact-N131858M",
+              "name": "MIRAJ® M131858M FAA-A Brush, Electrical Contact",
               "description": "BRUSH ELEC",
               "price": 50,
               "currency": "$",
@@ -627,8 +627,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat3-8-electrical-200-MIRAJ® M30300-1413 FAA-PMA Brush, Electrical Contact-M23088-1320",
-              "name": "MIRAJ® M30300-1413 FAA-PMA Brush, Electrical Contact",
+              "itemId": "cat3-8-electrical-200-MIRAJ® M30300-1413 FAA-A Brush, Electrical Contact-M23088-1320",
+              "name": "MIRAJ® M30300-1413 FAA-A Brush, Electrical Contact",
               "description": "DC GEN BRUSHES",
               "price": 200,
               "currency": "$",
@@ -679,8 +679,8 @@
           "status": "active",
           "items": [
             {
-              "itemId": "cat5-1-filtration-350-PTI 7583141 FAA-PMA Non-Cleanable Oil Filter Element-7583141",
-              "name": "PTI 7583141 FAA-PMA Non-Cleanable Oil Filter Element",
+              "itemId": "cat5-1-filtration-350-PTI 7583141 FAA-A Non-Cleanable Oil Filter Element-7583141",
+              "name": "PTI 7583141 FAA-A Non-Cleanable Oil Filter Element",
               "description": "HP FILTER",
               "price": 350,
               "currency": "$",
@@ -711,8 +711,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat5-3-filtration-300-PTI 7511295 FAA-PMA Lube Oil Filter Element-7511295",
-              "name": "PTI 7511295 FAA-PMA Lube Oil Filter Element",
+              "itemId": "cat5-3-filtration-300-PTI 7511295 FAA-A Lube Oil Filter Element-7511295",
+              "name": "PTI 7511295 FAA-A Lube Oil Filter Element",
               "description": "APU FILTER FOKKER 50",
               "price": 300,
               "currency": "$",
@@ -727,8 +727,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat5-4-filtration-350-Purolator Facet 1763709-01 FAA-PMA Filter Element Assembly-1763709-01",
-              "name": "Purolator Facet 1763709-01 FAA-PMA Filter Element Assembly",
+              "itemId": "cat5-4-filtration-350-Purolator Facet 1763709-01 FAA-A Filter Element Assembly-1763709-01",
+              "name": "Purolator Facet 1763709-01 FAA-A Filter Element Assembly",
               "description": "HP FILTER",
               "price": 350,
               "currency": "$",
@@ -759,8 +759,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat5-6-filtration-280-PTI 7500291 FAA-PMA Oil Filter Element-7500291",
-              "name": "PTI 7500291 FAA-PMA Oil Filter Element",
+              "itemId": "cat5-6-filtration-280-PTI 7500291 FAA-A Oil Filter Element-7500291",
+              "name": "PTI 7500291 FAA-A Oil Filter Element",
               "description": "FILTER",
               "price": 280,
               "currency": "$",
@@ -775,8 +775,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat5-7-filtration-280-Purolator Facet 1763709-01 FAA-PMA Filter Element Assembly-WF329398",
-              "name": "Purolator Facet 1763709-01 FAA-PMA Filter Element Assembly",
+              "itemId": "cat5-7-filtration-280-Purolator Facet 1763709-01 FAA-A Filter Element Assembly-WF329398",
+              "name": "Purolator Facet 1763709-01 FAA-A Filter Element Assembly",
               "description": "FILTER",
               "price": 280,
               "currency": "$",
@@ -839,8 +839,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat5-11-filtration-300-PTI 6667621 FAA-PMA Non-Cleanable Fuel Filter Element - 500 Each-6667621",
-              "name": "PTI 6667621 FAA-PMA Non-Cleanable Fuel Filter Element - 500 Each",
+              "itemId": "cat5-11-filtration-300-PTI 6667621 FAA-A Non-Cleanable Fuel Filter Element - 500 Each-6667621",
+              "name": "PTI 6667621 FAA-A Non-Cleanable Fuel Filter Element - 500 Each",
               "description": "MAIN FUEL PUMP FILTER KIT",
               "price": 300,
               "currency": "$",
@@ -887,8 +887,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat5-14-filtration-350-PTI 7589141 FAA-PMA Fuel Filter Element-7589141",
-              "name": "PTI 7589141 FAA-PMA Fuel Filter Element",
+              "itemId": "cat5-14-filtration-350-PTI 7589141 FAA-A Fuel Filter Element-7589141",
+              "name": "PTI 7589141 FAA-A Fuel Filter Element",
               "description": "HP FILTER",
               "price": 350,
               "currency": "$",
@@ -935,8 +935,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat5-17-filtration-350-PTI 7588820 FAA-PMA Filter Element-7588820",
-              "name": "PTI 7588820 FAA-PMA Filter Element",
+              "itemId": "cat5-17-filtration-350-PTI 7588820 FAA-A Filter Element-7588820",
+              "name": "PTI 7588820 FAA-A Filter Element",
               "description": "IDG FILTER",
               "price": 350,
               "currency": "$",
@@ -967,8 +967,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat5-19-filtration-1200-PTI 7579643 FAA-PMA Hydraulic Filter Element-7579643",
-              "name": "PTI 7579643 FAA-PMA Hydraulic Filter Element",
+              "itemId": "cat5-19-filtration-1200-PTI 7579643 FAA-A Hydraulic Filter Element-7579643",
+              "name": "PTI 7579643 FAA-A Hydraulic Filter Element",
               "description": "HYDRAULIC FILTER",
               "price": 1200,
               "currency": "$",
@@ -983,8 +983,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat5-20-filtration-250-RS PRO - 725513 - Air Hose Green Nylon 5mm Outer Diam 3mm -725513",
-              "name": "RS PRO - 725513 - Air Hose Green Nylon 5mm Outer Diam 3mm",
+              "itemId": "cat5-20-filtration-250-RS PRO - 725513 - Air Hose Green Nylon 5mm Outer Diam 3m -725513",
+              "name": "RS PRO - 725513 - Air Hose Green Nylon 5mm Outer Diam 3m",
               "description": "FILTER ELEMENT",
               "price": 250,
               "currency": "$",
@@ -999,8 +999,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat5-21-filtration-250-PTI 7586835 FAA-PMA Element-7586835",
-              "name": "PTI 7586835 FAA-PMA Element",
+              "itemId": "cat5-21-filtration-250-PTI 7586835 FAA-A Element-7586835",
+              "name": "PTI 7586835 FAA-A Element",
               "description": "FILTER ELEMEMT",
               "price": 250,
               "currency": "$",
@@ -1015,8 +1015,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat5-22-filtration-250-PTI 7579077 FAA-PMA Non-Cleanable Fuel Filter Element-7579077",
-              "name": "PTI 7579077 FAA-PMA Non-Cleanable Fuel Filter Element",
+              "itemId": "cat5-22-filtration-250-PTI 7579077 FAA-A Non-Cleanable Fuel Filter Element-7579077",
+              "name": "PTI 7579077 FAA-A Non-Cleanable Fuel Filter Element",
               "description": "FILTER ELEMENT",
               "price": 250,
               "currency": "$",
@@ -1047,8 +1047,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat5-24-filtration-250-Purolator Facet 055916-04 FAA-PMA Disposable Fluid Filter Element-055916-04",
-              "name": "Purolator Facet 055916-04 FAA-PMA Disposable Fluid Filter Element",
+              "itemId": "cat5-24-filtration-250-Purolator Facet 055916-04 FAA-A Disposable Fluid Filter Element-055916-04",
+              "name": "Purolator Facet 055916-04 FAA-A Disposable Fluid Filter Element",
               "description": "FILTER ELEMENT",
               "price": 250,
               "currency": "$",
@@ -1079,8 +1079,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat5-26-filtration-350-PTI 7578659AM FAA-PMA Oil Filter Element-7578659AM",
-              "name": "PTI 7578659AM FAA-PMA Oil Filter Element",
+              "itemId": "cat5-26-filtration-350-PTI 7578659AM FAA-A Oil Filter Element-7578659AM",
+              "name": "PTI 7578659AM FAA-A Oil Filter Element",
               "description": "SCAVENGE FILTER",
               "price": 350,
               "currency": "$",
@@ -1095,8 +1095,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat5-27-filtration-500-PTI 7578137-101 FAA-PMA Disposable Lube Fluid Filter Element-7578137",
-              "name": "PTI 7578137-101 FAA-PMA Disposable Lube Fluid Filter Element",
+              "itemId": "cat5-27-filtration-500-PTI 7578137-101 FAA-A Disposable Lube Fluid Filter Element-7578137",
+              "name": "PTI 7578137-101 FAA-A Disposable Lube Fluid Filter Element",
               "description": "FILTER ELEMENT",
               "price": 500,
               "currency": "$",
@@ -1111,8 +1111,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat5-28-filtration-500-PTI 7587923-AM FAA-PMA Filter Element-7587923AM",
-              "name": "PTI 7587923-AM FAA-PMA Filter Element",
+              "itemId": "cat5-28-filtration-500-PTI 7587923-AM FAA-A Filter Element-7587923AM",
+              "name": "PTI 7587923-AM FAA-A Filter Element",
               "description": "MAIN OIL FILTER",
               "price": 500,
               "currency": "$",
@@ -1287,8 +1287,8 @@
               "status": "active"
             },
             {
-              "itemId": "cat5-39-filtration-500-PTI 7587923-AM FAA-PMA Filter Element-3034190",
-              "name": "PTI 7587923-AM FAA-PMA Filter Element",
+              "itemId": "cat5-39-filtration-500-PTI 7587923-AM FAA-A Filter Element-3034190",
+              "name": "PTI 7587923-AM FAA-A Filter Element",
               "description": "3034190",
               "price": 500,
               "currency": "$",
@@ -2555,8 +2555,8 @@
               "status": ""
             },
             {
-              "itemId": "cat7-6-ignition-systems-50-Global Filtration 3010880GF FAA-PMA PT-6A Engine Igniter Plug Gasket-3010880GF",
-              "name": "Global Filtration 3010880GF FAA-PMA PT-6A Engine Igniter Plug Gasket",
+              "itemId": "cat7-6-ignition-systems-50-Global Filtration 3010880GF FAA-A PT-6A Engine Igniter Plug Gasket-3010880GF",
+              "name": "Global Filtration 3010880GF FAA-A PT-6A Engine Igniter Plug Gasket",
               "description": "GASKET IGNITOR",
               "price": 50,
               "currency": "$",
@@ -2621,13 +2621,15 @@
               "price": 520,
               "currency": "$",
               "partNumber": "SSD120-30N",
-              "sku": "5.9oz.",
-              "weight": "5.9oz.",
+              "sku": "5.9",
+              "weight": "5.9",
               "dimensions": "6 x 4 x 4 inches",
               "brand": null,
               "tags": null,
               "isAvailable": false,
-              "imageGallery": ["/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg"],
+              "imageGallery": [
+                "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg"
+              ],
               "status": "active"
             }
           ]
@@ -2641,16 +2643,16 @@
           "status": "active",
           "items": [
             {
-              "itemId": "menu2-cat2-1-antenna-erosion-masks-450-PM Research PM-586 Boeing BBJ SATCOM Base Fairing Erosion Film-PM-586",
-              "name": "PM Research PM-586 Boeing BBJ SATCOM Base Fairing Erosion Film",
-              "description": "M Research PM-586 EMS SATCOM Antenna Base Fairing Film ill fit the following aircraft: oeing BBJ. PM Research Films are made from a clear, self-adhesive Polyurethane that is .012 of an inch thick. The Polyurethane is not affected by UV light, meaning it will never yellow and it will not change the cosmetic appearance of your aircraft. The Film is easy to install by peeling off the backing and wetting the material with a solution of distilled water, alcohol and dish washing liquid, and you can fly within an hour of installation. An 11 page instruction booklet comes with each Film giving detailed installation instructions. Shelf life is 5+ years.",
+              "itemId": "menu2-cat2-1-antenna-erosion-masks-450- Research -586 Boeing BBJ SATCOM Base Fairing Erosion Film--586",
+              "name": " Research -586 Boeing BBJ SATCOM Base Fairing Erosion Film",
+              "description": "M Research -586 EMS SATCOM Antenna Base Fairing Film ill fit the following aircraft: oeing BBJ.  Research Films are made from a clear, self-adhesive Polyurethane that is .012 of an inch thick. The Polyurethane is not affected by UV light, meaning it will never yellow and it will not change the cosmetic appearance of your aircraft. The Film is easy to install by peeling off the backing and wetting the material with a solution of distilled water, alcohol and dish washing liquid, and you can fly within an hour of installation. An 11 page instruction booklet comes with each Film giving detailed installation instructions. Shelf life is 5+ years.",
               "price": 450,
               "currency": "$",
-              "partNumber": "PM-586",
+              "partNumber": "-586",
               "sku": "null",
               "weight": null,
               "dimensions": "20 x 20 x 10 inches",
-              "brand": "PM",
+              "brand": "pm",
               "tags": null,
               "isAvailable": true,
               "imageGallery": ["/assets/img/products/antenna-erosion-masks"],
@@ -2705,7 +2707,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": false,
-              "imageGallery": ["/assets/img/products/ACR Artex™ 8207 Model ELT 1000 406 MHz Emergency Locator Transmitter - Rod Antenna & ACE Switch"],
+              "imageGallery": [
+                "/assets/img/products/ACR Artex™ 8207 Model ELT 1000 406 MHz Emergency Locator Transmitter - Rod Antenna & ACE Switch"
+              ],
               "status": "active"
             }
           ]
@@ -2837,7 +2841,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": false,
-              "imageGallery": ["/assets/img/product-category-images/Artex 110-340 Antenna.jpg"],
+              "imageGallery": [
+                "/assets/img/product-category-images/Artex 110-340 Antenna.jpg"
+              ],
               "status": "active"
             }
           ]
@@ -2863,8 +2869,3516 @@
               "brand": null,
               "tags": null,
               "isAvailable": false,
-              "imageGallery": ["/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch.jpg"],
+              "imageGallery": [
+                "/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch.jpg"
+              ],
               "status": "active"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menuTitle": "Aircraft Tools",
+      "menuId": "menu3",
+      "description": null,
+      "isFeatured": true,
+      "categories": [
+        {
+          "name": "Abrasive Holders & Back-up Pads",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu3-cat1-1",
+          "slug": "abrasive-holders-and-backup-pads",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-abrasive-holders-and-backup-pads",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Air Chucks",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antenna-erosion-masks",
+          "categoryId": "menu3-cat1-1",
+          "slug": "air-chucks",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-air-chucks",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Air Regulators",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antennas",
+          "categoryId": "menu3-cat1-1",
+          "slug": "air-regulators",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-air-regulators",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Aircraft Hydraulic Jacks",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/aviation-elt",
+          "categoryId": "menu3-cat1-1",
+          "slug": "hydraulic-jacks",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-hydraulic-jacks",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Aircraft Jack Pads",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/communications",
+          "categoryId": "menu3-cat1-1",
+          "slug": "aircraft-jack-pads",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-aircraft-jack-pads",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Aircraft Tail Stands",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Artex 110-340 Antenna",
+          "categoryId": "menu3-cat1-1",
+          "slug": "aircraft-tail-stands",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-aircraft-tail-stands",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Aircraft Tire & Wheel Balancers",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch",
+          "categoryId": "menu3-cat1-1",
+          "slug": "aircraft-tire-and-wheel-balancers",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-aircraft-tire-and-wheel-balancers",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Battery Acid Fillers",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antenna-erosion-masks",
+          "categoryId": "menu3-cat1-1",
+          "slug": "battery-acid-filters",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-battery-acid-filters",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Battery Chargers / Analyzers",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antennas",
+          "categoryId": "menu3-cat1-1",
+          "slug": "battery-chargers-analyzers",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-battery-chargers-analyzers",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Blind Rivet Tools",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/aviation-elt",
+          "categoryId": "menu3-cat1-1",
+          "slug": "blind-rivet-tools",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-blind-rivet-tools",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Borescopes",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/communications",
+          "categoryId": "menu3-cat1-1",
+          "slug": "borescopes",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-borescopes",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Brushes",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Artex 110-340 Antenna",
+          "categoryId": "menu3-cat1-1",
+          "slug": "brushes",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-brushes",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Cleco Temporary Fastener",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch",
+          "categoryId": "menu3-cat1-1",
+          "slug": "cleco-temporary-fastener",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-cleco-temporary-fastener",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Crimping Tools",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antenna-erosion-masks",
+          "categoryId": "menu3-cat1-1",
+          "slug": "crimping-tools",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-crimping-tools",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Dye Penetrant Inspection",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antennas",
+          "categoryId": "menu3-cat1-1",
+          "slug": "dye-penetrant-inspection",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-dye-penetrant-inspection",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Electrical Wiring Tools",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/communications",
+          "categoryId": "menu3-cat1-1",
+          "slug": "electrical-wiring-tools",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-electrical-wiring-tools",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Grease Guns",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Artex 110-340 Antenna",
+          "categoryId": "menu3-cat1-1",
+          "slug": "grease-guns",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-grease-guns",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Grinding & Cutoff Wheels",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch",
+          "categoryId": "menu3-cat1-1",
+          "slug": "grinding-&-cutoff-wheels",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-grinding-&-cutoff-wheels",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Hand Cleaning Wipes",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antenna-erosion-masks",
+          "categoryId": "menu3-cat1-1",
+          "slug": "hand-cleaning-wipes",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-hand-cleaning-wipes",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Headband Magnifiers",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antennas",
+          "categoryId": "menu3-cat1-1",
+          "slug": "headband-magnifiers",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-headband-magnifiers",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Hi Lok Tools",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/aviation-elt",
+          "categoryId": "menu3-cat1-1",
+          "slug": "hi-lok-tools",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-hi-lok-tools",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "High Pressure Strut Couplers",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/communications",
+          "categoryId": "menu3-cat1-1",
+          "slug": "high-pressure-strut-couplers",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-high-pressure-strut-couplers",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Knives",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Artex 110-340 Antenna",
+          "categoryId": "menu3-cat1-1",
+          "slug": "knives",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-knives",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Landing Gear Strut Tools",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch",
+          "categoryId": "menu3-cat1-1",
+          "slug": "landing-gear-strut-tools",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-landing-gear-strut-tools",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Landing Gear Tools",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antenna-erosion-masks",
+          "categoryId": "menu3-cat1-1",
+          "slug": "landing-gear-tools",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-landing-gear-tools",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Magneto Timing Tools",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antennas",
+          "categoryId": "menu3-cat1-1",
+          "slug": "magneto-timing-tools",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-magneto-timing-tools",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Aircraft Battery Tools",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/aviation-elt",
+          "categoryId": "menu3-cat1-1",
+          "slug": "aircraft-battery-tools",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-aircraft-battery-tools",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Oil Filter Tools",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/communications",
+          "categoryId": "menu3-cat1-1",
+          "slug": "oil-filter-tools",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-oil-filter-tools",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Aircraft Tail Stands",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Artex 110-340 Antenna",
+          "categoryId": "menu3-cat1-1",
+          "slug": "aircraft-tail-stands",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-aircraft-tail-stands",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Paint Paddles / Stirrers",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch",
+          "categoryId": "menu3-cat1-1",
+          "slug": "paint-paddles-stirrers",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-paint-paddles-stirrers",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Pin Insertion & Removal Tools",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antenna-erosion-masks",
+          "categoryId": "menu3-cat1-1",
+          "slug": "pin-insertion-and-removal-tools",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-pin-insertion-and-removal-tools",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Pliers",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antennas",
+          "categoryId": "menu3-cat1-1",
+          "slug": "pliers",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-pliers",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Propeller Protractor",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/aviation-elt",
+          "categoryId": "menu3-cat1-1",
+          "slug": "propellor-protractor",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-propellor-protractor",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Respirator Filters",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/communications",
+          "categoryId": "menu3-cat1-1",
+          "slug": "respirator-filters",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-respirator-filters",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Reusable Respirators",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Artex 110-340 Antenna",
+          "categoryId": "menu3-cat1-1",
+          "slug": "reusable-respirators",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-reusable-respirators",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Safety Glasses",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch",
+          "categoryId": "menu3-cat1-1",
+          "slug": "safety-glasses",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-safety-glasses",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Safety Wire Pliers",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antenna-erosion-masks",
+          "categoryId": "menu3-cat1-1",
+          "slug": "safety-wire-pliers",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-safety-wire-pliers",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Screw & Bolt Extractors",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antennas",
+          "categoryId": "menu3-cat1-1",
+          "slug": "screw-&-bolt-extractors",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-screw-&-bolt-extractors",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Screw Driver Bits",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/aviation-elt",
+          "categoryId": "menu3-cat1-1",
+          "slug": "screw-driver-bits",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-screw-driver-bits",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Sealant Tools",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/communications",
+          "categoryId": "menu3-cat1-1",
+          "slug": "sealant-tools",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-sealant-tools",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Spark Plug Cleaner",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Artex 110-340 Antenna",
+          "categoryId": "menu3-cat1-1",
+          "slug": "spark-plug-cleaner",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-spark-plug-cleaner",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Spark Plug Tools",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch",
+          "categoryId": "menu3-cat1-1",
+          "slug": "spark-plug-tools",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-spark-plug-tools",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Sponges",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antenna-erosion-masks",
+          "categoryId": "menu3-cat1-1",
+          "slug": "sponges",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-sponges",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Tape Dispenser",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/antennas",
+          "categoryId": "menu3-cat1-1",
+          "slug": "tape-dispensors",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-tape-dispensors",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Tensiometers",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/aviation-elt",
+          "categoryId": "menu3-cat1-1",
+          "slug": "tensiometers",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-tensiometers",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Tire Pressure Gauges",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/communications",
+          "categoryId": "menu3-cat1-1",
+          "slug": "tire-pressure-gauges",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-tire-pressure-gauges",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Turbine Engine Compressor Washer",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Artex 110-340 Antenna",
+          "categoryId": "menu3-cat1-1",
+          "slug": "turbine-engine-compressor-washer",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-turbine-engine-compressor-washer",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Wrenches",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch",
+          "categoryId": "menu3-cat1-1",
+          "slug": "wrenches",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-wrenches",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Wire Strippers",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch",
+          "categoryId": "menu3-cat1-1",
+          "slug": "wire-strippers",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu3-cat1-1-wire-strippers",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menuTitle": "Hangar Supplies",
+      "menuId": "menu4",
+      "description": null,
+      "isFeatured": true,
+      "categories": [
+        {
+          "name": "Abrasives",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "abrasives",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-abrasives",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "5.9",
+              "weight": 5.9,
+              "dimensions": "6 x 4 x 4 inches",
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Adhesives",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "adhesives",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-adhesives",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Aerospace Sealants",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "aerospace-sealants",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-aerospace-sealants",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": "20 x 20 x 10 inches",
+              "brand": "pm",
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/antenna-erosion-masks"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Air Dusters",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "air-dusters",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-air-dusters",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Alkaline Cleaner",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "alkaline-cleaner",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-alkaline-cleaner",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": ["/assets/img/products/antennas"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Assembly Lubricant",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "assembly-lubricants",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-assembly-lubricants",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Avionics Cleaners",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "avionics-cleaners",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-avionics-cleaners",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/products/ACR Artex™ 8207 Model ELT 1000 406 MHz Emergency Locator Transmitter - Rod Antenna & ACE Switch"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Belt Dressing Fluid",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "belt-dressing-fluid",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-belt-dressing-fluid",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Brake Cleaner",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "brake-cleaner",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-brake-cleaner",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/communications"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Calibration Fluid",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "calibration-fluid",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-calibration-fluid",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/communications"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Chain & Wire Rope Lubricant",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "cahain-&-wire-rope-lubricant",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-cahain-&-wire-rope-lubricant",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Chemicals",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "chemicals",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-chemicals",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Cleaning & Detailing Supplies",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "cleaning-and-detailing-supplies",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-cleaning-and-detailing-supplies",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Cloths & Wipes",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "cloths-&-wipes",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-cloths-&-wipes",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Contact Cleaner",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "contact-cleaner",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-contact-cleaner",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/Cobham 110-320 Antenna"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Coolants",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "coolants",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-coolants",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/product-category-images/Artex 110-340 Antenna"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Corrosion Inhibitor",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "corrosion-inhibitor",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-corrosion-inhibitor",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Cotton Swabs",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "cotton-swabs",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-cotton-swabs",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Cutting Fluid",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "cutting-fluid",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-cutting-fluid",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "5.9",
+              "weight": 5.9,
+              "dimensions": "6 x 4 x 4 inches",
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "De-Ice Boot Care",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "de-ice-boot-care",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-de-ice-boot-care",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "De-Ice Fluid",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "de-ice-fluid",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-de-ice-fluid",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": "20 x 20 x 10 inches",
+              "brand": "pm",
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/antenna-erosion-masks"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Degreaser",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "degreaser",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-degreaser",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Deodorizers",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "deodrizers",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-deodrizers",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": ["/assets/img/products/antennas"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Desiccant Silica",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "desiccant-silica",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-desiccant-silica",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Detailing Clay",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "detailing-clay",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-detailing-clay",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/products/ACR Artex™ 8207 Model ELT 1000 406 MHz Emergency Locator Transmitter - Rod Antenna & ACE Switch"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Drilling Fluid",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "drilling-fluid",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-drilling-fluid",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Dry-Wash",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "dry-wash",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-dry-wash",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/communications"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Dry Film Lubricants",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "dry-film-lubricants",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-dry-film-lubricants",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/communications"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Electrical Coatings",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "electrical-coatings",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-electrical-coatings",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Emergency & Safety",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "emergency-&-safety",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-emergency-&-safety",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Engine Compressor Wash",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "engine-compressor-wash",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-engine-compressor-wash",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Exterior Cleaners",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "exterior-cleaners",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-exterior-cleaners",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "FBO & Ground Support",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "fbo-&-ground-support",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-fbo-&-ground-support",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/Cobham 110-320 Antenna"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Fuel Additive",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "fuel-additive",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-fuel-additive",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/product-category-images/Artex 110-340 Antenna"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Glass Cleaner",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "glass-cleaner",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-glass-cleaner",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Grease",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "grease",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-grease",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "5.9",
+              "weight": 5.9,
+              "dimensions": "6 x 4 x 4 inches",
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Hand Cleaner",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "hand-cleaner",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-hand-cleaner",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Hand Soap",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "hand-soap",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-hand-soap",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": "20 x 20 x 10 inches",
+              "brand": "pm",
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/antenna-erosion-masks"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Hand Towels",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "hand-towels",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-hand-towels",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Hydraulic Fluid",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "hydraulic-fluid",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-hydraulic-fluid",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": ["/assets/img/products/antennas"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Joint Compound",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "joint-compound",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-joint-compound",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/products/ACR Artex™ 8207 Model ELT 1000 406 MHz Emergency Locator Transmitter - Rod Antenna & ACE Switch"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Landing Gear Fluid",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "landing-gear-fluid",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-landing-gear-fluid",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Lapping & Grinding Compound",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "lapping-&-grinding-compound",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-lapping-&-grinding-compound",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/communications"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Lavatory Chemicals",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "lavatory-chemicals",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-lavatory-chemicals",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/communications"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Leak Detector",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "leak-detector",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-leak-detector",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Oil & Lubricants",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "lubricants",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-lubricants",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Markers",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "markers",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-markers",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Metal Prep",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "metal-prep",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-metal-prep",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Mold Release",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "mold-release",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-mold-release",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/Cobham 110-320 Antenna"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Multi-Purpose Cleaners",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "multi-purpose-cleaners",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-multi-purpose-cleaners",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/product-category-images/Artex 110-340 Antenna"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "O-Ring Lubricant",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "oring-lubricants",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-oring-lubricants",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Oil",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "oils",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-oils",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Oil Absorbent",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "oil-adsorbent",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-oil-adsorbent",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "5.9",
+              "weight": 5.9,
+              "dimensions": "6 x 4 x 4 inches",
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Paint",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "paint",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-paint",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Paint & Primer Supplies",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "paint-&-primer-supplies",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-paint-&-primer-supplies",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": "20 x 20 x 10 inches",
+              "brand": "pm",
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/antenna-erosion-masks"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Petroleum Jelly",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "petroleum-jelly",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-petroleum-jelly",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Pilot Supplies",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "pilot-supplies",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-pilot-supplies",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": ["/assets/img/products/antennas"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Plastic Cleaner",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "plastic0-cleaner",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-plastic0-cleaner",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Polishes",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "polishes",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-polishes",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/products/ACR Artex™ 8207 Model ELT 1000 406 MHz Emergency Locator Transmitter - Rod Antenna & ACE Switch"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Primer",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "primer",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-primer",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "PTFE Teflon Lubricant",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "PTFE-teflon-lubricant",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-PTFE-teflon-lubricant",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/communications"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Refrigerants",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "refrigerants",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-refrigerants",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/communications"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Rubbing Compounds",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "rubbing-compounds",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-rubbing-compounds",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Shop Towels",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "shop-towels",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-shop-towels",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Silicone Fluid",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "silicone-fluid",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-silicone-fluid",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [""],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Silicone Lubricants",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "silicone-lubricants",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-silicone-lubricants",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/Cobham 110-320 Antenna"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Solid Film Lubricants",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "solid-film-lubricants",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-solid-film-lubricants",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/product-category-images/Artex 110-340 Antenna"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Tape",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "tapes",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-tapes-7000- 8ft (94'') Black LED Channel -1971B",
+              "name": "8ft (94'') Black LED Channel",
+              "description": "DOUBLE SIDED TAPE",
+              "price": 7000,
+              "currency": "Ksh",
+              "partNumber": "1971B",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1043"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-7000- 8ft (94'') Black LED Channel -1971B",
+              "name": "8ft (94'') Black LED Channel",
+              "description": "DOUBLE SIDED TAPE",
+              "price": 7000,
+              "currency": "Ksh",
+              "partNumber": "1971B",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1043"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-250-Masking tape-1 INCH",
+              "name": "Masking tape",
+              "description": "MASKING TAPE",
+              "price": 250,
+              "currency": "Ksh",
+              "partNumber": "1 INCH",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1044"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-280-Masking tape-2 INCH",
+              "name": "Masking tape",
+              "description": "MASKING TAPE",
+              "price": 280,
+              "currency": "Ksh",
+              "partNumber": "2 INCH",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1045"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-28000-Masking tape-3 INCH",
+              "name": "Masking tape",
+              "description": "CARGO,FIBRE,CLOTH",
+              "price": 28000,
+              "currency": "Ksh",
+              "partNumber": "3 INCH",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": 3,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1046"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-70000-Masking tape",
+              "name": "Masking tape",
+              "description": "ORCON TAPE",
+              "price": 70000,
+              "currency": "Ksh",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": "LAMART",
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1047"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-70000-Masking tape",
+              "name": "Masking tape",
+              "description": "ORCON TAPE",
+              "price": 70000,
+              "currency": "Ksh",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": "E&H",
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1048"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-50000-Waring Blender Replacement Parts For ModeI-2217103",
+              "name": "Waring Blender Replacement Parts For ModeI",
+              "description": "ALUMINIUM TAPE 4 INCH",
+              "price": 50000,
+              "currency": "Ksh",
+              "partNumber": "2217103",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1049"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-13000-Aluminium tape-1052A00138",
+              "name": "Aluminium tape",
+              "description": "ALUMINIUM TAPE 1 INCH",
+              "price": 13000,
+              "currency": "Ksh",
+              "partNumber": "1052A00138",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": 3,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1050"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-22000-Aluminium tape-2211214",
+              "name": "Aluminium tape",
+              "description": "ALUMINIUM TAPE 2 INCH",
+              "price": 22000,
+              "currency": "Ksh",
+              "partNumber": "2211214",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": 3,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1051"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-80000-Erosion tape-J2302602",
+              "name": "Erosion tape",
+              "description": "EROSION TAPE",
+              "price": 80000,
+              "currency": "Ksh",
+              "partNumber": "J2302602",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": 3,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1052"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-150000-Erosion tape-J2317302",
+              "name": "Erosion tape",
+              "description": "EROSION TAPE",
+              "price": 150000,
+              "currency": "Ksh",
+              "partNumber": "J2317302",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": 3,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1053"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-65000-Aluminium tape-2208201",
+              "name": "Aluminium tape",
+              "description": "ALUMINIUM TAPE 4 INCH",
+              "price": 65000,
+              "currency": "Ksh",
+              "partNumber": "2208201",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": 3,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1054"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-25000-3 7000126118 Safety-Walk™ Slip-Resistant Medium Resilient Tape and Thread-1052A00202",
+              "name": "3 7000126118 Safety-Walk™ Slip-Resistant Medium Resilient Tape and Thread",
+              "description": "ANTISLIP TAPE",
+              "price": 25000,
+              "currency": "Ksh",
+              "partNumber": "1052A00202",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": 3,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1055"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-3500-VELCRO",
+              "name": "VELCRO",
+              "description": "VELCRO 2 inch",
+              "price": 3500,
+              "currency": "Ksh",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1264"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-2500-VELCRO",
+              "name": "VELCRO",
+              "description": "VELCRO 1inch",
+              "price": 2500,
+              "currency": "Ksh",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1265"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-3500-VELCRO WHITE",
+              "name": "VELCRO WHITE",
+              "description": "VELCRO 2 inch",
+              "price": 3500,
+              "currency": "Ksh",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1266"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-3500-VELCRO BLACK",
+              "name": "VELCRO BLACK",
+              "description": "VELCRO 2 inch",
+              "price": 3500,
+              "currency": "Ksh",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1267"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-1500-DUCT TAPE-6620",
+              "name": "DUCT TAPE",
+              "description": "DUCT TAPE",
+              "price": 1500,
+              "currency": "Ksh",
+              "partNumber": "6620",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1597"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-2500-DUCT TAPE-2123721543031",
+              "name": "DUCT TAPE",
+              "description": "DUCT TAPE",
+              "price": 2500,
+              "currency": "Ksh",
+              "partNumber": "2.123721543e+12",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1598"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-3500-DUCT TAPE",
+              "name": "DUCT TAPE",
+              "description": "DUCT TAPE",
+              "price": 3500,
+              "currency": "Ksh",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1599"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-1-tapes-3500-VELCRO TAPE",
+              "name": "VELCRO TAPE",
+              "description": "VELCRO 2inch",
+              "price": 3500,
+              "currency": "Ksh",
+              "partNumber": "",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1268"],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Thread Compound",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "thread-compound",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-thread-compound-115-76072-15",
+              "name": "",
+              "description": "Switch",
+              "price": 115,
+              "currency": "$",
+              "partNumber": "76072-15",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/product-category-images/avionics-&-instruments/Honeywell Hobbs 76072-15 15 PSI Pressure Switch"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Transmission Fluid",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "transmission-fluid",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-transmission-fluid-520-SSD120-30N",
+              "name": "",
+              "description": "The SSD-120-30N altitude digitizer is designed to be mounted within a pressurized or non-pressurized, but temperature controlled area within aircraft operating up to 42,000 feet MSL. Usually remotely located, the digitizer is fully automatic in operation.",
+              "price": 520,
+              "currency": "$",
+              "partNumber": "SSD120-30N",
+              "sku": "5.9",
+              "weight": 5.9,
+              "dimensions": 0,
+              "brand": null,
+              "tags": null,
+              "isAvailable": false,
+              "imageGallery": [
+                "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg"
+              ],
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "name": "Upholstery Cleaner",
+          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "categoryId": "menu4-cat1-1",
+          "slug": "upholstery-cleaner",
+          "description": "",
+          "status": "active",
+          "items": [
+            {
+              "itemId": "menu4-cat1-1-upholstery-cleaner",
+              "name": "",
+              "description": "",
+              "price": 0,
+              "currency": "",
+              "partNumber": "",
+              "sku": "",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": 0,
+              "imageGallery": [""],
+              "status": ""
             }
           ]
         }
