@@ -5,6 +5,9 @@ const productsContainer = document.getElementById("products-container");
 const params = new URLSearchParams(window.location.search);
 const categorySlug = params.get("category");
 
+const ITEMS_PER_PAGE = 20; // Limit to 20 items per page
+let currentPage = 1; // Track the current page
+
 if (!categorySlug) {
   productsContainer.innerHTML = "<p class='error-message'>Category not specified. Please return to the categories page.</p>";
 } else {
@@ -23,7 +26,7 @@ if (!categorySlug) {
     });
 }
 
-// Function to display products for a specific category
+// Function to display products for a specific category with pagination
 function displayProductsForCategory(menuData, categorySlug) {
   let foundCategory = null;
 
@@ -61,8 +64,12 @@ function displayProductsForCategory(menuData, categorySlug) {
   // Update the category title
   categoryTitle.textContent = foundCategory.name;
 
-  // Clear previous product cards
+  // Clear previous product cards and pagination
   productsGrid.innerHTML = "";
+  let paginationContainer = document.querySelector('.pagination-container');
+  if (paginationContainer) {
+    paginationContainer.remove();
+  }
 
   // Adjust grid class for a single product
   if (foundCategory.items.length === 1) {
@@ -71,9 +78,18 @@ function displayProductsForCategory(menuData, categorySlug) {
     productsGrid.classList.remove("single-product");
   }
 
+  // Total items and pages
+  const totalItems = foundCategory.items.length;
+  const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
+
+  // Get items for the current page
+  const startIdx = (currentPage - 1) * ITEMS_PER_PAGE;
+  const endIdx = Math.min(startIdx + ITEMS_PER_PAGE, totalItems);
+  const currentItems = foundCategory.items.slice(startIdx, endIdx);
+
   // Inject product cards into the grid
-  if (foundCategory.items && foundCategory.items.length > 0) {
-    foundCategory.items.forEach(item => {
+  if (currentItems.length > 0) {
+    currentItems.forEach(item => {
       const productCard = document.createElement("div");
       productCard.className = "product-card";
       productCard.innerHTML = `
@@ -102,4 +118,31 @@ function displayProductsForCategory(menuData, categorySlug) {
   } else {
     productsGrid.innerHTML = "<p class='error-message'>No products available in this category.</p>";
   }
+
+  // Generate pagination
+  generatePagination(totalPages);
+}
+
+// Function to generate pagination
+function generatePagination(totalPages) {
+  if (totalPages <= 1) return; // No pagination needed for a single page
+
+  const paginationContainer = document.createElement("div");
+  paginationContainer.className = "pagination-container";
+
+  for (let i = 1; i <= totalPages; i++) {
+    const pageButton = document.createElement("button");
+    pageButton.textContent = i;
+    pageButton.className = "pagination-button";
+    if (i === currentPage) {
+      pageButton.classList.add("active");
+    }
+    pageButton.addEventListener("click", () => {
+      currentPage = i; // Set current page
+      displayProductsForCategory(menuData, categorySlug); // Reload products for the new page
+    });
+    paginationContainer.appendChild(pageButton);
+  }
+
+  productsContainer.appendChild(paginationContainer);
 }

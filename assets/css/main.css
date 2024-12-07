@@ -3423,3 +3423,50 @@ body {
 .order-button:hover .order-arrow {
   transform: translateX(5px);
 }
+
+
+/**/
+.custom-card {
+  background-color: #28d79e;
+  border-radius: 8px;
+  color: #101820;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.custom-card h5 {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+.custom-card i {
+  font-size: 2rem;
+}
+
+.team-updates {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+@media (max-width: 768px) {
+  .custom-card h5 {
+    font-size: 1rem;
+  }
+
+  .custom-card i {
+    font-size: 1.5rem;
+  }
+}
