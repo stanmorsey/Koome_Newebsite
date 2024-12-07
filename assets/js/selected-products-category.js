@@ -120,11 +120,10 @@ function displayProductsForCategory(menuData, categorySlug) {
   }
 
   // Generate pagination
-  generatePagination(totalPages);
+  generatePagination(totalPages, menuData, categorySlug);
 }
 
-// Function to generate pagination
-function generatePagination(totalPages) {
+function generatePagination(totalPages, menuData, categorySlug) {
   if (totalPages <= 1) return; // No pagination needed for a single page
 
   const paginationContainer = document.createElement("div");
@@ -146,3 +145,4 @@ function generatePagination(totalPages) {
 
   productsContainer.appendChild(paginationContainer);
 }
+
