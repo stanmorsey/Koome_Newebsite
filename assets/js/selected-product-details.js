@@ -50,7 +50,7 @@ function displayProductDetails(menuData, itemId) {
   // Fallback values for optional properties
   const imageLink = foundProduct.imageGallery?.[0] || "/assets/img/skyjet-placeholder.png";
   const price = `${foundProduct.currency || ""}${foundProduct.price}`;
-  const partNumber = foundProduct.partNumber || "Not available";
+  const partNumber = foundProduct.partNumber || "Not available reach out ot confirm";
   const description = foundProduct.description || "No description available";
 
   // Construct the WhatsApp message
