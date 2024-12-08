@@ -109,8 +109,8 @@ function displayProductsForCategory(menuData, categorySlug) {
         </div>
         <div class="product-card-content">
           <h2 class="product-card-title">${item.name}</h2>
-          <p class="product-card-price">Price: ${item.currency || ''} ${item.price}</p>
-          <p class="product-card-part">Part Number: ${item.partNumber}</p>
+          <p class="product-card-price"> ${item.currency || ''} ${item.price}</p>
+          <p class="product-card-part">MFR PART: ${item.partNumber}</p>
         </div>
       `;
 

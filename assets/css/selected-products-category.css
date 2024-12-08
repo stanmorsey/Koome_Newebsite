@@ -1,117 +1,141 @@
-/* Container styling */
+/* Products Container */
 #products-container {
-    padding: 20px;
-    background-color: #ffffff00;
-  }
-  
-  /* Category title styling */
-  .category-title {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #6f00ee;
-    font-weight: bold;
-  }
-  
-  /* General grid layout for products */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Category Title */
+.category-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Products Grid */
 .products-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
-    gap: 20px;
-    width: 100%;
-    justify-content: center; /* Center align content when there's only one product */
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center; /* Center items when fewer products */
+  margin: 0 auto; /* Center the grid within the container */
+  max-width: 1200px; /* Restrict grid width */
+}
+
+/* Product Card */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 300px; /* Limit width of single cards */
+  margin: 0 auto; /* Center cards when fewer products */
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Card Image */
+.product-card-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Product Card Content */
+.product-card-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.product-card-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: left;
+}
+
+.product-card-price {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #249208;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.product-card-part {
+  font-size: 0.8rem;
+  color: #ffffff;
+  background-color: rgba(255, 0, 0, 0.418);
   
-  /* Special case for a single product */
-.products-grid.single-product {
-    grid-template-columns: minmax(150px, 250px); /* Set fixed width for single product */
-    justify-content: center; /* Center the single product card */
+}
+
+/* Pagination Container */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-button.active,
+.pagination-button:hover {
+  background-color: #0056b3;
+}
+
+/* Error Message */
+.error-message {
+  color: #ff0000;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .products-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Two columns on small devices */
   }
 
-  /* Product card styling */
   .product-card {
-    background: #fff;
-    border: 1px solid #8de8ff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
+    max-width: 100%; /* Allow cards to adjust width for small screens */
   }
-  
-  .product-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+  .category-title {
+    font-size: 1.5rem; /* Slightly smaller titles on small screens */
   }
-  
-  /* Product image styling */
-  .product-card-image img {
-    width: 100%;
-    height: auto; /* Ensures the image displays fully */
-    object-fit: contain; /* Prevents cropping */
-    background-color: #f3f3f3;
-  }
-  
-  /* Product card content */
-  .product-card-content {
-    padding: 15px;
-    text-align: left; /* Left-align content for consistency */
-  }
-  
-  .product-card-title {
-    font-size: 1.25rem;
-    margin: 10px 0;
-    color: #333;
-    font-weight: 600;
-  }
-  
-  .product-card-price {
-    font-size: 1rem;
-    color: #28a745;
-    font-weight: 500;
-    margin: 5px 0;
-  }
-  
-  .product-card-part {
+
+  .pagination-button {
     font-size: 0.9rem;
-    color: #666;
+    padding: 8px 12px;
   }
-  
-  /* Error message styling */
-  .error-message {
-    text-align: center;
-    color: #ff6b6b;
-    font-size: 1rem;
-    margin-top: 20px;
-  }
-  
-  /* Responsive Design */
-  
-  /* Small Devices: Two-column layout and left-aligned text */
-  @media (max-width: 768px) {
-    .products-grid {
-      grid-template-columns: repeat(2, 1fr); /* Two columns for phones */
-    }
-  
-    .product-card-content {
-      text-align: left; /* Left-align text */
-      padding: 10px;
-    }
-  
-    .product-card-title {
-      font-size: 1rem;
-    }
-  
-    .product-card-price,
-    .product-card-part {
-      font-size: 0.9rem;
-    }
-  
-    .product-card-image img {
-      height: auto; /* Maintain original aspect ratio */
-      object-fit: contain; /* Ensure the entire image is displayed */
-    }
-  }
-  
+}
+
+/* Ensure proper display when there are no products */
+.products-grid:empty::before {
+  content: "No products available.";
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #999;
+  margin: 20px 0;
+}

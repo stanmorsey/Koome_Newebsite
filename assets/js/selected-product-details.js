@@ -1,5 +1,6 @@
 // Select the container to display the product details
 const productDetailsContainer = document.getElementById("product-details-container");
+const relatedItemsContainer = document.getElementById("related-items-container");
 
 // Get the product ID from the URL
 const params = new URLSearchParams(window.location.search);
@@ -15,7 +16,9 @@ if (!itemId) {
       return response.json();
     })
     .then(data => {
-      displayProductDetails(data.menuTitles, itemId);
+      const menuData = data.menuTitles;
+      displayProductDetails(menuData, itemId);
+      fetchRelatedItems(menuData, itemId); // Fetch and display related items
     })
     .catch(error => {
       console.error("Error fetching JSON data:", error);
@@ -51,20 +54,19 @@ function displayProductDetails(menuData, itemId) {
   const description = foundProduct.description || "No description available";
 
   // Construct the WhatsApp message
-  const encodedMessage = encodeURIComponent(`
-  Hello skyjet,
+  const encodedMessage = encodeURIComponent(`Hello Skyjet,
 
-  I am interested in the following product:
+I am interested in the following product:
 
-    *Name:* ${foundProduct.name}
-    *Price:* ${price}
-    *Part Number:* ${partNumber}
-    *Description:* ${description}
-    *Image Link:* ${imageLink}
+- Name: ${foundProduct.name}
+- Price: ${price}
+- Part Number: ${partNumber}
+- Description: ${description}
+- Image Link: ${imageLink}
 
-  Could you please confirm availability and provide additional details?
+Could you please confirm availability and provide additional details?
 
-  Thank you.
+Thank you.
   `);
 
   const whatsappUrl = `https://wa.me/+254796962055?text=${encodedMessage}`;
@@ -107,4 +109,70 @@ function displayProductDetails(menuData, itemId) {
       </div>
     </div>
   `;
+}
+
+// Function to fetch and display related items
+function fetchRelatedItems(menuData, itemId) {
+  const relatedItemsGrid = document.querySelector(".related-items-grid");
+
+  if (!relatedItemsGrid) {
+    console.error("Related items grid container not found.");
+    return;
+  }
+
+  let foundCategory = null;
+
+  // Find the category
+  menuData.some(menu => {
+    return menu.categories.some(category => {
+      const item = category.items.find(it => it.itemId === itemId);
+      if (item) {
+        foundCategory = category;
+        return true;
+      }
+      return false;
+    });
+  });
+
+  if (!foundCategory) {
+    relatedItemsGrid.innerHTML = "<p class='error-message'>No related items found.</p>";
+    return;
+  }
+
+  // Filter related items
+  const relatedItems = foundCategory.items.filter(item => item.itemId !== itemId);
+
+  // Limit the number of items to display (e.g., first 6 items for 2 rows with 3 items per row)
+  const itemsToShow = relatedItems.slice(0, 5);
+
+  if (itemsToShow.length > 0) {
+    relatedItemsGrid.innerHTML = ""; // Clear grid
+    itemsToShow.forEach(item => {
+      const productCard = document.createElement("div");
+      productCard.className = "product-card";
+      productCard.innerHTML = `
+        <div class="product-card-image">
+          <img 
+            src="${item.imageGallery?.[0] || '/assets/img/skyjet-placeholder.png'}" 
+            alt="${item.name}" 
+            onerror="this.src='/assets/img/skyjet-placeholder.png'"
+          />
+        </div>
+        <div class="product-card-content">
+          <h2 class="product-card-title">${item.name}</h2>
+          <p class="product-card-price">${item.currency || ""} ${item.price}</p>
+          <p class="product-card-part">MFR PART: ${item.partNumber || "N/A"}</p>
+        </div>
+      `;
+
+      productCard.addEventListener("click", () => {
+        const productDetailsUrl = `/selected-product-details/selected-product-details.html?itemId=${item.itemId}`;
+        window.location.href = productDetailsUrl;
+      });
+
+      relatedItemsGrid.appendChild(productCard);
+    });
+  } else {
+    relatedItemsGrid.innerHTML = "<p class='error-message'>No related items available.</p>";
+  }
 }
