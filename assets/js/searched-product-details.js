@@ -70,8 +70,8 @@ Thank you.
                   <li><strong>MFR PART NUMBER:</strong> ${partNumber}</li>
                   <li><strong>Weight:</strong> ${foundProduct.weight || "Not specified"}</li>
                   <li><strong>Dimensions:</strong> ${foundProduct.dimensions || "Not specified"}</li>
-                  <li><strong>Tags:</strong> ${Array.isArray(foundProduct.tags) ? foundProduct.tags.join(", ") : "No tags available"}</li>
-                  <li><strong>Availability:</strong> ${foundProduct.isAvailable ? "In Stock" : "Out of Stock"}</li>
+                  <li><strong><!--Tags:--></strong> ${Array.isArray(foundProduct.tags) ? foundProduct.tags.join(", ") : "No tags available"}</li>
+                  <li><strong><!--Availability:--></strong> ${foundProduct.isAvailable ? "In Stock" : "Out of Stock"}</li>
               </ul>
               <div class="product-actions">
                   <a href="${whatsappUrl}" target="_blank" class="btn order-whatsapp">
