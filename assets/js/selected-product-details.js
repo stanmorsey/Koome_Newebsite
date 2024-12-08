@@ -143,7 +143,7 @@ function fetchRelatedItems(menuData, itemId) {
   const relatedItems = foundCategory.items.filter(item => item.itemId !== itemId);
 
   // Limit the number of items to display (e.g., first 6 items for 2 rows with 3 items per row)
-  const itemsToShow = relatedItems.slice(0, 5);
+  const itemsToShow = relatedItems.slice(0, 6);
 
   if (itemsToShow.length > 0) {
     relatedItemsGrid.innerHTML = ""; // Clear grid

@@ -280,7 +280,7 @@ main {
   gap: 15px;
   justify-content: center;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1500px;
 }
 
 /* Related Item Card */
@@ -330,7 +330,7 @@ main {
 .product-card-part {
   font-size: 0.8rem;
   color: #ffffff;
-  background-color: #cc6969;
+  background-color: #da96965e;
 }
 
 /* Responsive Design */
@@ -338,4 +338,60 @@ main {
   .related-items-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
+}
+
+
+/*other categories sections*/
+/* General Card Styles */
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* Button Styles */
+.btn-light {
+  color: #333;
+  text-decoration: none;
+  background-color: #b2ceeb;
+}
+.btn-light:hover {
+  background-color: #e2e6ea;
+}
+
+/* Custom Colors */
+.bg-orange {
+  background-color: #f5c9ae !important;
+}
+.bg-red {
+  background-color: #f3baba !important;
+}
+.bg-pink {
+  background-color: #ebb3c6 !important;
+}
+.bg-purple {
+  background-color: #deb5e9 !important;
+}
+.btn-orange {
+  background-color: #d3c3b9 !important;
+}
+
+/* Overlay for Image Cards */
+.card-img-overlay {
+  background: rgba(172, 162, 162, 0.5);
+}
+
+/* Specific card heading font size */
+.card h5 {
+  font-size: 1.2rem;
+}
+
+/* Remove links underlines inside buttons */
+.btn-light a {
+  color: #8d1515;
+  text-decoration: none;
+}
+
+/* Adjust button size in image cards */
+.btn-orange {
+  padding: 10px;
 }
