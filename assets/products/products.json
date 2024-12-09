@@ -4750,7 +4750,7 @@
         },
         {
           "name": "Deodorizers",
-          "image": "/assets/img/product-category-images/hangar-supplies/deo",
+          "image": "/assets/img/product-category-images/hangar-supplies/deodrizers.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "deodrizers",
           "description": "",
@@ -4776,7 +4776,7 @@
         },
         {
           "name": "Desiccant Silica",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/desicant silica.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "desiccant-silica",
           "description": "",
@@ -4802,7 +4802,7 @@
         },
         {
           "name": "Detailing Clay",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/detailing clay.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "detailing-clay",
           "description": "",
@@ -4830,7 +4830,7 @@
         },
         {
           "name": "Drilling Fluid",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/drilling fluid.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "drilling-fluid",
           "description": "",
@@ -4856,7 +4856,7 @@
         },
         {
           "name": "Dry-Wash",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/dry wash.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "dry-wash",
           "description": "",
@@ -4882,7 +4882,7 @@
         },
         {
           "name": "Dry Film Lubricants",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/dry film lubricants.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "dry-film-lubricants",
           "description": "",
@@ -4908,7 +4908,7 @@
         },
         {
           "name": "Electrical Coatings",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/electrical coatings.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "electrical-coatings",
           "description": "",
@@ -4934,7 +4934,7 @@
         },
         {
           "name": "Emergency & Safety",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/emergency and safety.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "emergency-&-safety",
           "description": "",
@@ -4960,7 +4960,7 @@
         },
         {
           "name": "Engine Compressor Wash",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/engine compressor wash.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "engine-compressor-wash",
           "description": "",
@@ -4986,7 +4986,7 @@
         },
         {
           "name": "Exterior Cleaners",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/exterior cleaners.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "exterior-cleaners",
           "description": "",
@@ -5012,7 +5012,7 @@
         },
         {
           "name": "FBO & Ground Support",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/FBO & ground support.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "fbo-&-ground-support",
           "description": "",
@@ -5038,7 +5038,7 @@
         },
         {
           "name": "Fuel Additive",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/fuel additive.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "fuel-additive",
           "description": "",
@@ -5066,7 +5066,7 @@
         },
         {
           "name": "Glass Cleaner",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/glass cleaner.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "glass-cleaner",
           "description": "",
@@ -5094,7 +5094,7 @@
         },
         {
           "name": "Grease",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/grease.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "grease",
           "description": "",
@@ -5122,7 +5122,7 @@
         },
         {
           "name": "Hand Cleaner",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/hand cleaner.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "hand-cleaner",
           "description": "",
@@ -5148,7 +5148,7 @@
         },
         {
           "name": "Hand Soap",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/hand soap.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "hand-soap",
           "description": "",
@@ -5200,7 +5200,7 @@
         },
         {
           "name": "Hydraulic Fluid",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/hydraulic fluid.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "hydraulic-fluid",
           "description": "",
@@ -5226,7 +5226,7 @@
         },
         {
           "name": "Joint Compound",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/joint compound.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "joint-compound",
           "description": "",
@@ -5254,7 +5254,7 @@
         },
         {
           "name": "Landing Gear Fluid",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/landing gear fluid.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "landing-gear-fluid",
           "description": "",
@@ -5280,7 +5280,7 @@
         },
         {
           "name": "Lapping & Grinding Compound",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/lapping and grinding compound.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "lapping-&-grinding-compound",
           "description": "",
@@ -5306,7 +5306,7 @@
         },
         {
           "name": "Lavatory Chemicals",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/lavatory.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "lavatory-chemicals",
           "description": "",
@@ -5332,7 +5332,7 @@
         },
         {
           "name": "Leak Detector",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/leak detector.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "leak-detector",
           "description": "",
@@ -5358,7 +5358,7 @@
         },
         {
           "name": "Oil & Lubricants",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/oils.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "lubricants",
           "description": "",
@@ -5384,7 +5384,7 @@
         },
         {
           "name": "Markers",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/markers.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "markers",
           "description": "",
@@ -5410,7 +5410,7 @@
         },
         {
           "name": "Metal Prep",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/metal prep.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "metal-prep",
           "description": "",
@@ -5436,7 +5436,7 @@
         },
         {
           "name": "Mold Release",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/mold release.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "mold-release",
           "description": "",
@@ -5462,7 +5462,7 @@
         },
         {
           "name": "Multi-Purpose Cleaners",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/multipurpose cleaners.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "multi-purpose-cleaners",
           "description": "",
@@ -5490,7 +5490,7 @@
         },
         {
           "name": "O-Ring Lubricant",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/oring lubricant.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "oring-lubricants",
           "description": "",
@@ -5516,7 +5516,7 @@
         },
         {
           "name": "Oil",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/oils.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "oils",
           "description": "",
@@ -5544,7 +5544,7 @@
         },
         {
           "name": "Oil Absorbent",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/oil absorbent.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "oil-adsorbent",
           "description": "",
@@ -5572,7 +5572,7 @@
         },
         {
           "name": "Paint",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/paint.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "paint",
           "description": "",
@@ -5598,7 +5598,7 @@
         },
         {
           "name": "Paint & Primer Supplies",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/paint & primer supplies.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "paint-&-primer-supplies",
           "description": "",
@@ -5624,7 +5624,7 @@
         },
         {
           "name": "Petroleum Jelly",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/petroleum jelly.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "petroleum-jelly",
           "description": "",
@@ -5650,7 +5650,7 @@
         },
         {
           "name": "Pilot Supplies",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/pilot supplies.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "pilot-supplies",
           "description": "",
@@ -5676,7 +5676,7 @@
         },
         {
           "name": "Plastic Cleaner",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/plastic cleaner.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "plastic0-cleaner",
           "description": "",
@@ -5702,7 +5702,7 @@
         },
         {
           "name": "Polishes",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/polishes.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "polishes",
           "description": "",
@@ -5730,7 +5730,7 @@
         },
         {
           "name": "Primer",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/primer.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "primer",
           "description": "",
@@ -5756,7 +5756,7 @@
         },
         {
           "name": "PTFE Teflon Lubricant",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/ptfe teflon lubricant.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "PTFE-teflon-lubricant",
           "description": "",
@@ -5782,7 +5782,7 @@
         },
         {
           "name": "Refrigerants",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/refrigerants.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "refrigerants",
           "description": "",
@@ -5808,7 +5808,7 @@
         },
         {
           "name": "Rubbing Compounds",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/rubbing compounds.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "rubbing-compounds",
           "description": "",
@@ -5834,7 +5834,7 @@
         },
         {
           "name": "Shop Towels",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/shop towels.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "shop-towels",
           "description": "",
@@ -5860,7 +5860,7 @@
         },
         {
           "name": "Silicone Fluid",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/silicone fluid.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "silicone-fluid",
           "description": "",
@@ -5886,7 +5886,7 @@
         },
         {
           "name": "Silicone Lubricants",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/silicone lubricants.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "silicone-lubricants",
           "description": "",
@@ -5912,7 +5912,7 @@
         },
         {
           "name": "Solid Film Lubricants",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/solid film lubricants.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "solid-film-lubricants",
           "description": "",
@@ -5940,7 +5940,7 @@
         },
         {
           "name": "Tape",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/tape.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "tapes",
           "description": "",
@@ -5959,7 +5959,7 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1043"],
+              "imageGallery": ["/assets/img/product-category-images/hangar-supplies/tape.jpg"],
               "status": "active"
             },
             {
@@ -5975,7 +5975,7 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1043"],
+              "imageGallery": ["/assets/img/product-category-images/hangar-supplies/tape.jpg"],
               "status": "active"
             },
             {
@@ -5991,7 +5991,7 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1044"],
+              "imageGallery": ["/assets/img/product-category-images/hangar-supplies/tape.jpg"],
               "status": "active"
             },
             {
@@ -6007,7 +6007,7 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1045"],
+              "imageGallery": ["/assets/img/product-category-images/hangar-supplies/tape.jpg"],
               "status": "active"
             },
             {
@@ -6023,7 +6023,7 @@
               "brand": 3,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1046"],
+              "imageGallery": ["/assets/img/product-category-images/hangar-supplies/tape.jpg"],
               "status": "active"
             },
             {
@@ -6039,7 +6039,7 @@
               "brand": "LAMART",
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1047"],
+              "imageGallery": ["/assets/img/product-category-images/hangar-supplies/tape.jpg"],
               "status": "active"
             },
             {
@@ -6071,7 +6071,7 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1049"],
+              "imageGallery": ["/assets/img/products/SJT10M24YN1049.jpg"],
               "status": "active"
             },
             {
@@ -6087,7 +6087,7 @@
               "brand": 3,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1050"],
+              "imageGallery": ["/assets/img/products/SJT10M24YN1050.jpg"],
               "status": "active"
             },
             {
@@ -6103,7 +6103,7 @@
               "brand": 3,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1051"],
+              "imageGallery": ["/assets/img/products/SJT10M24YN1051.jpg"],
               "status": "active"
             },
             {
@@ -6119,7 +6119,7 @@
               "brand": 3,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1052"],
+              "imageGallery": ["/assets/img/products/SJT10M24YN1052.jpg"],
               "status": "active"
             },
             {
