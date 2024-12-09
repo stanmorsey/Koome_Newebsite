@@ -2608,7 +2608,7 @@
       "categories": [
         {
           "name": "Altitude Encoders",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu2-cat1-1",
           "slug": "altitude-encoders",
           "description": "",
@@ -2628,7 +2628,7 @@
               "tags": null,
               "isAvailable": false,
               "imageGallery": [
-                "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg"
+                "/assets/img/product-category-images/hangar-supplies"
               ],
               "status": "active"
             }
@@ -4168,7 +4168,7 @@
       "categories": [
         {
           "name": "Abrasives",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/abrasives.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "abrasives",
           "description": "",
@@ -4188,7 +4188,7 @@
               "tags": null,
               "isAvailable": false,
               "imageGallery": [
-                "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg"
+                "/assets/img/product-category-images/hangar-supplies"
               ],
               "status": "active"
             }
@@ -4196,7 +4196,7 @@
         },
         {
           "name": "Adhesives",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/adhesives.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "adhesives",
           "description": "",
@@ -4222,7 +4222,7 @@
         },
         {
           "name": "Aerospace Sealants",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/aerospace sealants.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "aerospace-sealants",
           "description": "",
@@ -4248,7 +4248,7 @@
         },
         {
           "name": "Air Dusters",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/air dusters.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "air-dusters",
           "description": "",
@@ -4274,7 +4274,7 @@
         },
         {
           "name": "Alkaline Cleaner",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/alkaline cleaner.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "alkaline-cleaner",
           "description": "",
@@ -4300,7 +4300,7 @@
         },
         {
           "name": "Assembly Lubricant",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/assembly lubricant.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "assembly-lubricants",
           "description": "",
@@ -4326,7 +4326,7 @@
         },
         {
           "name": "Avionics Cleaners",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/avionics cleaners.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "avionics-cleaners",
           "description": "",
@@ -4354,7 +4354,7 @@
         },
         {
           "name": "Belt Dressing Fluid",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/belt dressing fluid.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "belt-dressing-fluid",
           "description": "",
@@ -4380,7 +4380,7 @@
         },
         {
           "name": "Brake Cleaner",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/brake cleaner.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "brake-cleaner",
           "description": "",
@@ -4406,7 +4406,7 @@
         },
         {
           "name": "Calibration Fluid",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/calibration fluid.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "calibration-fluid",
           "description": "",
@@ -4432,7 +4432,7 @@
         },
         {
           "name": "Chain & Wire Rope Lubricant",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/chain and wire rope lubricant.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "cahain-&-wire-rope-lubricant",
           "description": "",
@@ -4458,7 +4458,7 @@
         },
         {
           "name": "Chemicals",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/chemicals.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "chemicals",
           "description": "",
@@ -4484,7 +4484,7 @@
         },
         {
           "name": "Cleaning & Detailing Supplies",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/cleaning and detailing supplies.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "cleaning-and-detailing-supplies",
           "description": "",
@@ -4510,7 +4510,7 @@
         },
         {
           "name": "Cloths & Wipes",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/clothes and wipes.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "cloths-&-wipes",
           "description": "",
@@ -4536,7 +4536,7 @@
         },
         {
           "name": "Contact Cleaner",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/contact cleaners.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "contact-cleaner",
           "description": "",
@@ -4562,7 +4562,7 @@
         },
         {
           "name": "Coolants",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/coolants.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "coolants",
           "description": "",
@@ -4590,7 +4590,7 @@
         },
         {
           "name": "Corrosion Inhibitor",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/corrosion inhibitor.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "corrosion-inhibitor",
           "description": "",
@@ -4616,7 +4616,7 @@
         },
         {
           "name": "Cotton Swabs",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/cotton swabs.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "cotton-swabs",
           "description": "",
@@ -4644,7 +4644,7 @@
         },
         {
           "name": "Cutting Fluid",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/cutting fluid.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "cutting-fluid",
           "description": "",
@@ -4664,7 +4664,7 @@
               "tags": null,
               "isAvailable": false,
               "imageGallery": [
-                "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg"
+                "/assets/img/product-category-images/hangar-supplies"
               ],
               "status": "active"
             }
@@ -4672,7 +4672,7 @@
         },
         {
           "name": "De-Ice Boot Care",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/de-ice boot care.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "de-ice-boot-care",
           "description": "",
@@ -4698,7 +4698,7 @@
         },
         {
           "name": "De-Ice Fluid",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/de-ice fluid.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "de-ice-fluid",
           "description": "",
@@ -4724,7 +4724,7 @@
         },
         {
           "name": "Degreaser",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/degreaser.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "degreaser",
           "description": "",
@@ -4750,7 +4750,7 @@
         },
         {
           "name": "Deodorizers",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies/deo",
           "categoryId": "menu4-cat1-1",
           "slug": "deodrizers",
           "description": "",
@@ -4776,7 +4776,7 @@
         },
         {
           "name": "Desiccant Silica",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "desiccant-silica",
           "description": "",
@@ -4802,7 +4802,7 @@
         },
         {
           "name": "Detailing Clay",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "detailing-clay",
           "description": "",
@@ -4830,7 +4830,7 @@
         },
         {
           "name": "Drilling Fluid",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "drilling-fluid",
           "description": "",
@@ -4856,7 +4856,7 @@
         },
         {
           "name": "Dry-Wash",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "dry-wash",
           "description": "",
@@ -4882,7 +4882,7 @@
         },
         {
           "name": "Dry Film Lubricants",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "dry-film-lubricants",
           "description": "",
@@ -4908,7 +4908,7 @@
         },
         {
           "name": "Electrical Coatings",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "electrical-coatings",
           "description": "",
@@ -4934,7 +4934,7 @@
         },
         {
           "name": "Emergency & Safety",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "emergency-&-safety",
           "description": "",
@@ -4960,7 +4960,7 @@
         },
         {
           "name": "Engine Compressor Wash",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "engine-compressor-wash",
           "description": "",
@@ -4986,7 +4986,7 @@
         },
         {
           "name": "Exterior Cleaners",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "exterior-cleaners",
           "description": "",
@@ -5012,7 +5012,7 @@
         },
         {
           "name": "FBO & Ground Support",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "fbo-&-ground-support",
           "description": "",
@@ -5038,7 +5038,7 @@
         },
         {
           "name": "Fuel Additive",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "fuel-additive",
           "description": "",
@@ -5066,7 +5066,7 @@
         },
         {
           "name": "Glass Cleaner",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "glass-cleaner",
           "description": "",
@@ -5094,7 +5094,7 @@
         },
         {
           "name": "Grease",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "grease",
           "description": "",
@@ -5114,7 +5114,7 @@
               "tags": null,
               "isAvailable": false,
               "imageGallery": [
-                "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg"
+                "/assets/img/product-category-images/hangar-supplies"
               ],
               "status": "active"
             }
@@ -5122,7 +5122,7 @@
         },
         {
           "name": "Hand Cleaner",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "hand-cleaner",
           "description": "",
@@ -5148,7 +5148,7 @@
         },
         {
           "name": "Hand Soap",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "hand-soap",
           "description": "",
@@ -5174,7 +5174,7 @@
         },
         {
           "name": "Hand Towels",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "hand-towels",
           "description": "",
@@ -5200,7 +5200,7 @@
         },
         {
           "name": "Hydraulic Fluid",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "hydraulic-fluid",
           "description": "",
@@ -5226,7 +5226,7 @@
         },
         {
           "name": "Joint Compound",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "joint-compound",
           "description": "",
@@ -5254,7 +5254,7 @@
         },
         {
           "name": "Landing Gear Fluid",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "landing-gear-fluid",
           "description": "",
@@ -5280,7 +5280,7 @@
         },
         {
           "name": "Lapping & Grinding Compound",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "lapping-&-grinding-compound",
           "description": "",
@@ -5306,7 +5306,7 @@
         },
         {
           "name": "Lavatory Chemicals",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "lavatory-chemicals",
           "description": "",
@@ -5332,7 +5332,7 @@
         },
         {
           "name": "Leak Detector",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "leak-detector",
           "description": "",
@@ -5358,7 +5358,7 @@
         },
         {
           "name": "Oil & Lubricants",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "lubricants",
           "description": "",
@@ -5384,7 +5384,7 @@
         },
         {
           "name": "Markers",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "markers",
           "description": "",
@@ -5410,7 +5410,7 @@
         },
         {
           "name": "Metal Prep",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "metal-prep",
           "description": "",
@@ -5436,7 +5436,7 @@
         },
         {
           "name": "Mold Release",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "mold-release",
           "description": "",
@@ -5462,7 +5462,7 @@
         },
         {
           "name": "Multi-Purpose Cleaners",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "multi-purpose-cleaners",
           "description": "",
@@ -5490,7 +5490,7 @@
         },
         {
           "name": "O-Ring Lubricant",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "oring-lubricants",
           "description": "",
@@ -5516,7 +5516,7 @@
         },
         {
           "name": "Oil",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "oils",
           "description": "",
@@ -5544,7 +5544,7 @@
         },
         {
           "name": "Oil Absorbent",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "oil-adsorbent",
           "description": "",
@@ -5564,7 +5564,7 @@
               "tags": null,
               "isAvailable": false,
               "imageGallery": [
-                "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg"
+                "/assets/img/product-category-images/hangar-supplies"
               ],
               "status": "active"
             }
@@ -5572,7 +5572,7 @@
         },
         {
           "name": "Paint",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "paint",
           "description": "",
@@ -5598,7 +5598,7 @@
         },
         {
           "name": "Paint & Primer Supplies",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "paint-&-primer-supplies",
           "description": "",
@@ -5624,7 +5624,7 @@
         },
         {
           "name": "Petroleum Jelly",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "petroleum-jelly",
           "description": "",
@@ -5650,7 +5650,7 @@
         },
         {
           "name": "Pilot Supplies",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "pilot-supplies",
           "description": "",
@@ -5676,7 +5676,7 @@
         },
         {
           "name": "Plastic Cleaner",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "plastic0-cleaner",
           "description": "",
@@ -5702,7 +5702,7 @@
         },
         {
           "name": "Polishes",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "polishes",
           "description": "",
@@ -5730,7 +5730,7 @@
         },
         {
           "name": "Primer",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "primer",
           "description": "",
@@ -5756,7 +5756,7 @@
         },
         {
           "name": "PTFE Teflon Lubricant",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "PTFE-teflon-lubricant",
           "description": "",
@@ -5782,7 +5782,7 @@
         },
         {
           "name": "Refrigerants",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "refrigerants",
           "description": "",
@@ -5808,7 +5808,7 @@
         },
         {
           "name": "Rubbing Compounds",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "rubbing-compounds",
           "description": "",
@@ -5834,7 +5834,7 @@
         },
         {
           "name": "Shop Towels",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "shop-towels",
           "description": "",
@@ -5860,7 +5860,7 @@
         },
         {
           "name": "Silicone Fluid",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "silicone-fluid",
           "description": "",
@@ -5886,7 +5886,7 @@
         },
         {
           "name": "Silicone Lubricants",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "silicone-lubricants",
           "description": "",
@@ -5912,7 +5912,7 @@
         },
         {
           "name": "Solid Film Lubricants",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "solid-film-lubricants",
           "description": "",
@@ -5940,7 +5940,7 @@
         },
         {
           "name": "Tape",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "tapes",
           "description": "",
@@ -6302,7 +6302,7 @@
         },
         {
           "name": "Thread Compound",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "thread-compound",
           "description": "",
@@ -6330,7 +6330,7 @@
         },
         {
           "name": "Transmission Fluid",
-          "image": "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg",
+          "image": "/assets/img/product-category-images/hangar-supplies",
           "categoryId": "menu4-cat1-1",
           "slug": "transmission-fluid",
           "description": "",
@@ -6350,7 +6350,7 @@
               "tags": null,
               "isAvailable": false,
               "imageGallery": [
-                "/assets/img/product-category-images/avionics-&-instruments/altitude-encoders.jpg"
+                "/assets/img/product-category-images/hangar-supplies"
               ],
               "status": "active"
             }
