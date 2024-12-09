@@ -5573,6 +5573,24 @@
                 "/assets/img/products/SJT10M24YN1315.jpg"
               ],
               "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-3-oils-3500-LPS® 00216 LPS® 2 Brown Heavy-Duty Lubricant - 11 oz Aerosol Can-LPS00216",
+              "name": "LPS® 00216 LPS® 2 Brown Heavy-Duty Lubricant - 11 oz Aerosol Can",
+              "description": "The industrial strength lubricant delivers a non-drying, light, oily film wherever it's applied, protecting against friction and corrosion in one easy step. Reduce wear and prolong the life of your aircraft's most critical components by choosing LPS® 00216 LPS® 2 Brown Heavy-Duty Lubricant Spray ",
+              "price": 3500,
+              "currency": "Ksh",
+              "partNumber": "LPS00216",
+              "sku": "hs-oils-sj3",
+              "weight": null,
+              "dimensions": null,
+              "brand": "LPS",
+              "tags": "Oil, Lubricants",
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1316.jpg"
+              ],
+              "status": "active"
             }
           ]
         },
