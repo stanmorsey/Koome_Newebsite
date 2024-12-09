@@ -2894,11 +2894,11 @@
           "items": [
             {
               "itemId": "menu3-cat1-1-abrasive-holders-and-backup-pads",
-              "name": "",
-              "description": "",
+              "name": "Test item",
+              "description": "Test item",
               "price": 0,
-              "currency": "",
-              "partNumber": "",
+              "currency": "ksh",
+              "partNumber": "0",
               "sku": "null",
               "weight": null,
               "dimensions": null,
