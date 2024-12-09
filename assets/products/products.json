@@ -4234,14 +4234,14 @@
               "description": "",
               "price": 0,
               "currency": "",
-              "partNumber": "",
+              "partNumber": "PR-1440 B-2",
               "sku": "null",
               "weight": null,
               "dimensions": "20 x 20 x 10 inches",
-              "brand": "pm",
+              "brand": "PM",
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/antenna-erosion-masks"],
+              "imageGallery": ["/assets/img/products/SJT10M24YN1284.jpg"],
               "status": "active"
             }
           ]
@@ -5737,19 +5737,19 @@
           "status": "active",
           "items": [
             {
-              "itemId": "menu4-cat1-1-primer",
-              "name": "",
-              "description": "",
-              "price": 0,
-              "currency": "",
-              "partNumber": "",
-              "sku": "",
+              "itemId": "menu4-cat1-1-primer-15000-ZINC CHROMATE PRIMER-971386",
+              "name": "ZINC CHROMATE PRIMER",
+              "description": "Primer",
+              "price": 15000,
+              "currency": "Ksh",
+              "partNumber": "971386",
+              "sku": "hs-primer-sj1",
               "weight": 0,
               "dimensions": 0,
-              "brand": 0,
+              "brand": "DURA COAT",
               "tags": 0,
-              "isAvailable": 0,
-              "imageGallery": [""],
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/product-category-images/hangar-supplies/Duracoat-Zinc-Chromate-Primer-Yellow-4-ltr.png"],
               "status": "active"
             }
           ]
