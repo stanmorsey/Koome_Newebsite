@@ -5174,7 +5174,7 @@
         },
         {
           "name": "Hand Towels",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/hand towels.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "hand-towels",
           "description": "",
@@ -6302,7 +6302,7 @@
         },
         {
           "name": "Thread Compound",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/thread compound.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "thread-compound",
           "description": "",
@@ -6330,7 +6330,7 @@
         },
         {
           "name": "Transmission Fluid",
-          "image": "/assets/img/product-category-images/hangar-supplies",
+          "image": "/assets/img/product-category-images/hangar-supplies/transmission fluid.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "transmission-fluid",
           "description": "",
@@ -6358,7 +6358,7 @@
         },
         {
           "name": "Upholstery Cleaner",
-          "image": "/assets/img/product-category-images/",
+          "image": "/assets/img/product-category-images/hangar-supplies/upholstery cleaner.jpg",
           "categoryId": "menu4-cat1-1",
           "slug": "upholstery-cleaner",
           "description": "",
