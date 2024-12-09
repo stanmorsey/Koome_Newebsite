@@ -4543,19 +4543,51 @@
           "status": "active",
           "items": [
             {
-              "itemId": "menu4-cat1-1-contact-cleaner",
-              "name": "",
-              "description": "",
-              "price": 0,
-              "currency": "",
-              "partNumber": "",
-              "sku": "null",
+              "itemId": "menu4-cat1-1-contact-cleaner-2000-LPS® 04516 Micro-X Fast Evaporating Contact Cleaner - 11 oz Aerosol Can-LPS04516",
+              "name": "LPS® 04516 Micro-X Fast Evaporating Contact Cleaner - 11 oz Aerosol Can",
+              "description": "Micro-X is ideal for removing dirt and oil from delicate electrical and electronic parts. Micro-X does not contain HCFC 141b and it is safe on metals and plastics. Micro-X is fast evaporating and will not leave a residue. Micro-X is ideal for applications where lower flash point contact cleaners can be used. Micro-X is flammable, so it should not be used on equipment in operation.",
+              "price": 2000,
+              "currency": "Ksh",
+              "partNumber": "LPS04516",
+              "sku": "hs-con_cl-sj1",
               "weight": null,
               "dimensions": null,
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/Cobham 110-320 Antenna"],
+              "imageGallery": ["/assets/img/products/SJT10M24YN1318.jpg"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-2-contact-cleaner-3500-LPS® 06616 Micro-X NU Fast Evaporating Contact Cleaner - 11 oz Aerosol Can-LPS06616",
+              "name": "LPS® 06616 Micro-X NU Fast Evaporating Contact Cleaner - 11 oz Aerosol Can",
+              "description":"Reduced VOC content and conforms to the VOC regulations of CARB, OTC, and LADCO. Micro-X NU is fast evaporating, safe on plastics, and will not leave a residue. Ideal for removing dirt, flux, dust, and other contaminants from electrical equipment .",
+              "price": 3500,
+              "currency": "Ksh",
+              "partNumber": "LPS06616",
+              "sku": "hs-con_cl-sj2",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/product-category-images/hangar-supplies/LPS® 06616 Micro-X NU Fast Evaporating Contact Cleaner - 11 oz Aerosol Can.jpg"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-3-contact-cleaner-3700-LPS® 93116 MAX CFC Free Contact Cleaner - 11 oz Aerosol Can-LPS93116",
+              "name": "LPS® 93116 MAX CFC Free Contact Cleaner - 11 oz Aerosol Can",
+              "description":"A fast evaporating contact cleaner that does not contain HCFCs and is plastic safe. The formula penetrates to remove oil, grease, dirt, flux, and other contaminants. Leaves no residue and is low-odor.",
+              "price": 3700,
+              "currency": "Ksh",
+              "partNumber": "LPS93116",
+              "sku": "hs-con_cl-sj3",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1319.jpg"],
               "status": "active"
             }
           ]
@@ -4626,6 +4658,22 @@
               "tags": 0,
               "isAvailable": true,
               "imageGallery": ["/assets/img/products/SJT10M24YN1307.jpg"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-3-corrosion-inhibitor-3500-LPS® 00316 LPS® 3 Brown Long-Term Premier Rust Inhibitor - 11 oz Aerosol Can-LPS00316",
+              "name": "LPS® 00316 LPS® 3 Brown Long-Term Premier Rust Inhibitor - 11 oz Aerosol Can",
+              "description": "Use on all metals, including aluminum. In fact, when used on aluminum, LPS® 00316 LPS® 3 Long-Term Rust Inhibitor Spray even prevents exfoliation and filiform corrosion. The spray-on corrosion inhibitor dries to handling in just 6 to 8 hours with a full cure in only 24 hours. Spray your way to reliable rust prevention by ordering a can of LPS® 00316 LPS® 3 Long-Term Aerosol Rust Inhibitor",
+              "price": 3500,
+              "currency": "Ksh",
+              "partNumber": "LPS00316",
+              "sku": "hs-cor_in-sj3",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": "Corrosion, Rust",
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1317.jpg"],
               "status": "active"
             }
           ]
@@ -5117,20 +5165,200 @@
           "status": "active",
           "items": [
             {
-              "itemId": "menu4-cat1-1-grease",
-              "name": "",
-              "description": "",
-              "price": 0,
-              "currency": "",
-              "partNumber": "",
-              "sku": "5.9",
+              "itemId": "menu4-cat1-1-grease-4500-AeroShell™ Grease 7 Multi-Purpose Synthetic Aircraft Grease-550066860",
+              "name": "AeroShell™ Grease 7 Multi-Purpose Synthetic Aircraft Grease - 14.1 oz Cartridge",
+              "description": "400 Gram (14.1 oz) Cartridge",
+              "price": 4500,
+              "currency": "Ksh",
+              "partNumber": "550066860",
+              "sku": "hs-gr-sj1",
               "weight": 5.9,
               "dimensions": "6 x 4 x 4 inches",
               "brand": null,
               "tags": null,
-              "isAvailable": false,
+              "isAvailable": true,
               "imageGallery": [
-                "/assets/img/product-category-images/hangar-supplies"
+                "/assets/img/products/SJT10M24YN1327.jpg"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-2-grease-25000-Mobilgrease™ 28 Red MIL-PRF-81322G Spec Synthetic Aircraft Grease - 13.4 oz (380 g) Cartridge-105908",
+              "name": "Mobilgrease™ 28 Red MIL-PRF-81322G Spec Synthetic Aircraft Grease - 13.4 oz (380 g) Cartridge",
+              "description": "grease",
+              "price": 25000,
+              "currency": "Ksh",
+              "partNumber": "105908",
+              "sku": "hs-gr-sj2",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1352.jpg"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-3-grease-25000-AeroShell™ Grease 33 Universal Airframe Synthetic Aircraft Grease - 14.1 oz Cartridge-550043638",
+              "name": "AeroShell™ Grease 33 Universal Airframe Synthetic Aircraft Grease - 14.1 oz Cartridge",
+              "description": "AEROSHELL GREASE",
+              "price": 25000,
+              "currency": "Ksh",
+              "partNumber": "550043638",
+              "sku": "hs-gr-sj3",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1353.jpg"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-4-grease-60000-AeroShell™ Turbine Oil 500 Synthetic Turbine Engine Oil - Quart Can-550042545Q",
+              "name": "AeroShell™ Turbine Oil 500 Synthetic Turbine Engine Oil - Quart Can",
+              "description": "AEROSHELL 500",
+              "price": 60000,
+              "currency": "Ksh",
+              "partNumber": "550042545Q",
+              "sku": "hs-gr-sj4",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1354.jpg"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-5-grease-25000-AeroShell™ Grease 64 Extreme Pressure Synthetic Molybdenum Disulphide Aircraft Grease - 6.6 lb Can-550043632",
+              "name": "AeroShell™ Grease 64 Extreme Pressure Synthetic Molybdenum Disulphide Aircraft Grease - 6.6 lb Can",
+              "description": "AEROSHELL GREASE",
+              "price": 25000,
+              "currency": "Ksh",
+              "partNumber": "550043632",
+              "sku": "hs-gr-sj5",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1355.jpg"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-6-grease-25000-AeroShell™ Grease 14 Multi-Purpose Helicopter Mineral Grease - 6.6 lb Can-550043631",
+              "name": "AeroShell™ Grease 14 Multi-Purpose Helicopter Mineral Grease - 6.6 lb Can",
+              "description": "AEROSHELL GREASE",
+              "price": 25000,
+              "currency": "Ksh",
+              "partNumber": "550043631",
+              "sku": "hs-gr-sj6",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1356.jpg"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-7-grease-25000-AeroShell™ Grease 6 General-Purpose Mineral Aircraft Grease - 6.6 lb Can-550043630",
+              "name": "AeroShell™ Grease 6 General-Purpose Mineral Aircraft Grease - 6.6 lb Can",
+              "description": "AEROSHELL GREASE",
+              "price": 25000,
+              "currency": "Ksh",
+              "partNumber": "550043630",
+              "sku": "hs-gr-sj7",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1357.jpg"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-8-grease-25000-AeroShell™ Grease 7 Multi-Purpose Synthetic Aircraft Grease - 6.6 lb Can-550067480",
+              "name": "AeroShell™ Grease 7 Multi-Purpose Synthetic Aircraft Grease - 6.6 lb Can",
+              "description": "AEROSHELL GREASE",
+              "price": 25000,
+              "currency": "Ksh",
+              "partNumber": "550067480",
+              "sku": "hs-gr-sj8",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1358.jpg"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-9-grease-25000-AeroShell™ Grease 14 Multi-Purpose Helicopter Mineral Grease - 6.6 lb Can-550043631",
+              "name": "AeroShell™ Grease 14 Multi-Purpose Helicopter Mineral Grease - 6.6 lb Can",
+              "description": "AEROSHELL GREASE",
+              "price": 25000,
+              "currency": "Ksh",
+              "partNumber": "550043631",
+              "sku": "hs-gr-sj9",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1359.jpg"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-10-grease-25000-AeroShell™ Grease 22 Advanced General-Purpose Synthetic Aircraft Grease - 6.6 lb Can-550043633",
+              "name": "AeroShell™ Grease 22 Advanced General-Purpose Synthetic Aircraft Grease - 6.6 lb Can",
+              "description": "AEROSHELL GREASE",
+              "price": 25000,
+              "currency": "Ksh",
+              "partNumber": "550043633",
+              "sku": "hs-gr-sj10",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1360.jpg"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-11-grease-35000-MOBIL GREASE SHC 100-126886",
+              "name": "MOBIL GREASE SHC 100",
+              "description": "MOBIL GREASE",
+              "price": 35000,
+              "currency": "Ksh",
+              "partNumber": "126886",
+              "sku": "hs-gr-sj11",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1361.jpg"
               ],
               "status": "active"
             }
