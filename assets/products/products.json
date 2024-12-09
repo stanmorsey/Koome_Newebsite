@@ -4229,16 +4229,16 @@
           "status": "active",
           "items": [
             {
-              "itemId": "menu4-cat1-1-aerospace-sealants",
-              "name": "",
-              "description": "",
-              "price": 0,
-              "currency": "",
+              "itemId": "menu4-cat1-1-aerospace-sealants-17000-PPG Aerospace® PR-1440 B-2 Gray AMS-S-8802D Type 2, Class B-2 Spec Fuel Tank Sealant - Pint Kit-PR1440B2",
+              "name": "PPG Aerospace® PR-1440 B-2 Gray AMS-S-8802D Type 2, Class B-2 Spec Fuel Tank Sealant - Pint Kit",
+              "description": "PPG Aerospace® PR-1440 B-2 Fuel Tank Sealant is a two-part formula that is resistant to most types of alcohol, aviation fuel, oils and water. The durable sealant is used for fillet sealing and other sealing applications inside of the fuel tank. Use PPG Aerospace® PR-1440 B-2 Fuel Tank Sealant when you need to ensure a leak-free finish that will last. The two-part sealant is sold in a pint-size kit, with pre-measured components for easy mixing. Once mixed, PPG Aerospace® PR-1440 B-2 Fuel Tank Sealant is a thixotropic paste that can be applied via an extrusion gun or spatula, as desired. The aircraft sealant cures at room temperature and has a wide service temperature range of -65ºF (-54ºC) to 250ºF (121ºC) with the ability to withstand intermittent exposure to higher temperatures. Pint-size kits are sold individually, but volume discounts are available on qualifying bulk orders of sealant. The sealant is gray and the cured material exhibits excellent adhesion to most common aircraft substrates.",
+              "price": 17000,
+              "currency": "Ksh",
               "partNumber": "PR-1440 B-2",
-              "sku": "null",
+              "sku": "hs-as_s-sj01",
               "weight": null,
-              "dimensions": "20 x 20 x 10 inches",
-              "brand": "PM",
+              "dimensions": "4 x 4 x 1 inches",
+              "brand": "PPG",
               "tags": null,
               "isAvailable": true,
               "imageGallery": ["/assets/img/products/SJT10M24YN1284.jpg"],
@@ -4603,13 +4603,29 @@
               "price": 1500,
               "currency": "Ksh",
               "partNumber": "11007",
-              "sku": "hs-cor_in-sj2",
+              "sku": "hs-cor_in-sj1",
               "weight": 0,
               "dimensions": 0,
               "brand": 0,
               "tags": 0,
               "isAvailable": true,
               "imageGallery": ["/assets/img/products/SJT10M24YN1133.jpg"],
+              "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-2-corrosion-inhibitor-5000-ACF-50® 10013 Anti-Corrosion Lubricant Compound - 13 oz Aerosol Can-ACF-50-10013",
+              "name": "ACF-50® 10013 Anti-Corrosion Lubricant Compound - 13 oz Aerosol Can",
+              "description": "The non-flammable, non-carcinogenic formula can be safely applied to electronics, cables and moving components throughout your aircraft for low-shear lubrication that really works. The powerful formula is MIL-C-81309-E qualified and is manufactured under ISO 9000 Certified Processes. Safe for Electronics and More ACF-50 10013 Anti-Corrosion Lubricant Compound is designed to be used almost everywhere on your aircraft. The lubricant is safe to use on electronics, including radios, timers, antennas, computers and more. It can also be used on moving parts like magnetos, generators and carburetors. It even works well on cables, wiring harnesses, ignition systems and much more, keeping your aircraft’s moving parts and cables protected. Anti-Corrosion Formula. There are a lot of lubricants on the market, but not many deliver the lightweight protection of ACF Anti-Corrosion Spray. The lubricant goes on smoothly and delivers a thin layer of protection against friction, which can cause premature wear and tear",
+              "price": 5000,
+              "currency": "Ksh",
+              "partNumber": "ACF-50-10013",
+              "sku": "hs-cor_in-sj2",
+              "weight": 0,
+              "dimensions": 0,
+              "brand": 0,
+              "tags": 0,
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1307.jpg"],
               "status": "active"
             }
           ]
@@ -5523,20 +5539,20 @@
           "status": "active",
           "items": [
             {
-              "itemId": "menu4-cat1-1-oils",
-              "name": "",
-              "description": "",
-              "price": 0,
-              "currency": "",
-              "partNumber": "",
-              "sku": "null",
+              "itemId": "menu4-cat1-1-oils-25000-AirGO™ 3001 Brown Aviation High-Performance Gear Box Oil - Liter Bottle-ZF-N-L-3001",
+              "name": "AirGO™ 3001 Brown Aviation High-Performance Gear Box Oil",
+              "description": "The gear box oil is designed for use in automatic transmissions and is designed to satisfy all Dexron III, II, E and D requirements. When using AirGO 3001 High-Performance Gear Box Oil, you’ll enjoy a smooth shift and longer lasting transmission components. The gear box oil is also recommended for power steering systems.",
+              "price": 25000,
+              "currency": "Ksh",
+              "partNumber": "ZF-N-L-3001",
+              "sku": "hs-oils-sj1",
               "weight": null,
               "dimensions": null,
-              "brand": null,
-              "tags": null,
-              "isAvailable": false,
+              "brand": "Airgo",
+              "tags": "Oil, Lubricants",
+              "isAvailable": true,
               "imageGallery": [
-                "/assets/img/product-category-images/aircraft-tools"
+                "/assets/img/products/SJT10M24YN1305.jpg"
               ],
               "status": "active"
             }
@@ -5749,7 +5765,9 @@
               "brand": "DURA COAT",
               "tags": 0,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/product-category-images/hangar-supplies/Duracoat-Zinc-Chromate-Primer-Yellow-4-ltr.png"],
+              "imageGallery": [
+                "/assets/img/product-category-images/hangar-supplies/Duracoat-Zinc-Chromate-Primer-Yellow-4-ltr.png"
+              ],
               "status": "active"
             }
           ]
@@ -5959,7 +5977,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/product-category-images/hangar-supplies/tape.jpg"],
+              "imageGallery": [
+                "/assets/img/product-category-images/hangar-supplies/tape.jpg"
+              ],
               "status": "active"
             },
             {
@@ -5975,7 +5995,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/product-category-images/hangar-supplies/tape.jpg"],
+              "imageGallery": [
+                "/assets/img/product-category-images/hangar-supplies/tape.jpg"
+              ],
               "status": "active"
             },
             {
@@ -5991,7 +6013,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/product-category-images/hangar-supplies/tape.jpg"],
+              "imageGallery": [
+                "/assets/img/product-category-images/hangar-supplies/tape.jpg"
+              ],
               "status": "active"
             },
             {
@@ -6007,7 +6031,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/product-category-images/hangar-supplies/tape.jpg"],
+              "imageGallery": [
+                "/assets/img/product-category-images/hangar-supplies/tape.jpg"
+              ],
               "status": "active"
             },
             {
@@ -6023,7 +6049,9 @@
               "brand": 3,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/product-category-images/hangar-supplies/tape.jpg"],
+              "imageGallery": [
+                "/assets/img/product-category-images/hangar-supplies/tape.jpg"
+              ],
               "status": "active"
             },
             {
@@ -6039,7 +6067,9 @@
               "brand": "LAMART",
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/product-category-images/hangar-supplies/tape.jpg"],
+              "imageGallery": [
+                "/assets/img/product-category-images/hangar-supplies/tape.jpg"
+              ],
               "status": "active"
             },
             {
