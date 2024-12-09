@@ -4597,19 +4597,19 @@
           "status": "active",
           "items": [
             {
-              "itemId": "menu4-cat1-1-corrosion-inhibitor",
-              "name": "",
-              "description": "",
-              "price": 0,
-              "currency": "",
-              "partNumber": "",
-              "sku": "",
+              "itemId": "menu4-cat1-1-corrosion-inhibitor-WD-40® 11007 Corrosion Preventive Compound - 11 oz Aerosol Smart Straw Can",
+              "name": "WD-40® 11007 Corrosion Preventive Compound - 11 oz Aerosol Smart Straw Can",
+              "description": "11 oz Aerosol Smart Straw Can",
+              "price": 1500,
+              "currency": "Ksh",
+              "partNumber": "11007",
+              "sku": "hs-cor_in-sj2",
               "weight": 0,
               "dimensions": 0,
               "brand": 0,
               "tags": 0,
-              "isAvailable": 0,
-              "imageGallery": [""],
+              "isAvailable": true,
+              "imageGallery": ["/assets/img/products/SJT10M24YN1133.jpg"],
               "status": "active"
             }
           ]
