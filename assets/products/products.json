@@ -5555,6 +5555,24 @@
                 "/assets/img/products/SJT10M24YN1305.jpg"
               ],
               "status": "active"
+            },
+            {
+              "itemId": "menu4-cat1-2-oils-3300-LPS® 00116 LPS® 1 Amber Greaseless Lubricant - 11 oz Aerosol Can-LPS00116",
+              "name": "LPS® 00116 LPS® 1 Amber Greaseless Lubricant - 11 oz Aerosol Can",
+              "description": "The lubricant has a distinctive amber color, so it's easy to see where it has been applied and once in place, the geese leave behind a dry, protective film that won't attract dirt, dust or other contaminants. LPS® 1 Greaseless Lubricant works like a traditional lubricant, potting against friction and wear, but without the sticky feel and tendency to attract dirt or other contaminants. Dry-film lubricants are ideal for use in aircraft engines, turbines and other areas where dirt accumulation is more likely.",
+              "price": 3300,
+              "currency": "Ksh",
+              "partNumber": "LPS00116",
+              "sku": "hs-oils-sj2",
+              "weight": null,
+              "dimensions": null,
+              "brand": "LPS",
+              "tags": "Oil, Lubricants",
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1315.jpg"
+              ],
+              "status": "active"
             }
           ]
         },
