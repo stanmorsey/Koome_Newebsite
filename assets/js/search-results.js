@@ -62,27 +62,25 @@ function displayResults(results, query) {
 
     results.forEach(item => {
         const resultCard = document.createElement("div");
-        resultCard.className = "result-card";
+        resultCard.className = "product-card";
 
         // Create the card with placeholder image fallback and redirection link
         resultCard.innerHTML = `
             <a href="/search-results/searched-product-details.html?productId=${item.itemId || 'default'}" class="item-link">
-                <div class="item-card mb-4">
-                    <img 
-                        src="${item.imageGallery[0] || '/assets/img/skyjet-placeholder.png'}" 
-                        class="item-image" 
-                        alt="${item.name}" 
-                        onerror="this.onerror=null; this.src='/assets/img/skyjet-placeholder.png';"
-                    >
-                    <div class="item-details">
-                        <h5 class="item-name">${highlightMatch(item.name, query)}</h5>
-                        <!--<p class="item-description">${highlightMatch(item.description, query)}</p>-->
-                        <p class="item-part-number">MPN: ${item.partNumber}</p>
-                        <p class="item-price"> <strong>${item.currency}${item.price}</strong></p>
-                    </div>
-                </div>
-            </a>
-        `;
+                <div class="product-card-image">
+          <img 
+            src="${item.imageGallery?.[0]}" 
+            alt="${item.name}" 
+            onerror="this.src='/assets/img/skyjet-placeholder.png'"
+          />
+        </div>
+        <div class="product-card-content">
+          <h2 class="product-card-title">${item.name}</h2>
+          <p class="product-card-price"> ${item.currency || ''} ${item.price}</p>
+          <p class="product-card-part">MFR PART: ${item.partNumber}</p>
+        </div>
+    </a >
+    `;
         resultsContainer.appendChild(resultCard);
     });
 }
