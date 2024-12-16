@@ -289,3 +289,47 @@ document.getElementById('search-toggle').addEventListener('click', function() {
   var searchContainer = document.querySelector('.search-container');
   searchContainer.classList.toggle('active');
 });*/
+
+
+//This is the main part of the emailjs to intergrate the communicatoin between the email and the contact form
+
+// Initializing EmailJS - kindly do not touch this part
+(function() {
+  emailjs.init("wR2gAy3odO9sz_txu"); 
+})();
+
+// Handling the contact form submission
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+  event.preventDefault(); 
+
+  const loading = document.querySelector('.loading');
+  const errorMessage = document.querySelector('.error-message');
+  const sentMessage = document.querySelector('.sent-message');
+
+  // Showing loading indicator
+  loading.style.display = 'block';
+  errorMessage.style.display = 'none';
+  sentMessage.style.display = 'none';
+
+  // Collecting contact form data
+  const formData = new FormData(this);
+
+  // Sending email using EmailJS
+  emailjs.send("service_k3jrnod", "template_ip5raje", {
+    name: formData.get('name'),
+    email: formData.get('email'),
+    phone: formData.get('phone'),
+    subject: formData.get('subject'),
+    message: formData.get('message')
+  }).then(function(response) {
+    // On success
+    loading.style.display = 'none';
+    sentMessage.style.display = 'block';
+  }, function(error) {
+    // On error
+    loading.style.display = 'none';
+    errorMessage.style.display = 'block';
+    console.error("EmailJS Error:", error);
+  });
+});
+
