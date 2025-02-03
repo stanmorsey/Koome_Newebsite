@@ -4107,12 +4107,12 @@
           "status": "active",
           "items": [
             {
-              "itemId": "menu3-cat1-1-air-regulators",
-              "name": "",
-              "description": "",
-              "price": 0,
-              "currency": "",
-              "partNumber": "",
+              "itemId": "menu3-cat1-1-air-regulators-Pressure Gauge",
+              "name": "Pressure Gauge",
+              "description": "Aircraft Pressure Gauge",
+              "price": 100,
+              "currency": "$",
+              "partNumber": "Pressure Gauge",
               "sku": "null",
               "weight": null,
               "dimensions": null,
@@ -4120,7 +4120,25 @@
               "tags": null,
               "isAvailable": true,
               "imageGallery": [
-                ""
+                "https://skyjetaircraftspares.com/assets/img/product-category-images/aircraft-tools/air-regulators/Pressure Gauge.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "menu3-cat1-1-air-regulators-Nitrogen Regulator",
+              "name": "Nitrogen Regulator",
+              "description": "Aircraft Nitrogen Regulator",
+              "price": 600,
+              "currency": "$",
+              "partNumber": "Nitrogen Regulator",
+              "sku": "null",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "https://skyjetaircraftspares.com/assets/img/product-category-images/aircraft-tools/air-regulators/Nitrogen Regulator.png"
               ],
               "status": "active"
             }
