@@ -15,6 +15,834 @@
           "status": "active",
           "items": [
             {
+              "itemId": "M30300_1413",
+              "name": "M30300_1413",
+              "description": "M30300_1413",
+              "price": 1000,
+              "currency": "Ksh",
+              "partNumber": "M30300_1413",
+              "sku": "M30300_1413",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/M30300_1413.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "11_11085",
+              "name": "11_11085",
+              "description": "Filter",
+              "price": 1000,
+              "currency": "Ksh",
+              "partNumber": "11_11085",
+              "sku": "11_11085",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/11_11085.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "W1290_28",
+              "name": "W1290_28",
+              "description": "W1290_28",
+              "price": 3500,
+              "currency": "Ksh",
+              "partNumber": "W1290_28",
+              "sku": "W1290_28",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/W1290_28.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "Lp 1683 - 72914",
+              "name": "Lp 1683 - 72914",
+              "description": "Bulb",
+              "price": 1200,
+              "currency": "Ksh",
+              "partNumber": "72914",
+              "sku": "",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/72914.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "00033038",
+              "name": "00033038",
+              "description": "Lamp",
+              "price": 15000,
+              "currency": "Ksh",
+              "partNumber": "00033038",
+              "sku": "00033038",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/00033038.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "Lp 1683 - 72914",
+              "name": "72914",
+              "description": "Bulb",
+              "price": 1200,
+              "currency": "Ksh",
+              "partNumber": "Lp 1683 - 72914",
+              "sku": "Lp 1683 - 72914",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/Lp 1683 - 72914.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "W1290_28",
+              "name": "W1290_28",
+              "description": "Lamp",
+              "price": 3500,
+              "currency": "Ksh",
+              "partNumber": "W1290_28",
+              "sku": "W1290_28",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/W1290_28.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "4557 Landing light",
+              "name": "4557 Landing light",
+              "description": "Landing light",
+              "price": 15000,
+              "currency": "Ksh",
+              "partNumber": "4557",
+              "sku": "4557 Landing light",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/4557.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "4559 Landing light",
+              "name": "4559 Landing light",
+              "description": "Landing light",
+              "price": 15000,
+              "currency": "Ksh",
+              "partNumber": "4557",
+              "sku": "4559 Landing light",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/4557.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "4632",
+              "name": "4632",
+              "description": "Light",
+              "price": 10000,
+              "currency": "Ksh",
+              "partNumber": "4632",
+              "sku": "4632",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/4632.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "4502",
+              "name": "4502",
+              "description": "Light",
+              "price": 10000,
+              "currency": "Ksh",
+              "partNumber": "4502",
+              "sku": "4502",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/4502.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "Q4566",
+              "name": "Q4566",
+              "description": "Light",
+              "price": 12000,
+              "currency": "Ksh",
+              "partNumber": "Q4566",
+              "sku": "Q4566",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/Q4566.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "4594",
+              "name": "4594",
+              "description": "Light",
+              "price": 10000,
+              "currency": "Ksh",
+              "partNumber": "4594",
+              "sku": "4594",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/4594.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "ML 4593",
+              "name": "ML 4593",
+              "description": "Light",
+              "price": 10000,
+              "currency": "Ksh",
+              "partNumber": "ML 4593",
+              "sku": "ML 4593",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/ML 4593.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "4551",
+              "name": "4551",
+              "description": "Light",
+              "price": 10000,
+              "currency": "Ksh",
+              "partNumber": "4551",
+              "sku": "4551",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/4551.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "4597",
+              "name": "4597",
+              "description": "Light",
+              "price": 10000,
+              "currency": "Ksh",
+              "partNumber": "4597",
+              "sku": "4597",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/4597.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "4554",
+              "name": "4554",
+              "description": "Landing light",
+              "price": 10000,
+              "currency": "Ksh",
+              "partNumber": "4554",
+              "sku": "4554",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/4554.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "4581",
+              "name": "4581",
+              "description": "Landing light",
+              "price": 10000,
+              "currency": "Ksh",
+              "partNumber": "4581",
+              "sku": "4581",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/4581.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "4553",
+              "name": "4553",
+              "description": "Landing light",
+              "price": 10000,
+              "currency": "Ksh",
+              "partNumber": "4553",
+              "sku": "4553",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/4553.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "GL_11",
+              "name": "GL_11",
+              "description": "Light",
+              "price": 8000,
+              "currency": "Ksh",
+              "partNumber": "GL_11",
+              "sku": "GL_11",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/GL_11.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "Pn 1385",
+              "name": "Pn 1385",
+              "description": "Light",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "Pn 1385",
+              "sku": "Pn 1385",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/Pn 1385.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "PR 18",
+              "name": "PR 18",
+              "description": "Light",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "PR 18",
+              "sku": "PR 18",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/PR 18.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "AML_4174",
+              "name": "AML_4174",
+              "description": "Light",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "AML_4174",
+              "sku": "AML_4174",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/AML_4174.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "CMA_7079B_24",
+              "name": "CMA_7079B_24",
+              "description": "Light",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "CMA_7079B_24",
+              "sku": "CMA_7079B_24",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/CMA_7079B_24.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "1495x",
+              "name": "1495x",
+              "description": "Light",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "1495x",
+              "sku": "1495x",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/1495x.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "Ms21902v10p",
+              "name": "Union Ms21902v10p",
+              "description": "Union",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "Ms21902v10p",
+              "sku": "Ms21902v10p",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/Ms21902v10p.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "GE 2233",
+              "name": "GE 2233",
+              "description": "Light",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "GE 2233",
+              "sku": "GE 2233",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/GE 2233.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "Cm3011",
+              "name": "Cm3011",
+              "description": "Light",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "Cm3011",
+              "sku": "Cm3011",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/Cm3011.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "1986",
+              "name": "1986",
+              "description": "Light",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "1986",
+              "sku": "1986",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/1986.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "1816",
+              "name": "1816",
+              "description": "Light",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "1816",
+              "sku": "1816",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/1816.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "GE 47",
+              "name": "GE 47",
+              "description": "Light",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "GE 47",
+              "sku": "GE 47",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/GE 47.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "1302",
+              "name": "1302",
+              "description": "Light",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "1302",
+              "sku": "1302",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/1302.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "ANL 225-Current  limiter",
+              "name": "ANL 225-Current  limiter",
+              "description": "Current  limiter",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "ANL 225",
+              "sku": "ANL 225-Current  limiter",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/ANL 225.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "OlN115",
+              "name": "OlN115",
+              "description": "Light",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "OlN115",
+              "sku": "OlN115",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/OlN115.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "FoN9-4118-1",
+              "name": "FoN9-4118-1",
+              "description": "Bulb",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "FoN9-4118-1",
+              "sku": "FoN9-4118-1",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/FoN9-4118-1.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "55_2713_1 - Battery .Power supply",
+              "name": "55_2713_1 - Battery .Power supply",
+              "description": "Battery .Power supply",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "55_2713_1",
+              "sku": "55_2713_1 - Battery .Power supply",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/55_2713_1.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "1233",
+              "name": "1233",
+              "description": "Light",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "1233",
+              "sku": "1233",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/1233.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "307",
+              "name": "307",
+              "description": "Bulb",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "307",
+              "sku": "307",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/307.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "Ol-365BP",
+              "name": "Ol-365BP",
+              "description": "Bulb",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "Ol-365BP",
+              "sku": "Ol-365BP",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/Ol-365BP.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "LP-Q50T4CL",
+              "name": "LP-Q50T4CL",
+              "description": "Bulb",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "LP-Q50T4CL",
+              "sku": "LP-Q50T4CL",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/LP-Q50T4CL.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "NLI_864005668-28",
+              "name": "NLI_864005668-28",
+              "description": "Bulb",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "NLI_864005668-28",
+              "sku": "NLI_864005668-28",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/NLI_864005668-28.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "1864",
+              "name": "1864",
+              "description": "Bulb",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "1864",
+              "sku": "1864",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/1864.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "ATS 2185",
+              "name": "ATS 2185",
+              "description": "Lite",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "ATS 2185",
+              "sku": "ATS 2185",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/ATS 2185.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "1044_01",
+              "name": "1044_01",
+              "description": "Bulb",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "1044_01",
+              "sku": "1044_01",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/1044_01.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "8GH005549_28",
+              "name": "8GH005549_28",
+              "description": "Bulb",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "8GH005549_28",
+              "sku": "8GH005549_28",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/8GH005549_28.png"
+              ],
+              "status": "active"
+            },
+            {
+              "itemId": "3071",
+              "name": "3071",
+              "description": "Bulb",
+              "price": 101,
+              "currency": "$",
+              "partNumber": "3071",
+              "sku": "3071",
+              "weight": null,
+              "dimensions": null,
+              "brand": null,
+              "tags": null,
+              "isAvailable": true,
+              "imageGallery": [
+                "/assets/img/product-category-images/engine-parts/aircraft-lighting/3071.png"
+              ],
+              "status": "active"
+            },
+            {
               "itemId": "cat1-1-aircraft-lighting-1000-WHELEN® 34-0428020-65 Model W1290-28 28-Volt / 26 Watt Reflector Lamp-34-0428020-65",
               "name": "WHELEN® 34-0428020-65 Model W1290-28 28-Volt / 26 Watt Reflector Lamp",
               "description": "LAMP",
@@ -27,7 +855,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1137.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1137.jpg"
+              ],
               "status": "active"
             },
             {
@@ -43,7 +873,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1138.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1138.jpg"
+              ],
               "status": "active"
             },
             {
@@ -59,7 +891,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1139.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1139.jpg"
+              ],
               "status": "active"
             },
             {
@@ -75,7 +909,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1142.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1142.jpg"
+              ],
               "status": "active"
             },
             {
@@ -91,7 +927,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1146.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1146.jpg"
+              ],
               "status": "active"
             },
             {
@@ -107,7 +945,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1148.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1148.jpg"
+              ],
               "status": "active"
             },
             {
@@ -123,7 +963,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1151.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1151.jpg"
+              ],
               "status": "active"
             },
             {
@@ -139,7 +981,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1152.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1152.jpg"
+              ],
               "status": "active"
             },
             {
@@ -155,7 +999,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1156.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1156.jpg"
+              ],
               "status": "active"
             },
             {
@@ -171,7 +1017,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1179.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1179.jpg"
+              ],
               "status": "active"
             },
             {
@@ -187,7 +1035,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1180.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1180.jpg"
+              ],
               "status": "active"
             },
             {
@@ -203,7 +1053,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1181.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1181.jpg"
+              ],
               "status": "active"
             },
             {
@@ -219,7 +1071,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1182.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1182.jpg"
+              ],
               "status": "active"
             },
             {
@@ -235,7 +1089,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1201.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1201.jpg"
+              ],
               "status": "active"
             },
             {
@@ -251,7 +1107,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1253.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1253.jpg"
+              ],
               "status": "active"
             },
             {
@@ -267,7 +1125,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1338.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1338.jpg"
+              ],
               "status": "active"
             },
             {
@@ -283,7 +1143,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1340.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1340.jpg"
+              ],
               "status": "active"
             },
             {
@@ -299,7 +1161,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1341.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1341.jpg"
+              ],
               "status": "active"
             },
             {
@@ -315,7 +1179,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1342.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1342.jpg"
+              ],
               "status": "active"
             },
             {
@@ -331,7 +1197,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1343.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1343.jpg"
+              ],
               "status": "active"
             },
             {
@@ -347,7 +1215,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1346.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1346.jpg"
+              ],
               "status": "active"
             },
             {
@@ -363,7 +1233,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1347.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1347.jpg"
+              ],
               "status": "active"
             },
             {
@@ -379,7 +1251,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1350.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1350.jpg"
+              ],
               "status": "active"
             },
             {
@@ -395,7 +1269,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1561.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1561.jpg"
+              ],
               "status": "active"
             },
             {
@@ -411,7 +1287,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1580.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1580.jpg"
+              ],
               "status": "active"
             },
             {
@@ -427,7 +1305,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1581.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1581.jpg"
+              ],
               "status": "active"
             },
             {
@@ -443,7 +1323,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1585.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1585.jpg"
+              ],
               "status": "active"
             },
             {
@@ -459,7 +1341,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1590.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1590.jpg"
+              ],
               "status": "active"
             },
             {
@@ -475,7 +1359,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1658.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1658.jpg"
+              ],
               "status": "active"
             }
           ]
@@ -501,7 +1387,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1022.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1022.jpg"
+              ],
               "status": "active"
             }
           ]
@@ -527,7 +1415,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [".jpg"],
+              "imageGallery": [
+                ".jpg"
+              ],
               "status": "active"
             },
             {
@@ -543,7 +1433,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [".jpg"],
+              "imageGallery": [
+                ".jpg"
+              ],
               "status": "active"
             },
             {
@@ -559,7 +1451,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [".jpg"],
+              "imageGallery": [
+                ".jpg"
+              ],
               "status": "active"
             },
             {
@@ -575,7 +1469,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [".jpg"],
+              "imageGallery": [
+                ".jpg"
+              ],
               "status": "active"
             },
             {
@@ -591,7 +1487,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [".jpg"],
+              "imageGallery": [
+                ".jpg"
+              ],
               "status": "active"
             },
             {
@@ -607,7 +1505,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [".jpg"],
+              "imageGallery": [
+                ".jpg"
+              ],
               "status": "active"
             },
             {
@@ -623,7 +1523,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [".jpg"],
+              "imageGallery": [
+                ".jpg"
+              ],
               "status": "active"
             },
             {
@@ -639,7 +1541,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [".jpg"],
+              "imageGallery": [
+                ".jpg"
+              ],
               "status": "active"
             }
           ]
@@ -665,7 +1569,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [".jpg"],
+              "imageGallery": [
+                ".jpg"
+              ],
               "status": "active"
             }
           ]
@@ -691,7 +1597,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1001.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1001.jpg"
+              ],
               "status": "active"
             },
             {
@@ -707,7 +1615,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1002.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1002.jpg"
+              ],
               "status": "active"
             },
             {
@@ -723,7 +1633,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1003.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1003.jpg"
+              ],
               "status": "active"
             },
             {
@@ -739,7 +1651,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1004.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1004.jpg"
+              ],
               "status": "active"
             },
             {
@@ -755,7 +1669,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1005.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1005.jpg"
+              ],
               "status": "active"
             },
             {
@@ -771,7 +1687,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1006.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1006.jpg"
+              ],
               "status": "active"
             },
             {
@@ -787,7 +1705,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1007.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1007.jpg"
+              ],
               "status": "active"
             },
             {
@@ -803,7 +1723,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1008.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1008.jpg"
+              ],
               "status": "active"
             },
             {
@@ -819,7 +1741,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1009.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1009.jpg"
+              ],
               "status": "active"
             },
             {
@@ -835,7 +1759,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1010.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1010.jpg"
+              ],
               "status": "active"
             },
             {
@@ -851,7 +1777,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1011.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1011.jpg"
+              ],
               "status": "active"
             },
             {
@@ -867,7 +1795,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1012.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1012.jpg"
+              ],
               "status": "active"
             },
             {
@@ -883,7 +1813,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1013.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1013.jpg"
+              ],
               "status": "active"
             },
             {
@@ -899,7 +1831,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1014.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1014.jpg"
+              ],
               "status": "active"
             },
             {
@@ -915,7 +1849,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1015.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1015.jpg"
+              ],
               "status": "active"
             },
             {
@@ -931,7 +1867,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1016.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1016.jpg"
+              ],
               "status": "active"
             },
             {
@@ -947,7 +1885,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1017.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1017.jpg"
+              ],
               "status": "active"
             },
             {
@@ -963,7 +1903,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1019.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1019.jpg"
+              ],
               "status": "active"
             },
             {
@@ -979,7 +1921,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1020.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1020.jpg"
+              ],
               "status": "active"
             },
             {
@@ -995,7 +1939,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1021.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1021.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1011,7 +1957,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1023.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1023.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1027,7 +1975,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1024.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1024.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1043,7 +1993,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1025.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1025.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1059,7 +2011,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1026.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1026.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1075,7 +2029,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1027.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1027.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1091,7 +2047,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1028.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1028.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1107,7 +2065,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1029.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1029.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1123,7 +2083,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1030.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1030.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1139,7 +2101,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1031.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1031.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1155,7 +2119,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1032.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1032.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1171,7 +2137,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1033.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1033.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1187,7 +2155,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1034.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1034.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1203,7 +2173,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1035.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1035.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1219,7 +2191,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1037.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1037.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1235,7 +2209,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1038.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1038.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1251,7 +2227,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1039.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1039.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1267,7 +2245,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1041.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1041.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1283,7 +2263,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1042.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1042.jpg"
+              ],
               "status": "active"
             },
             {
@@ -1299,7 +2281,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1382.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1382.jpg"
+              ],
               "status": ""
             }
           ]
@@ -1325,7 +2309,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1453.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1453.jpg"
+              ],
               "status": ""
             },
             {
@@ -1341,7 +2327,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1456.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1456.jpg"
+              ],
               "status": ""
             },
             {
@@ -1357,7 +2345,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1459.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1459.jpg"
+              ],
               "status": ""
             },
             {
@@ -1373,7 +2363,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1467.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1467.jpg"
+              ],
               "status": ""
             },
             {
@@ -1389,7 +2381,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1480.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1480.jpg"
+              ],
               "status": ""
             },
             {
@@ -1405,7 +2399,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1505.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1505.jpg"
+              ],
               "status": ""
             },
             {
@@ -1421,7 +2417,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1506.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1506.jpg"
+              ],
               "status": ""
             },
             {
@@ -1437,7 +2435,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1507.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1507.jpg"
+              ],
               "status": ""
             },
             {
@@ -1453,7 +2453,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1508.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1508.jpg"
+              ],
               "status": ""
             },
             {
@@ -1469,7 +2471,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1510.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1510.jpg"
+              ],
               "status": ""
             },
             {
@@ -1485,7 +2489,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1511.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1511.jpg"
+              ],
               "status": ""
             },
             {
@@ -1501,7 +2507,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1512.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1512.jpg"
+              ],
               "status": ""
             },
             {
@@ -1517,7 +2525,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1513.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1513.jpg"
+              ],
               "status": ""
             },
             {
@@ -1533,7 +2543,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1514.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1514.jpg"
+              ],
               "status": ""
             },
             {
@@ -1549,7 +2561,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1516.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1516.jpg"
+              ],
               "status": ""
             },
             {
@@ -1565,7 +2579,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1517.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1517.jpg"
+              ],
               "status": ""
             },
             {
@@ -1581,7 +2597,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1519.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1519.jpg"
+              ],
               "status": ""
             },
             {
@@ -1597,7 +2615,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1521.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1521.jpg"
+              ],
               "status": ""
             },
             {
@@ -1613,7 +2633,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1523.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1523.jpg"
+              ],
               "status": ""
             },
             {
@@ -1629,7 +2651,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1524.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1524.jpg"
+              ],
               "status": ""
             },
             {
@@ -1645,7 +2669,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1525.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1525.jpg"
+              ],
               "status": ""
             },
             {
@@ -1661,7 +2687,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1526.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1526.jpg"
+              ],
               "status": ""
             },
             {
@@ -1677,7 +2705,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1529.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1529.jpg"
+              ],
               "status": ""
             },
             {
@@ -1693,7 +2723,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1530.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1530.jpg"
+              ],
               "status": ""
             },
             {
@@ -1709,7 +2741,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1531.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1531.jpg"
+              ],
               "status": ""
             },
             {
@@ -1725,7 +2759,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1532.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1532.jpg"
+              ],
               "status": ""
             },
             {
@@ -1741,7 +2777,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1533.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1533.jpg"
+              ],
               "status": ""
             },
             {
@@ -1757,7 +2795,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1535.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1535.jpg"
+              ],
               "status": ""
             },
             {
@@ -1773,7 +2813,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1536.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1536.jpg"
+              ],
               "status": ""
             },
             {
@@ -1789,7 +2831,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1537.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1537.jpg"
+              ],
               "status": ""
             },
             {
@@ -1805,7 +2849,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1538.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1538.jpg"
+              ],
               "status": ""
             },
             {
@@ -1821,7 +2867,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1540.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1540.jpg"
+              ],
               "status": ""
             },
             {
@@ -1837,7 +2885,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1541.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1541.jpg"
+              ],
               "status": ""
             },
             {
@@ -1853,7 +2903,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1542.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1542.jpg"
+              ],
               "status": ""
             },
             {
@@ -1869,7 +2921,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1543.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1543.jpg"
+              ],
               "status": ""
             },
             {
@@ -1885,7 +2939,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1544.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1544.jpg"
+              ],
               "status": ""
             },
             {
@@ -1901,7 +2957,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1545.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1545.jpg"
+              ],
               "status": ""
             },
             {
@@ -1917,7 +2975,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1550.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1550.jpg"
+              ],
               "status": ""
             },
             {
@@ -1933,7 +2993,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1601.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1601.jpg"
+              ],
               "status": ""
             },
             {
@@ -1949,7 +3011,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1602.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1602.jpg"
+              ],
               "status": ""
             },
             {
@@ -1965,7 +3029,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1603.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1603.jpg"
+              ],
               "status": ""
             },
             {
@@ -1981,7 +3047,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1604.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1604.jpg"
+              ],
               "status": ""
             },
             {
@@ -1997,7 +3065,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1606.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1606.jpg"
+              ],
               "status": ""
             },
             {
@@ -2013,7 +3083,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1607.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1607.jpg"
+              ],
               "status": ""
             },
             {
@@ -2029,7 +3101,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1608.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1608.jpg"
+              ],
               "status": ""
             },
             {
@@ -2045,7 +3119,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1609.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1609.jpg"
+              ],
               "status": ""
             },
             {
@@ -2061,7 +3137,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1610.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1610.jpg"
+              ],
               "status": ""
             },
             {
@@ -2077,7 +3155,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1611.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1611.jpg"
+              ],
               "status": ""
             },
             {
@@ -2093,7 +3173,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1613.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1613.jpg"
+              ],
               "status": ""
             },
             {
@@ -2109,7 +3191,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1614.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1614.jpg"
+              ],
               "status": ""
             },
             {
@@ -2125,7 +3209,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1615.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1615.jpg"
+              ],
               "status": ""
             },
             {
@@ -2141,7 +3227,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1616.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1616.jpg"
+              ],
               "status": ""
             },
             {
@@ -2157,7 +3245,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1617.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1617.jpg"
+              ],
               "status": ""
             },
             {
@@ -2173,7 +3263,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1618.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1618.jpg"
+              ],
               "status": ""
             },
             {
@@ -2189,7 +3281,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1622.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1622.jpg"
+              ],
               "status": ""
             },
             {
@@ -2205,7 +3299,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1627.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1627.jpg"
+              ],
               "status": ""
             },
             {
@@ -2221,7 +3317,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1628.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1628.jpg"
+              ],
               "status": ""
             },
             {
@@ -2237,7 +3335,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1634.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1634.jpg"
+              ],
               "status": ""
             },
             {
@@ -2253,7 +3353,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1635.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1635.jpg"
+              ],
               "status": ""
             },
             {
@@ -2269,7 +3371,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1636.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1636.jpg"
+              ],
               "status": ""
             },
             {
@@ -2285,7 +3389,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1637.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1637.jpg"
+              ],
               "status": ""
             },
             {
@@ -2301,7 +3407,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1638.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1638.jpg"
+              ],
               "status": ""
             },
             {
@@ -2317,7 +3425,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1639.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1639.jpg"
+              ],
               "status": ""
             },
             {
@@ -2333,7 +3443,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1640.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1640.jpg"
+              ],
               "status": ""
             },
             {
@@ -2349,7 +3461,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1641.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1641.jpg"
+              ],
               "status": ""
             },
             {
@@ -2365,7 +3479,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1642.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1642.jpg"
+              ],
               "status": ""
             },
             {
@@ -2381,7 +3497,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1643.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1643.jpg"
+              ],
               "status": ""
             },
             {
@@ -2397,7 +3515,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1644.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1644.jpg"
+              ],
               "status": ""
             },
             {
@@ -2413,7 +3533,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1646.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1646.jpg"
+              ],
               "status": ""
             },
             {
@@ -2429,7 +3551,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1647.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1647.jpg"
+              ],
               "status": ""
             },
             {
@@ -2445,7 +3569,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1648.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1648.jpg"
+              ],
               "status": ""
             },
             {
@@ -2461,7 +3587,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1370.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1370.jpg"
+              ],
               "status": ""
             }
           ]
@@ -2487,7 +3615,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1554.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1554.jpg"
+              ],
               "status": ""
             },
             {
@@ -2503,7 +3633,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1555.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1555.jpg"
+              ],
               "status": ""
             },
             {
@@ -2519,7 +3651,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1556.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1556.jpg"
+              ],
               "status": ""
             },
             {
@@ -2535,7 +3669,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1562.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1562.jpg"
+              ],
               "status": ""
             },
             {
@@ -2551,7 +3687,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1564.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1564.jpg"
+              ],
               "status": ""
             },
             {
@@ -2567,7 +3705,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1573.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1573.jpg"
+              ],
               "status": ""
             }
           ]
@@ -2593,7 +3733,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [".jpg"],
+              "imageGallery": [
+                ".jpg"
+              ],
               "status": ""
             }
           ]
@@ -2655,7 +3797,9 @@
               "brand": "pm",
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/antenna-erosion-masks"],
+              "imageGallery": [
+                "/assets/img/products/antenna-erosion-masks"
+              ],
               "status": "active"
             }
           ]
@@ -2681,7 +3825,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": false,
-              "imageGallery": ["/assets/img/products/antennas"],
+              "imageGallery": [
+                "/assets/img/products/antennas"
+              ],
               "status": "active"
             }
           ]
@@ -2735,7 +3881,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/communications"],
+              "imageGallery": [
+                "/assets/img/products/communications"
+              ],
               "status": "active"
             },
             {
@@ -2751,7 +3899,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/communications"],
+              "imageGallery": [
+                "/assets/img/products/communications"
+              ],
               "status": "active"
             },
             {
@@ -2767,7 +3917,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/"],
+              "imageGallery": [
+                "/assets/img/products/"
+              ],
               "status": "active"
             },
             {
@@ -2783,7 +3935,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/"],
+              "imageGallery": [
+                "/assets/img/products/"
+              ],
               "status": "active"
             },
             {
@@ -2799,7 +3953,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/"],
+              "imageGallery": [
+                "/assets/img/products/"
+              ],
               "status": "active"
             }
           ]
@@ -2825,7 +3981,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/Cobham 110-320 Antenna"],
+              "imageGallery": [
+                "/assets/img/products/Cobham 110-320 Antenna"
+              ],
               "status": "active"
             },
             {
@@ -2905,7 +4063,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -2931,7 +4091,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -2957,7 +4119,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -2983,7 +4147,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3009,7 +4175,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3035,7 +4203,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3061,7 +4231,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3087,7 +4259,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3113,7 +4287,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3139,7 +4315,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3165,7 +4343,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3191,7 +4371,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3217,7 +4399,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3243,7 +4427,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3269,7 +4455,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3295,7 +4483,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3321,7 +4511,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3347,7 +4539,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3373,7 +4567,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3399,7 +4595,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3425,7 +4623,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3451,7 +4651,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3477,7 +4679,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3503,7 +4707,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3529,7 +4735,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3555,7 +4763,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3581,7 +4791,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3607,7 +4819,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3633,7 +4847,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3659,7 +4875,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3685,7 +4903,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3711,7 +4931,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3737,7 +4959,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3763,7 +4987,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3789,7 +5015,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3815,7 +5043,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3841,7 +5071,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3867,7 +5099,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3893,7 +5127,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3919,7 +5155,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3945,7 +5183,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3971,7 +5211,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -3997,7 +5239,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -4023,7 +5267,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -4049,7 +5295,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -4075,7 +5323,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -4101,7 +5351,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -4127,7 +5379,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -4153,7 +5407,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -4215,7 +5471,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -4241,7 +5499,9 @@
               "brand": "PPG",
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1284.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1284.jpg"
+              ],
               "status": "active"
             }
           ]
@@ -4267,7 +5527,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -4293,7 +5555,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": false,
-              "imageGallery": ["/assets/img/products/antennas"],
+              "imageGallery": [
+                "/assets/img/products/antennas"
+              ],
               "status": "active"
             }
           ]
@@ -4319,7 +5583,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -4373,7 +5639,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -4399,7 +5667,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/communications"],
+              "imageGallery": [
+                "/assets/img/products/communications"
+              ],
               "status": "active"
             }
           ]
@@ -4425,7 +5695,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/communications"],
+              "imageGallery": [
+                "/assets/img/products/communications"
+              ],
               "status": "active"
             }
           ]
@@ -4451,7 +5723,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/"],
+              "imageGallery": [
+                "/assets/img/products/"
+              ],
               "status": "active"
             }
           ]
@@ -4477,7 +5751,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/"],
+              "imageGallery": [
+                "/assets/img/products/"
+              ],
               "status": "active"
             }
           ]
@@ -4503,7 +5779,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/"],
+              "imageGallery": [
+                "/assets/img/products/"
+              ],
               "status": "active"
             }
           ]
@@ -4529,7 +5807,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -4555,13 +5835,15 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1318.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1318.jpg"
+              ],
               "status": "active"
             },
             {
               "itemId": "menu4-cat1-2-contact-cleaner-3500-LPS® 06616 Micro-X NU Fast Evaporating Contact Cleaner - 11 oz Aerosol Can-LPS06616",
               "name": "LPS® 06616 Micro-X NU Fast Evaporating Contact Cleaner - 11 oz Aerosol Can",
-              "description":"Reduced VOC content and conforms to the VOC regulations of CARB, OTC, and LADCO. Micro-X NU is fast evaporating, safe on plastics, and will not leave a residue. Ideal for removing dirt, flux, dust, and other contaminants from electrical equipment .",
+              "description": "Reduced VOC content and conforms to the VOC regulations of CARB, OTC, and LADCO. Micro-X NU is fast evaporating, safe on plastics, and will not leave a residue. Ideal for removing dirt, flux, dust, and other contaminants from electrical equipment .",
               "price": 3500,
               "currency": "Ksh",
               "partNumber": "LPS06616",
@@ -4571,13 +5853,15 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/product-category-images/hangar-supplies/LPS® 06616 Micro-X NU Fast Evaporating Contact Cleaner - 11 oz Aerosol Can.jpg"],
+              "imageGallery": [
+                "/assets/img/product-category-images/hangar-supplies/LPS® 06616 Micro-X NU Fast Evaporating Contact Cleaner - 11 oz Aerosol Can.jpg"
+              ],
               "status": "active"
             },
             {
               "itemId": "menu4-cat1-3-contact-cleaner-3700-LPS® 93116 MAX CFC Free Contact Cleaner - 11 oz Aerosol Can-LPS93116",
               "name": "LPS® 93116 MAX CFC Free Contact Cleaner - 11 oz Aerosol Can",
-              "description":"A fast evaporating contact cleaner that does not contain HCFCs and is plastic safe. The formula penetrates to remove oil, grease, dirt, flux, and other contaminants. Leaves no residue and is low-odor.",
+              "description": "A fast evaporating contact cleaner that does not contain HCFCs and is plastic safe. The formula penetrates to remove oil, grease, dirt, flux, and other contaminants. Leaves no residue and is low-odor.",
               "price": 3700,
               "currency": "Ksh",
               "partNumber": "LPS93116",
@@ -4587,7 +5871,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1319.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1319.jpg"
+              ],
               "status": "active"
             }
           ]
@@ -4641,7 +5927,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1133.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1133.jpg"
+              ],
               "status": "active"
             },
             {
@@ -4657,7 +5945,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1307.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1307.jpg"
+              ],
               "status": "active"
             },
             {
@@ -4673,7 +5963,9 @@
               "brand": 0,
               "tags": "Corrosion, Rust",
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1317.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1317.jpg"
+              ],
               "status": "active"
             }
           ]
@@ -4755,7 +6047,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -4781,7 +6075,9 @@
               "brand": "pm",
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/antenna-erosion-masks"],
+              "imageGallery": [
+                "/assets/img/products/antenna-erosion-masks"
+              ],
               "status": "active"
             }
           ]
@@ -4807,7 +6103,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -4833,7 +6131,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": false,
-              "imageGallery": ["/assets/img/products/antennas"],
+              "imageGallery": [
+                "/assets/img/products/antennas"
+              ],
               "status": "active"
             }
           ]
@@ -4859,7 +6159,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -4913,7 +6215,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -4939,7 +6243,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/communications"],
+              "imageGallery": [
+                "/assets/img/products/communications"
+              ],
               "status": "active"
             }
           ]
@@ -4965,7 +6271,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/communications"],
+              "imageGallery": [
+                "/assets/img/products/communications"
+              ],
               "status": "active"
             }
           ]
@@ -4991,7 +6299,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/"],
+              "imageGallery": [
+                "/assets/img/products/"
+              ],
               "status": "active"
             }
           ]
@@ -5017,7 +6327,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/"],
+              "imageGallery": [
+                "/assets/img/products/"
+              ],
               "status": "active"
             }
           ]
@@ -5043,7 +6355,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/"],
+              "imageGallery": [
+                "/assets/img/products/"
+              ],
               "status": "active"
             }
           ]
@@ -5069,7 +6383,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -5095,7 +6411,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/Cobham 110-320 Antenna"],
+              "imageGallery": [
+                "/assets/img/products/Cobham 110-320 Antenna"
+              ],
               "status": "active"
             }
           ]
@@ -5385,7 +6703,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -5411,7 +6731,9 @@
               "brand": "pm",
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/antenna-erosion-masks"],
+              "imageGallery": [
+                "/assets/img/products/antenna-erosion-masks"
+              ],
               "status": "active"
             }
           ]
@@ -5437,7 +6759,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -5463,7 +6787,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": false,
-              "imageGallery": ["/assets/img/products/antennas"],
+              "imageGallery": [
+                "/assets/img/products/antennas"
+              ],
               "status": "active"
             }
           ]
@@ -5517,7 +6843,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -5543,7 +6871,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/communications"],
+              "imageGallery": [
+                "/assets/img/products/communications"
+              ],
               "status": "active"
             }
           ]
@@ -5569,7 +6899,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/communications"],
+              "imageGallery": [
+                "/assets/img/products/communications"
+              ],
               "status": "active"
             }
           ]
@@ -5595,7 +6927,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/"],
+              "imageGallery": [
+                "/assets/img/products/"
+              ],
               "status": "active"
             }
           ]
@@ -5621,7 +6955,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/"],
+              "imageGallery": [
+                "/assets/img/products/"
+              ],
               "status": "active"
             }
           ]
@@ -5647,7 +6983,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/"],
+              "imageGallery": [
+                "/assets/img/products/"
+              ],
               "status": "active"
             }
           ]
@@ -5673,7 +7011,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -5699,7 +7039,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/Cobham 110-320 Antenna"],
+              "imageGallery": [
+                "/assets/img/products/Cobham 110-320 Antenna"
+              ],
               "status": "active"
             }
           ]
@@ -5753,7 +7095,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -5871,7 +7215,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -5897,7 +7243,9 @@
               "brand": "pm",
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/antenna-erosion-masks"],
+              "imageGallery": [
+                "/assets/img/products/antenna-erosion-masks"
+              ],
               "status": "active"
             }
           ]
@@ -5923,7 +7271,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -5949,7 +7299,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": false,
-              "imageGallery": ["/assets/img/products/antennas"],
+              "imageGallery": [
+                "/assets/img/products/antennas"
+              ],
               "status": "active"
             }
           ]
@@ -5975,7 +7327,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -6057,7 +7411,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/communications"],
+              "imageGallery": [
+                "/assets/img/products/communications"
+              ],
               "status": "active"
             }
           ]
@@ -6083,7 +7439,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/communications"],
+              "imageGallery": [
+                "/assets/img/products/communications"
+              ],
               "status": "active"
             }
           ]
@@ -6109,7 +7467,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/"],
+              "imageGallery": [
+                "/assets/img/products/"
+              ],
               "status": "active"
             }
           ]
@@ -6135,7 +7495,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/"],
+              "imageGallery": [
+                "/assets/img/products/"
+              ],
               "status": "active"
             }
           ]
@@ -6161,7 +7523,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": "active"
             }
           ]
@@ -6187,7 +7551,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/Cobham 110-320 Antenna"],
+              "imageGallery": [
+                "/assets/img/products/Cobham 110-320 Antenna"
+              ],
               "status": "active"
             }
           ]
@@ -6349,7 +7715,9 @@
               "brand": "E&H",
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1048"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1048"
+              ],
               "status": "active"
             },
             {
@@ -6365,7 +7733,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1049.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1049.jpg"
+              ],
               "status": "active"
             },
             {
@@ -6381,7 +7751,9 @@
               "brand": 3,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1050.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1050.jpg"
+              ],
               "status": "active"
             },
             {
@@ -6397,7 +7769,9 @@
               "brand": 3,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1051.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1051.jpg"
+              ],
               "status": "active"
             },
             {
@@ -6413,7 +7787,9 @@
               "brand": 3,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1052.jpg"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1052.jpg"
+              ],
               "status": "active"
             },
             {
@@ -6429,7 +7805,9 @@
               "brand": 3,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1053"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1053"
+              ],
               "status": "active"
             },
             {
@@ -6445,7 +7823,9 @@
               "brand": 3,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1054"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1054"
+              ],
               "status": "active"
             },
             {
@@ -6461,7 +7841,9 @@
               "brand": 3,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1055"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1055"
+              ],
               "status": "active"
             },
             {
@@ -6477,7 +7859,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1264"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1264"
+              ],
               "status": "active"
             },
             {
@@ -6493,7 +7877,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1265"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1265"
+              ],
               "status": "active"
             },
             {
@@ -6509,7 +7895,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1266"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1266"
+              ],
               "status": "active"
             },
             {
@@ -6525,7 +7913,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1267"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1267"
+              ],
               "status": "active"
             },
             {
@@ -6541,7 +7931,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1597"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1597"
+              ],
               "status": "active"
             },
             {
@@ -6557,7 +7949,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1598"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1598"
+              ],
               "status": "active"
             },
             {
@@ -6573,7 +7967,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1599"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1599"
+              ],
               "status": "active"
             },
             {
@@ -6589,7 +7985,9 @@
               "brand": null,
               "tags": null,
               "isAvailable": true,
-              "imageGallery": ["/assets/img/products/SJT10M24YN1268"],
+              "imageGallery": [
+                "/assets/img/products/SJT10M24YN1268"
+              ],
               "status": "active"
             }
           ]
@@ -6671,7 +8069,9 @@
               "brand": 0,
               "tags": 0,
               "isAvailable": 0,
-              "imageGallery": [""],
+              "imageGallery": [
+                ""
+              ],
               "status": ""
             }
           ]
